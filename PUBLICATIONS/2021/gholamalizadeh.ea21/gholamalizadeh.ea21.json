@@ -1,0 +1,13 @@
+{
+  "title" : "A multi-patient analysis of the center of the rotation of the tooth using finite-element models for varying couple magnitudes and directions",
+  "authors" : "Torkan Gholamalizadeh, Sune Darkner, Peter Søndergaard, Kenny Erleben",
+  "venue" : "PLoS ONE 16(11): e0259794",
+  "doi-line" : "https://doi.org/10.1371/journal.pone.0259794",
+  "abstract" : "Studying different types of tooth movements can help us to better understand the force systems used for tooth position correction in orthodontic treatments. This study considers a more realistic force system in tooth movement modeling across different patients and investigates the effect of the couple force direction on the position of the center of rotation (CRot). The finite-element (FE) models of human mandibles from three patients are used to investigate the position of the CRots for different patients’ teeth in 3D space. The CRot is considered a single point in a 3D coordinate system and is obtained by choosing the closest point on the axis of rotation to the center of resistance (CRes). A force system, consisting of a constant load and a couple (pair of forces), is applied to each tooth, and the corresponding CRot trajectories are examined across different patients. To perform a consistent inter-patient analysis, different patients’ teeth are registered to the corresponding reference teeth using an affine transformation. The selected directions and applied points of force on the reference teeth are then transformed into the registered teeth domains. The effect of the direction of the couple on the location of the CRot is also studied by rotating the couples about the three principal axes of a patient’s premolar. Our results indicate that similar patterns can be obtained for the CRot positions of different patients and teeth if the same load conditions are used. Moreover, equally rotating the direction of the couple about the three principal axes results in different patterns for the CRot positions, especially in labiolingual direction. The CRot trajectories follow similar patterns in the corresponding teeth, but any changes in the direction of the force and couple cause misalignment of the CRot trajectories, seen as rotations about the long axis of the tooth.",
+  "paper-link" : "gholamalizadeh.ea21.pdf",
+  "data-link" : "https://erda.ku.dk/archives/97cd65fe80e83356f618bb9fbc7d5980/published-archive.html",
+  "publisher-link": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0259794",
+  "icon" : "gholamalizadeh.ea21.png",
+  "month" : "November",
+  "year" : "2021"
+}

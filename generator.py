@@ -44,6 +44,9 @@ def generate_html_paper(root, data):
     if "code-link" in data.keys():
         address = get_safe_address(root, data["code-link"])
         links.append("<a href=\"" + address + "\">code</a>")
+    if "data-link" in data.keys():
+        address = get_safe_address(root, data["data-link"])
+        links.append("<a href=\"" + address + "\">data</a>")
     if "web-link" in data.keys():
         address = get_safe_address(root, data["web-link"])
         links.append("<a href=\"" + address + "\">web</a>")

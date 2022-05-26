@@ -1,0 +1,11 @@
+{
+  "title" : "Fast Vortex Particle Method for Fluid-Character Interaction",
+  "authors" : "Asger Meldgaard, Sune Darkner, Kenny Erleben",
+  "venue" : "Graphics Interface 2022",
+  "abstract" : "High fidelity interactions between game characters and gaseous effects like smoke, fire and explosions are often neglected in real-time applications due to the high computational cost of detailed fluid simulation. We present a purely vortex particle based fluid model for games which is capable of resolving the collision between fluids and complex objects such as moving game characters in real time.  Contrary to most other vorticity based methods, we use a simple inversion free approach to obtain the collision velocity field on surfaces while at the same time avoiding the expensive pressure projection step associated with pressure based fluid solvers. This entails that our method fits within the restricted computational budget of most games. We showcase the efficacy of our method with simulations involving over 1 M GPU particles and simulation times below 1 ms.",
+  "paper-link" : "https://openreview.net/forum?id=BrBlpeYNTMc",
+  "icon-link" : "meldgaard.ea22.png",
+  "month" : "May",
+  "year" : "2022"
+}
+

@@ -1,0 +1,12 @@
+{
+  "title" : "Bundle Geodesic Convolutional Neural Network for DWI Segmentation from Single Scan Learning",
+  "authors" : "Renfei Liu, Francois Lauze, Kenny Erleben, Sune Darkner",
+  "venue" : "In: , et al. Computational Diffusion MRI. CDMRI 2021. Lecture Notes in Computer Science(), vol 13006. Springer, Cham.",
+  "abstract" : "We present a tissue classifier for Magnetic Resonance Diffusion Weighted Imaging (DWI) data trained from a single subject with a single b-value. The classifier is based on a Riemannian Deep Learning framework for extracting features with rotational invariance, where we extend a G-CNN learning architecture generically on a Riemannian manifold. We validate our framework using single-shell DWI data with a very limited amount of training data - only 1 scan. The proposed framework mainly consists of three layers: a lifting layer that locally represents and convolves data on tangent spaces to produce a family of functions defined on the rotation groups of the tangent spaces, i.e., a section of a bundle of rotational functions on the manifold; a group convolution layer that convolves this section with rotation kernels to produce a new section; and a projection layer using maximisation to collapse this local data to form new manifold based functions. We present an instantiation on the 2-dimensional sphere where the DWI orientation data is in general represented, and we use it for voxel classification. We show that this allows us to learn a classifier for cerebrospinal fluid (CSF) - subcortical - grey matter - white matter classification from only one scan.",
+  "doi-link" : "https://doi.org/10.1007/978-3-030-87615-9_11",
+  "paper-link" : "liu.ea21.pdf",
+  "publisher-link": "https://link.springer.com/chapter/10.1007/978-3-030-87615-9_11",
+  "icon-link" : "liu.ea21.png",
+  "month" : "September",
+  "year" : "2021"
+}

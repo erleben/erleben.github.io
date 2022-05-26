@@ -1,0 +1,14 @@
+{
+  "title" : "Global Position Prediction for Interactive Motion Capture",
+  "authors" : "Paul Schreiner, Maksym Perepichka, Hayden Lewis, Sune Darkner, Paul G. Kry, Kenny Erleben, Victor B. Zordan",
+  "venue" : "Proceedings of the ACM on Computer Graphics and Interactive Techniques, Volume 4, Issue 3, Article No.: 39, pp 1–16",
+  "abstract" : "We present a method for reconstructing the global position of motion capture where position sensing is poor or unavailable. Capture systems, such as IMU suits, can provide excellent pose and orientation data of a capture subject, but otherwise need post processing to estimate global position. We propose a solution that trains a neural network to predict, in real-time, the height and body displacement given a short window of pose and orientation data. Our training dataset contains pre-recorded data with global positions from many different capture subjects, performing a wide variety of activities in order to broadly train a network to estimate on like and unseen activities. We compare training on two network architectures, a universal network (u-net) and a traditional convolutional neural network (CNN) - observing better error properties for the u-net in our results. We also evaluate our method for different classes of motion. We observe high quality results for motion examples with good representation in specialized datasets, while general performance appears better in a more broadly sampled dataset when input motions are far from training examples.",
+  "month" : "September",
+  "year" : "2021",
+  "paper-link" : "https://paulschreiner.netlify.app/publication/globalpositions_sca2021/GlobalPositions_SCA2021.pdf",
+  "video-link" : "https://www.youtube.com/watch?v=nmSYatIC9bY",
+  "web-link" :  "https://paulschreiner.netlify.app/publication/globalpositions_sca2021/",
+  "doi-link" : "https://doi.org/10.1145/3479985",
+  "publisher-link" : "https://dl.acm.org/doi/abs/10.1145/3479985",
+  "icon-link" : "schreiner.ea21.png"
+}

@@ -85,11 +85,16 @@ def read_json(directory: str):
 if __name__ == '__main__':
     content = read_json("pubs")
     markdown_file = open("publications.html", 'w')
-
+    markdown_file.write("<!DOCTYPE html>\n")
+    markdown_file.write("<html>\n")
+    markdown_file.write("<head>\n")
+    markdown_file.write("<meta charset=\"utf-8\">\n")
+    markdown_file.write("<title>Publications</title>\n")
+    markdown_file.write("</head>\n")
+    markdown_file.write("<body>\n")
     markdown_file.write("<h1>Publications</h1>\n")
     library = content.items()
     library = sorted(library)
-
     for collection in library:
         markdown_file.write("\n")
         markdown_file.write("<h2>" + collection[0] + "</h2>\n")
@@ -98,3 +103,5 @@ if __name__ == '__main__':
             markdown_file.write(paper)
         markdown_file.write("</table>\n")
     markdown_file.close()
+    markdown_file.write("</body>\n")
+    markdown_file.write("</html>\n")

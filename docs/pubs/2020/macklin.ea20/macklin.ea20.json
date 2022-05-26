@@ -1,0 +1,38 @@
+{
+  "title" : "Contact and friction simulation for computer graphics",
+  "authors" : "Sheldon Andrews, Kenny Erleben",
+  "venue" : "SIGGRAPH '21: ACM SIGGRAPH 2021 Courses, August 2021, Article No.: 2, Pages 1–124",
+  "abstract" : "Efficient simulation of contact is of interest for numerous physics-based animation applications. For instance, virtual reality training, video games, rapid digital prototyping, and robotics simulation are all examples of applications that involve contact modeling and simulation. However, despite its extensive use in modern computer graphics, contact simulation remains one of the most challenging problems in physics-based animation. This course covers fundamental topics on the nature of contact modeling and simulation for computer graphics. Specifically, we provide mathematical details about formulating contact as a complementarity problem in rigid body and soft body animations. We briefly cover several approaches for contact generation using discrete collision detection. Then, we present a range of numerical techniques for solving the associated LCPs and NCPs. The advantages and disadvantages of each technique are further discussed in a practical manner, and best practices for implementation are discussed. Finally, we conclude the course with several advanced topics, such as anisotropic friction modeling and proximal operators. Programming examples are provided on the course website to accompany the course notes.",
+  "doi-link" : "https://doi.org/10.1145/3450508.3464571",
+  "video-link" : "https://www.youtube.com/watch?v=5JZ-tYHsJKg",
+  "web-link" : "https://siggraphcontact.github.io/",
+  "paper-link" : "https://profs.etsmtl.ca/sandrews/pdf/textureFriction_SCA21_preprint.pdf",
+  "code-link" : "https://github.com/sheldona/contactFrictionSim",
+  "publisher-link": "https://dl.acm.org/doi/10.1145/3450508.3464571",
+  "icon-link" : "andrews.erleben.21.png",
+  "month" : "July",
+  "year" : "2021"
+}
+
+Teaser
+A new optimization-based contact point generation method based on signed distance fields
+
+Subject
+Collision Detection
+
+Title
+Local Optimization for Robust Signed Distance Field Collision
+
+Authors
+Miles Macklin, Kenny Erleben, Matthias Müller, Nuttapong Chentanez, Stefan Jeschke, and Zach Corse
+
+Abstract
+Signed distance fields (SDFs) are a popular shape representation for collision detection. This is due to their query efficiency, and the ability to provide robust inside/outside information. Although it is straightforward to test points for interpenetration with an SDF, it is not clear how to extend this to continuous surfaces, such as triangle meshes. In this paper, we propose a per-element local optimization to find the closest points between the SDF isosurface and mesh elements. This allows us to generate accurate contact points between sharp point-face pairs, and handle smoothly varying edge-edge contact. We compare three numerical methods for solving the local optimization problem: projected gradient descent, Frank-Wolfe, and golden-section search. Finally, we demonstrate the applicability of our method to a wide range of scenarios including collision of simulated cloth, rigid bodies, and deformable solids.
+
+
+Video
+https://youtu.be/icU6Bm-HZ-E
+
+Paper
+https://dl.acm.org/doi/abs/10.1145/3384538
+

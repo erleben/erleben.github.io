@@ -1,6 +1,7 @@
 import os
 import json
 import requests
+import cv2
 
 
 def exist_url(url):
@@ -25,11 +26,27 @@ def create_safe_link(root, link: str):
     return None
 
 
+def verify_image_size(link):
+    """
+
+    :param link:
+    :return:
+    """
+    image = cv2.imread(link)
+    height, width = image.shape[:2]
+    if height == 128 and width == 128:
+        return True
+    else:
+        print("ERROR: ", link, " was not 128x128")
+        return False
+
+
 def generate_html_paper(root, data):
     paper = ""
     paper += "<tr>\n"
     paper += "  <td>\n"
     link = create_safe_link(root, data["icon-link"])
+    verify_image_size(link)
     paper += "    <img src=\"" + link + "\" alt=\"paper icon\" width=\"128\" height=\"128\">\n"
     paper += "  </td>\n"
     paper += "  <td>\n"
@@ -72,12 +89,15 @@ def read_json(directory: str):
             if file.endswith(".json"):
                 absolute_path = os.path.join(root, file)
                 json_file = open(absolute_path)
-                data = json.load(json_file)
-                year = data["year"]
-                html_paper = generate_html_paper(root, data)
-                if year not in content.keys():
-                    content[year] = []
-                content[year].append(html_paper)
+                try:
+                    data = json.load(json_file)
+                    year = data["year"]
+                    html_paper = generate_html_paper(root, data)
+                    if year not in content.keys():
+                        content[year] = []
+                    content[year].append(html_paper)
+                except:
+                    print("ERROR: ", json_file, " was corrupt?")
                 json_file.close()
     return content
 
@@ -85,6 +105,9 @@ def read_json(directory: str):
 if __name__ == '__main__':
     content = read_json("pubs")
     markdown_file = open("publications.html", 'w')
+    markdown_file.write("---\n")
+    markdown_file.write("\n")
+    markdown_file.write("---\n")
     markdown_file.write("<!DOCTYPE html>\n")
     markdown_file.write("<html>\n")
     markdown_file.write("<head>\n")

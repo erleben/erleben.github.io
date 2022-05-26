@@ -1,0 +1,67 @@
+{
+  "title" : "Contact and friction simulation for computer graphics",
+  "authors" : "Sheldon Andrews, Kenny Erleben",
+  "venue" : "SIGGRAPH '21: ACM SIGGRAPH 2021 Courses, August 2021, Article No.: 2, Pages 1–124",
+  "abstract" : "Efficient simulation of contact is of interest for numerous physics-based animation applications. For instance, virtual reality training, video games, rapid digital prototyping, and robotics simulation are all examples of applications that involve contact modeling and simulation. However, despite its extensive use in modern computer graphics, contact simulation remains one of the most challenging problems in physics-based animation. This course covers fundamental topics on the nature of contact modeling and simulation for computer graphics. Specifically, we provide mathematical details about formulating contact as a complementarity problem in rigid body and soft body animations. We briefly cover several approaches for contact generation using discrete collision detection. Then, we present a range of numerical techniques for solving the associated LCPs and NCPs. The advantages and disadvantages of each technique are further discussed in a practical manner, and best practices for implementation are discussed. Finally, we conclude the course with several advanced topics, such as anisotropic friction modeling and proximal operators. Programming examples are provided on the course website to accompany the course notes.",
+  "doi-link" : "https://doi.org/10.1145/3450508.3464571",
+  "video-link" : "https://www.youtube.com/watch?v=5JZ-tYHsJKg",
+  "web-link" : "https://siggraphcontact.github.io/",
+  "paper-link" : "https://profs.etsmtl.ca/sandrews/pdf/textureFriction_SCA21_preprint.pdf",
+  "code-link" : "https://github.com/sheldona/contactFrictionSim",
+  "publisher-link": "https://dl.acm.org/doi/10.1145/3450508.3464571",
+  "icon-link" : "andrews.erleben.21.png",
+  "month" : "July",
+  "year" : "2021"
+}
+
+Teaser
+Siggraph Course on Linear Complementarity Problems
+
+Subjects
+Digitial Prototyping & Numerical Methods
+
+
+Title
+Numerical Methods for Linear Complementarity Problems in Physics-Based Animation
+
+
+Author
+Kenny Erleben
+
+Abstract
+This course provides an introduction to the definition of linear complementarity problems (LCPs) and outlines the derivation of a toolbox of numerical methods. It also presents a small convergence study on the methods to illustrate their numerical properties. The course is a good introduction to implementing numerical methods, because it includes tips and tricks for implementation based on considerable practical experience.
+
+
+Siggraph Course Web Page
+http://s2013.siggraph.org/attendees/courses/events/numerical-methods-linear-complementarity-problems-physics-based-animation
+
+Code
+https://github.com/erleben/num4lcp
+
+Course notes
+http://dl.acm.org/citation.cfm?id=2504443
+
+Slides and Exercises
+https://github.com/erleben/num4lcp/tree/master/siggraph2013
+
+
+BibTex
+
+@inproceedings{erleben:13,
+ author = {Erleben, Kenny},
+ title = {Numerical Methods for Linear Complementarity Problems in Physics-based Animation},
+ booktitle = {ACM SIGGRAPH 2013 Courses},
+ series = {SIGGRAPH '13},
+ year = {2013},
+ isbn = {978-1-4503-2339-0},
+ location = {Anaheim, California},
+ pages = {8:1--8:42},
+ articleno = {8},
+ numpages = {42},
+ url = {http://doi.acm.org/10.1145/2504435.2504443},
+ doi = {10.1145/2504435.2504443},
+ acmid = {2504443},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+} 
+

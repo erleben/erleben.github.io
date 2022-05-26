@@ -1,0 +1,41 @@
+{
+  "title" : "Contact and friction simulation for computer graphics",
+  "authors" : "Sheldon Andrews, Kenny Erleben",
+  "venue" : "SIGGRAPH '21: ACM SIGGRAPH 2021 Courses, August 2021, Article No.: 2, Pages 1–124",
+  "abstract" : "Efficient simulation of contact is of interest for numerous physics-based animation applications. For instance, virtual reality training, video games, rapid digital prototyping, and robotics simulation are all examples of applications that involve contact modeling and simulation. However, despite its extensive use in modern computer graphics, contact simulation remains one of the most challenging problems in physics-based animation. This course covers fundamental topics on the nature of contact modeling and simulation for computer graphics. Specifically, we provide mathematical details about formulating contact as a complementarity problem in rigid body and soft body animations. We briefly cover several approaches for contact generation using discrete collision detection. Then, we present a range of numerical techniques for solving the associated LCPs and NCPs. The advantages and disadvantages of each technique are further discussed in a practical manner, and best practices for implementation are discussed. Finally, we conclude the course with several advanced topics, such as anisotropic friction modeling and proximal operators. Programming examples are provided on the course website to accompany the course notes.",
+  "doi-link" : "https://doi.org/10.1145/3450508.3464571",
+  "video-link" : "https://www.youtube.com/watch?v=5JZ-tYHsJKg",
+  "web-link" : "https://siggraphcontact.github.io/",
+  "paper-link" : "https://profs.etsmtl.ca/sandrews/pdf/textureFriction_SCA21_preprint.pdf",
+  "code-link" : "https://github.com/sheldona/contactFrictionSim",
+  "publisher-link": "https://dl.acm.org/doi/10.1145/3450508.3464571",
+  "icon-link" : "andrews.erleben.21.png",
+  "month" : "July",
+  "year" : "2021"
+}
+
+Teaser
+New insight into fair quality measures of contact point generation methods
+
+Subject
+Digital Prototyping and Computational Contact Mechanics
+
+
+Title
+Methodology for Assessing Mesh-Based Contact Point Methods
+
+Author
+Kenny Erleben
+
+Abstract
+Computation of contact points is a critical sub-component of physics-based animation. The success and correctness of simulation results are very sensitive to the quality of the contact points. Hence, quality plays a critical role when comparing methods, and this is highly relevant for simulating objects with sharp edges. The importance of contact point quality is largely overlooked and lacks rigor and as such may become a bottleneck in moving the research field forward.
+
+We establish a taxonomy of contact point generation methods and lay down an analysis of what normal contact quality implies. The analysis enables us to establish a novel methodology for assessing and studying quality for mesh-based shapes. The core idea is based on a test suite of three complex cases and a small portfolio of simple cases. We apply our methodology to eight local contact point generation methods and conclude that the selected local methods are unable to provide correct information in all cases. The immediate benefit of the proposed methodology is a foundation for others to evaluate and select the best local method for their specific application. In the longer perspective, the presented work suggests future research focusing on semi-local methods.
+
+
+Video
+https://youtu.be/Vo10gXD47Bs
+
+ACM
+https://dl.acm.org/citation.cfm?id=3096239
+

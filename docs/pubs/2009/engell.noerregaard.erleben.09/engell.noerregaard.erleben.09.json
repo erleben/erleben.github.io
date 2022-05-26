@@ -1,0 +1,50 @@
+{
+  "title" : "Contact and friction simulation for computer graphics",
+  "authors" : "Sheldon Andrews, Kenny Erleben",
+  "venue" : "SIGGRAPH '21: ACM SIGGRAPH 2021 Courses, August 2021, Article No.: 2, Pages 1–124",
+  "abstract" : "Efficient simulation of contact is of interest for numerous physics-based animation applications. For instance, virtual reality training, video games, rapid digital prototyping, and robotics simulation are all examples of applications that involve contact modeling and simulation. However, despite its extensive use in modern computer graphics, contact simulation remains one of the most challenging problems in physics-based animation. This course covers fundamental topics on the nature of contact modeling and simulation for computer graphics. Specifically, we provide mathematical details about formulating contact as a complementarity problem in rigid body and soft body animations. We briefly cover several approaches for contact generation using discrete collision detection. Then, we present a range of numerical techniques for solving the associated LCPs and NCPs. The advantages and disadvantages of each technique are further discussed in a practical manner, and best practices for implementation are discussed. Finally, we conclude the course with several advanced topics, such as anisotropic friction modeling and proximal operators. Programming examples are provided on the course website to accompany the course notes.",
+  "doi-link" : "https://doi.org/10.1145/3450508.3464571",
+  "video-link" : "https://www.youtube.com/watch?v=5JZ-tYHsJKg",
+  "web-link" : "https://siggraphcontact.github.io/",
+  "paper-link" : "https://profs.etsmtl.ca/sandrews/pdf/textureFriction_SCA21_preprint.pdf",
+  "code-link" : "https://github.com/sheldona/contactFrictionSim",
+  "publisher-link": "https://dl.acm.org/doi/10.1145/3450508.3464571",
+  "icon-link" : "andrews.erleben.21.png",
+  "month" : "July",
+  "year" : "2021"
+}
+
+Teaser
+Learning joints from motion data
+
+Subjects
+Biomechanical Modeling
+
+
+
+Title
+Estimation of Joint Types and Joint Limits from Motion Capture Data
+
+Authors
+Morten Engell-Nørregård and Kenny Erleben
+
+Abstract
+It is time-consuming for an animator to explicitly model joint types and joint limits of articulated figures. In this paper we describe a simple and fast approach to automated joint estimation from motion capture data of articulated figures. Our method will make the joint modeling more efficient and less time consuming for the animator by providing a good starting estimate that can be fine-tuned or extended by the animator if she wishes, without restricting her artistic freedom. Our method is simple, easy to implement and specific for the types of articulated figures used in interactive animation such as computer games. Other work for joint limit modeling consider more complex and general purpose models. However, these are not immediately suitable for inverse kinematics skeletons used in interactive applications.
+
+Video
+http://youtu.be/WQXTStXThtM
+
+
+BibTex
+
+@inproceedings{engell.noerregaard.erleben.09,
+title = "Estimation of Joint types and Joint Limits from Motion capture data",
+abstract = "It is time-consuming for an animator to explicitly model joint types and joint limits of articulated figures. In this paper we describe a simple and fast approach to automated joint estimation from motion capture data of articulated figures. Our method will make the joint modeling more efficient and less time consuming for the animator by providing a good starting estimate that can be fine-tuned or extended by the animator if she wishes, without restricting her artistic freedom. Our method is simple, easy to implement and specific for the types of articulated figures used in interactive animation such as computer games. Other work for joint limit modeling consider more complex and general purpose models. However, these are not immediately suitable for inverse kinematics skeletons used in interactive applications.",
+author = "Engell-N{\o}rreg{\aa}rd, {Morten Pol} and Kenny Erleben",
+year = "2009",
+language = "English",
+pages = "9--16",
+editor = "Vaclav Scala and Min Chen",
+booktitle = "WSCG '2009 : the 17th International Conference in Central Europe on Computer Graphics, Visualization and Computer Vision in co-operation with Eurographics : University of West Bohemia, Plzen, Czech Republic, February 2-5, 2009",
+}
+

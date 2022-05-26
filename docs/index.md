@@ -1,7 +1,6 @@
 ## Welcome
 
 
-[Publications](publications.html)
 [Publications](publications.md)
 
 

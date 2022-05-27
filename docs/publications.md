@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Publications</title>
-</head>
-<body>
+
 <h1>Publications</h1>
 
 <h2>2021</h2>

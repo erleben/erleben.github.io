@@ -25,11 +25,6 @@ def create_safe_link(root, link: str):
 
 
 def verify_image_size(link):
-    """
-
-    :param link:
-    :return:
-    """
     image = cv2.imread(link)
     height, width = image.shape[:2]
     if height == 128 and width == 128:
@@ -46,8 +41,8 @@ def generate_html_paper(root, data):
     link = create_safe_link(root, data["icon-link"])
     verify_image_size(link)
     paper += "    <img src=\"" + link + "\" alt=\"paper icon\" width=\"64\" height=\"64\">\n"
-    paper += "  </td>\n"
-    paper += "  <td>\n"
+    #paper += "  </td>\n"
+    #paper += "  <td>\n"
     paper += "    " + data["authors"] + ": " + data["title"] + "." + data["venue"] + " (" + data["year"] + ").<br>\n"
     links = []
     if "video-link" in data.keys():
@@ -104,15 +99,8 @@ if __name__ == '__main__':
     content = read_json("pubs")
     markdown_file = open("publications.html", 'w')
     markdown_file.write("---\n")
-    markdown_file.write("\n")
+    markdown_file.write("layout : default\n")
     markdown_file.write("---\n")
-    markdown_file.write("<!DOCTYPE html>\n")
-    markdown_file.write("<html>\n")
-    markdown_file.write("<head>\n")
-    markdown_file.write("<meta charset=\"utf-8\">\n")
-    markdown_file.write("<title>Publications</title>\n")
-    markdown_file.write("</head>\n")
-    markdown_file.write("<body>\n")
     markdown_file.write("<h1>Publications</h1>\n")
     library = content.items()
     library = sorted(library)
@@ -123,6 +111,4 @@ if __name__ == '__main__':
         for paper in collection[1]:
             markdown_file.write(paper)
         markdown_file.write("</table>\n")
-    markdown_file.write("</body>\n")
-    markdown_file.write("</html>\n")
     markdown_file.close()

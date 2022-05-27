@@ -1,0 +1,12 @@
+{
+  "title" : "Mandibular Teeth Movement Variations in Tipping Scenario: A Finite Element Study on Several Patients",
+  "authors" : "Torkan Gholamalizadeh, Sune Darkner, Paolo Maria Cattaneo, Peter Søndergaard, Kenny Erleben",
+  "venue" : "In: Miller, K., Wittek, A., Nash, M., Nielsen, P.M.F. (eds) Computational Biomechanics for Medicine. Springer, Cham.",
+  "abstract" : "Previous studies on computational modeling of tooth move- ment in orthodontic treatments are limited to a single model and fail in generalizing the simulation results to other patients. To this end, we consider multiple patients and focus on tooth movement variations under the identical load and boundary conditions both for intra- and inter- patient analyses. We introduce a novel computational analysis tool based on finite element models (FEMs) addressing how to assess initial tooth displacement in the mandibular dentition across different patients for uncontrolled tipping scenarios with different load magnitudes applied to the mandibular dentition. This is done by modeling the movement of each patient’s tooth as a nonlinear function of both load and tooth size. As the size of tooth can affect the resulting tooth displacement, a combination of two clinical biomarkers obtained from the tooth anatomy, i.e., crown height and root volume, is considered to make the proposed model generalizable to different patients and teeth.",
+  "doi-link" : "https://doi.org/10.1007/978-3-030-70123-9_3",
+  "paper-link" : "https://arxiv.org/abs/2010.05258",
+  "publisher-link": "https://link.springer.com/chapter/10.1007/978-3-030-70123-9_3",
+  "icon-link" : "gholamalizadeh.ea21b.png",
+  "month" : "July",
+  "year" : "2021"
+}

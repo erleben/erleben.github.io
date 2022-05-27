@@ -41,8 +41,8 @@ def generate_html_paper(root, data):
     link = create_safe_link(root, data["icon-link"])
     verify_image_size(link)
     paper += "    <img src=\"" + link + "\" alt=\"paper icon\" width=\"64\" height=\"64\">\n"
-    #paper += "  </td>\n"
-    #paper += "  <td>\n"
+    paper += "  </td>\n"
+    paper += "  <td>\n"
     paper += "    " + data["authors"] + ": " + data["title"] + "." + data["venue"] + " (" + data["year"] + ").<br>\n"
     links = []
     if "video-link" in data.keys():

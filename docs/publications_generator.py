@@ -15,12 +15,10 @@ def exist_url(url):
 
 def create_safe_link(root, link: str):
     if exist_url(link):
-        print("Found link =", link)
         return link
     else:
         filename = root + "/" + link
         if os.path.exists(filename):
-            print("Found filename =", filename)
             return filename
     print("ERROR: Could not find link =", link)
     return None
@@ -47,7 +45,7 @@ def generate_html_paper(root, data):
     paper += "  <td>\n"
     link = create_safe_link(root, data["icon-link"])
     verify_image_size(link)
-    paper += "    <img src=\"" + link + "\" alt=\"paper icon\" width=\"128\" height=\"128\">\n"
+    paper += "    <img src=\"" + link + "\" alt=\"paper icon\" width=\"64\" height=\"64\">\n"
     paper += "  </td>\n"
     paper += "  <td>\n"
     paper += "    " + data["authors"] + ": " + data["title"] + "." + data["venue"] + " (" + data["year"] + ").<br>\n"
@@ -125,6 +123,6 @@ if __name__ == '__main__':
         for paper in collection[1]:
             markdown_file.write(paper)
         markdown_file.write("</table>\n")
-    markdown_file.close()
     markdown_file.write("</body>\n")
     markdown_file.write("</html>\n")
+    markdown_file.close()

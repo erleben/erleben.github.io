@@ -4,7 +4,7 @@
   "venue" : "Computer Graphics Forum, 39: 89-100.",
   "abstract" : "We examine the relationship between primal, or force-based, and dual, or constraint-based formulations of dynamics. Variational frameworks such as Projective Dynamics have proved popular for deformable simulation, however they have not been adopted for contact-rich scenarios such as rigid body simulation. We propose a new preconditioned frictional contact solver that is compatible with existing primal optimization methods, and competitive with complementarity-based approaches. Our relaxed primal model generates improved contact force distributions when compared to dual methods,  and has the advantage of being differentiable, making it well-suited for trajectory optimization. We derive both primal and dual methods from a common variational point of view, and present a comprehensive numerical analysis of both methods with respect to conditioning. We demonstrate our method on scenarios including rigid body contact,  deformable simulation, and robotic manipulation.",
   "doi-link" : "https://doi.org/10.1111/cgf.14104",
-  "video-link" : "https://youtu.be/8xRcHEUrkrQ",
+  "video-link" : "https://www.youtube.com/watch?v=8xRcHEUrkrQ",
   "talk-link" : "https://youtu.be/dBgiP-tYzkc",
   "teaser-link" : "https://youtu.be/uvb9pwDdZng",
   "paper-link" : "https://mmacklin.com/primaldual.pdf",

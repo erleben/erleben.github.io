@@ -6,7 +6,7 @@ I am leading a reserach section named [IMAGE](https://di.ku.dk/english/research/
 
 In my team we are really interested in how to build simulators and how to use data-driven approaches together with simulation. Hence, our work ranges from inventing new numerical methods for simulation to use simulation for generating data for machine learning or learning physical models from real-world data. Some of the topics that I am currently very much interested in are:
 
-- Real-time high fidelity contact simulations with complex geoemtry.
+- High fidelity contact simulations with complex geoemtry.
 - Differentiable simulation for computer-based design and control of medical devices and soft-robots.
 - Data-driven constitutive equations for more accurate simulations.
 - Automated creation of large scale finite-element model collections from medical images (digital populations).

@@ -1,42 +1,13 @@
 {
-  "title" : "Contact and friction simulation for computer graphics",
-  "authors" : "Sheldon Andrews, Kenny Erleben",
-  "venue" : "SIGGRAPH '21: ACM SIGGRAPH 2021 Courses, August 2021, Article No.: 2, Pages 1–124",
-  "abstract" : "Efficient simulation of contact is of interest for numerous physics-based animation applications. For instance, virtual reality training, video games, rapid digital prototyping, and robotics simulation are all examples of applications that involve contact modeling and simulation. However, despite its extensive use in modern computer graphics, contact simulation remains one of the most challenging problems in physics-based animation. This course covers fundamental topics on the nature of contact modeling and simulation for computer graphics. Specifically, we provide mathematical details about formulating contact as a complementarity problem in rigid body and soft body animations. We briefly cover several approaches for contact generation using discrete collision detection. Then, we present a range of numerical techniques for solving the associated LCPs and NCPs. The advantages and disadvantages of each technique are further discussed in a practical manner, and best practices for implementation are discussed. Finally, we conclude the course with several advanced topics, such as anisotropic friction modeling and proximal operators. Programming examples are provided on the course website to accompany the course notes.",
-  "doi-link" : "https://doi.org/10.1145/3450508.3464571",
-  "video-link" : "https://www.youtube.com/watch?v=5JZ-tYHsJKg",
-  "web-link" : "https://siggraphcontact.github.io/",
-  "paper-link" : "https://profs.etsmtl.ca/sandrews/pdf/textureFriction_SCA21_preprint.pdf",
-  "code-link" : "https://github.com/sheldona/contactFrictionSim",
-  "publisher-link": "https://dl.acm.org/doi/10.1145/3450508.3464571",
-  "icon-link" : "andrews.erleben.21.png",
-  "month" : "July",
-  "year" : "2021"
+  "title" : "Solving inverse kinematics using exact Hessian matrices",
+  "authors" : "Kenny Erleben and Sheldon Andrews",
+  "venue" : "Computers & Graphics, Volume 78, Pages 1-11",
+  "abstract" : "Inverse kinematics (IK) is a central component of systems for motion capture, character animation, robotics motion planning and control. The field of computer graphics has developed fast stationary point methods, such as the Jacobian Transpose method and cyclic coordinate descent. Most of the work that uses Newton’s method and its variants avoids directly computing the Hessian, and instead approximations are sought, such as in the BFGS class of solvers. In this work, we present a numerical method for computing the exact Hessian of an IK system with prismatic, revolute, and spherical joints. For the latter, formulations are presented for joints parameterized by Euler angles which can be represented for instance by using quaternions. Our method is applicable to human skeletons in computer animation applications and some, but not all, robots. Our results show that using exact Hessians can give performance advantages and higher accuracy compared to standard numerical methods used for solving IK problems. Furthermore, we provide code that allows other researchers to plug-in exact Hessians in their own work with little effort.",
+  "doi-link" : "https://doi.org/10.1016/j.cag.2018.10.012",
+  "video-link" : "https://www.youtube.com/watch?v=y8VkCnL9vs8",
+  "code-link" : "https://github.com/sheldona/hessianIK",
+  "publisher-link": "https://www.sciencedirect.com/science/article/pii/S0097849318301730",
+  "icon-link" : "erleben.andrews.19.png",
+  "month" : "February",
+  "year" : "2019"
 }
-
-Teaser
-Novel method for numerical computatio of exact Hessians in Inverse Kinematics
-
-Subject
-Character Animation and Robotics
-
-Title
-Solving inverse kinematics using exact Hessian matrices
-
-Authors
-Kenny Erleben and Sheldon Andrews
-
-Abstract
-Inverse kinematics (IK) is a central component of systems for motion capture, character animation, robotics motion planning and control. The field of computer graphics has developed fast stationary point methods, such as the Jacobian Transpose method and cyclic coordinate descent. Most of the work that uses Newton’s method and its variants avoids directly computing the Hessian, and instead approximations are sought, such as in the BFGS class of solvers.
-
-In this work, we present a numerical method for computing the exact Hessian of an IK system with prismatic, revolute, and spherical joints. For the latter, formulations are presented for joints parameterized by Euler angles which can be represented for instance by using quaternions. Our method is applicable to human skeletons in computer animation applications and some, but not all, robots. Our results show that using exact Hessians can give performance advantages and higher accuracy compared to standard numerical methods used for solving IK problems. Furthermore, we provide code that allows other researchers to plug-in exact Hessians in their own work with little effort.
-
-Code
-https://github.com/sheldona/hessianIK
-
-Video
-https://youtu.be/y8VkCnL9vs8
-
-https://www.sciencedirect.com/science/article/pii/S0097849318301730
-
-https://doi.org/10.1016/j.cag.2018.10.012

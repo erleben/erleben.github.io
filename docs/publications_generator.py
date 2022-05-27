@@ -103,7 +103,7 @@ if __name__ == '__main__':
     markdown_file.write("---\n")
     markdown_file.write("<h1>Publications</h1>\n")
     library = content.items()
-    library = sorted(library)
+    library = sorted(library, reverse=True)
     for collection in library:
         markdown_file.write("\n")
         markdown_file.write("<h2>" + collection[0] + "</h2>\n")

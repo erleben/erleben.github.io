@@ -1,57 +1,12 @@
 {
-  "title" : "Contact and friction simulation for computer graphics",
-  "authors" : "Sheldon Andrews, Kenny Erleben",
-  "venue" : "SIGGRAPH '21: ACM SIGGRAPH 2021 Courses, August 2021, Article No.: 2, Pages 1–124",
-  "abstract" : "Efficient simulation of contact is of interest for numerous physics-based animation applications. For instance, virtual reality training, video games, rapid digital prototyping, and robotics simulation are all examples of applications that involve contact modeling and simulation. However, despite its extensive use in modern computer graphics, contact simulation remains one of the most challenging problems in physics-based animation. This course covers fundamental topics on the nature of contact modeling and simulation for computer graphics. Specifically, we provide mathematical details about formulating contact as a complementarity problem in rigid body and soft body animations. We briefly cover several approaches for contact generation using discrete collision detection. Then, we present a range of numerical techniques for solving the associated LCPs and NCPs. The advantages and disadvantages of each technique are further discussed in a practical manner, and best practices for implementation are discussed. Finally, we conclude the course with several advanced topics, such as anisotropic friction modeling and proximal operators. Programming examples are provided on the course website to accompany the course notes.",
-  "doi-link" : "https://doi.org/10.1145/3450508.3464571",
-  "video-link" : "https://www.youtube.com/watch?v=5JZ-tYHsJKg",
-  "web-link" : "https://siggraphcontact.github.io/",
-  "paper-link" : "https://profs.etsmtl.ca/sandrews/pdf/textureFriction_SCA21_preprint.pdf",
-  "code-link" : "https://github.com/sheldona/contactFrictionSim",
-  "publisher-link": "https://dl.acm.org/doi/10.1145/3450508.3464571",
-  "icon-link" : "andrews.erleben.21.png",
-  "month" : "July",
-  "year" : "2021"
-}
-
-Teaser
-Novel validated simulation model of soft robot snakes
-
-Subject
-Soft Robotics
-
-Title
-A Validated Physical Model For Real-Time Simulation of Soft Robotic Snakes
-
-Authors
-Renato Gasoto, Miles Macklin, Xuan Liu, Yinan Sun, Kenny Erleben, Cagdas Onal1, and Jie Fu
-
-Abstract
-In this work we present a framework that is capable of accurately representing soft robotic actuators in a multiphysics environment in real-time. We propose a constraint-based dynamics model of a 1-dimensional pneumatic soft actuator that accounts for internal pressure forces, as well as the effect of actuator latency and damping under inflation and deflation and demonstrate its accuracy a full soft robotic snake with the composition of multiple 1D actuators. We verify our model’s accuracy in static deformation and dynamic locomotion open-loop control experiments. To achieve real-time performance we leverage the parallel computation power of GPUs to allow interactive control and feedback.
-
-Video
-https://youtu.be/wUAGTeKtKsc
-
-
-
-@inproceedings{DBLP:conf/icra/GasotoMLSEOF19,
-  author    = {Renato Gasoto and
-               Miles Macklin and
-               Xuan Liu and
-               Yinan Sun and
-               Kenny Erleben and
-               Cagdas D. Onal and
-               Jie Fu},
-  title     = {A Validated Physical Model For Real-Time Simulation of Soft Robotic
-               Snakes},
-  booktitle = {International Conference on Robotics and Automation, {ICRA} 2019,
-               Montreal, QC, Canada, May 20-24, 2019},
-  pages     = {6272--6279},
-  year      = {2019},
-  crossref  = {DBLP:conf/icra/2019},
-  url       = {https://doi.org/10.1109/ICRA.2019.8794375},
-  doi       = {10.1109/ICRA.2019.8794375},
-  timestamp = {Tue, 13 Aug 2019 20:25:20 +0200},
-  biburl    = {https://dblp.org/rec/bib/conf/icra/GasotoMLSEOF19},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
+  "title" : "A Validated Physical Model For Real-Time Simulation of Soft Robotic Snakes",
+  "authors" : "Renato Gasoto, Miles Macklin, Xuan Liu, Yinan Sun, Kenny Erleben, Cagdas Onal1, Jie Fu",
+  "venue" : "International Conference on Robotics and Automation, (ICRA).",
+  "abstract" : "In this work we present a framework that is capable of accurately representing soft robotic actuators in a multi physics environment in real-time. We propose a constraint-based dynamics model of a 1-dimensional pneumatic soft actuator that accounts for internal pressure forces, as well as the effect of actuator latency and damping under inflation and deflation and demonstrate its accuracy a full soft robotic snake with the composition of multiple 1D actuators. We verify our model’s accuracy in static deformation and dynamic locomotion open-loop control experiments. To achieve real-time performance we leverage the parallel computation power of GPUs to allow interactive control and feedback.",
+  "doi-link" : "https://doi.org/10.1109/ICRA.2019.8794375",
+  "video-link" : "https://youtu.be/wUAGTeKtKsc",
+  "paper-link" : "https://arxiv.org/pdf/1904.02833.pdf",
+  "icon-link" : "gasoto.ea19.png",
+  "month" : "May",
+  "year" : "2019"
 }

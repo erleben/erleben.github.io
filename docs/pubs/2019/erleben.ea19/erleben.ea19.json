@@ -1,7 +1,7 @@
 {
   "title" : "The Matchstick Model for Anisotropic Friction Cones",
   "authors" : "Kenny Erleben, Miles Macklin, Sheldon Andrews, Paul G. Kry",
-  "venue" : "",
+  "venue" : "Computer Graphics Forum, 39: 450-461",
   "abstract" : "Inspired by frictional behavior that is observed when sliding matchsticks against one another at different angles, we propose a phenomenological anisotropic friction model for structured surfaces. Our model interpolates isotropic and anisotropic elliptical Coulomb friction parameters for a pair of surfaces with perpendicular and parallel structure directions (e.g. the wood grain direction). We view our model as a special case of an abstract friction model that produces a cone based on state information, specifically the relationship between structure directions. We show how our model can be integrated into LCP and NCP-based simulators using different solvers with both explicit and fully implicit time-integration. The focus of our work is on symmetric friction cones, and we, therefore, demonstrate a variety of simulation scenarios where the friction structure directions play an important part in the resulting motions. Consequently, authoring of friction using our model is intuitive and we demonstrate that our model is compatible with standard authoring practices, such as texture mapping.",
   "talk-link" : "https://youtu.be/md9c9ai2sDo",
   "publisher-link": "https://onlinelibrary.wiley.com/doi/10.1111/cgf.13885",

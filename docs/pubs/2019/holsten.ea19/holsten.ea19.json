@@ -1,48 +1,12 @@
 {
-  "title" : "Contact and friction simulation for computer graphics",
-  "authors" : "Sheldon Andrews, Kenny Erleben",
-  "venue" : "SIGGRAPH '21: ACM SIGGRAPH 2021 Courses, August 2021, Article No.: 2, Pages 1–124",
-  "abstract" : "Efficient simulation of contact is of interest for numerous physics-based animation applications. For instance, virtual reality training, video games, rapid digital prototyping, and robotics simulation are all examples of applications that involve contact modeling and simulation. However, despite its extensive use in modern computer graphics, contact simulation remains one of the most challenging problems in physics-based animation. This course covers fundamental topics on the nature of contact modeling and simulation for computer graphics. Specifically, we provide mathematical details about formulating contact as a complementarity problem in rigid body and soft body animations. We briefly cover several approaches for contact generation using discrete collision detection. Then, we present a range of numerical techniques for solving the associated LCPs and NCPs. The advantages and disadvantages of each technique are further discussed in a practical manner, and best practices for implementation are discussed. Finally, we conclude the course with several advanced topics, such as anisotropic friction modeling and proximal operators. Programming examples are provided on the course website to accompany the course notes.",
-  "doi-link" : "https://doi.org/10.1145/3450508.3464571",
-  "video-link" : "https://www.youtube.com/watch?v=5JZ-tYHsJKg",
-  "web-link" : "https://siggraphcontact.github.io/",
-  "paper-link" : "https://profs.etsmtl.ca/sandrews/pdf/textureFriction_SCA21_preprint.pdf",
-  "code-link" : "https://github.com/sheldona/contactFrictionSim",
-  "publisher-link": "https://dl.acm.org/doi/10.1145/3450508.3464571",
-  "icon-link" : "andrews.erleben.21.png",
-  "month" : "July",
-  "year" : "2021"
+  "title" : "Data Driven Inverse Kinematics of Soft Robots using Local Models",
+  "authors" : "Fredrik Holsten, Morten Pol Engell-Nørregård, Sune Darkner, Kenny Erleben",
+  "venue" : "International Conference on Robotics and Automation (ICRA), pp. 6251-6257.",
+  "abstract" : "Soft robots are advantageous in terms of flexibility, safety and adaptability. It is challenging to find efficient computational approaches for planning and controlling their motion. This work takes a direct data-driven approach to learn the kinematics of the three-dimensional shape of a soft robot, by using visual markers. No prior information about the robot at hand is required. The model is oblivious to the design of the robot and type of actuation system. This allows adaptation to erroneous manufacturing. We present a highly versatile and inexpensive learning cube environment for collecting and analysing data. We prove that using multiple, lower order models of data opposed to one global, higher order model, will reduce the required data quantity, time complexity and memory complexity significantly without compromising accuracy. Further, our approach allows for embarrassingly parallelism. Yielding an overall much more simple and efficient approach.",
+  "video-link" : "https://youtu.be/VGMCmV5-Owk",
+  "doi-link" : "https://doi.org/10.1109/ICRA.2019.8794191",
+  "publisher-link": "https://ieeexplore.ieee.org/document/8794191",
+  "icon-link" : "holsten.ea19.png",
+  "month" : "May",
+  "year" : "2019"
 }
-
-Teaser
-Model-free Learning of Soft Robotics Control
-
-Subject
-Soft Robotics
-
-Title
-Data Driven Inverse Kinematics of Soft Robots using Local Models
-
-Authors
-Fredrik Holsten, Morten Pol Engell-Nørregård, Sune Darkner, and Kenny Erleben
-
-Abstract
-Soft robots are advantageous in terms of flexibility, safety and adaptability. It is challenging to find efficient computational approaches for planning and controlling their motion. This work takes a direct data-driven approach to learn the kinematics of the three-dimensional shape of a soft robot, by using visual markers. No prior information about the robot at hand is required. The model is oblivious to the design of the robot and type of actuation system. This allows adaptation to erroneous manufacturing. We present a highly versatile and inexpensive learning cube environment for collecting and analysing data. We prove that using multiple, lower order models of data opposed to one global, higher order model, will reduce the required data quantity, time complexity and memory complexity significantly without compromising accuracy. Further, our approach allows for embarrassingly parallelism. Yielding an overall much more simple and efficient approach.
-
-Video
-https://youtu.be/VGMCmV5-Owk
-
-
-
-@INPROCEEDINGS{8794191, 
-author={F. {Holsten} and M. P. {Engell-Nørregård} and S. {Darkner} and K. {Erleben}}, 
-booktitle={2019 International Conference on Robotics and Automation (ICRA)}, 
-title={Data Driven Inverse Kinematics of Soft Robots using Local Models}, 
-year={2019}, 
-volume={}, 
-number={}, 
-pages={6251-6257}, 
-keywords={Shape;Soft robotics;Sensors;Kinematics;Calibration;Computational modeling}, 
-doi={10.1109/ICRA.2019.8794191}, 
-ISSN={2577-087X}, 
-month={May},}

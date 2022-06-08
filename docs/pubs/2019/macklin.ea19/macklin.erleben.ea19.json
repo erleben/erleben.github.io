@@ -1,57 +1,13 @@
 {
-  "title" : "Contact and friction simulation for computer graphics",
-  "authors" : "Sheldon Andrews, Kenny Erleben",
-  "venue" : "SIGGRAPH '21: ACM SIGGRAPH 2021 Courses, August 2021, Article No.: 2, Pages 1–124",
-  "abstract" : "Efficient simulation of contact is of interest for numerous physics-based animation applications. For instance, virtual reality training, video games, rapid digital prototyping, and robotics simulation are all examples of applications that involve contact modeling and simulation. However, despite its extensive use in modern computer graphics, contact simulation remains one of the most challenging problems in physics-based animation. This course covers fundamental topics on the nature of contact modeling and simulation for computer graphics. Specifically, we provide mathematical details about formulating contact as a complementarity problem in rigid body and soft body animations. We briefly cover several approaches for contact generation using discrete collision detection. Then, we present a range of numerical techniques for solving the associated LCPs and NCPs. The advantages and disadvantages of each technique are further discussed in a practical manner, and best practices for implementation are discussed. Finally, we conclude the course with several advanced topics, such as anisotropic friction modeling and proximal operators. Programming examples are provided on the course website to accompany the course notes.",
-  "doi-link" : "https://doi.org/10.1145/3450508.3464571",
-  "video-link" : "https://www.youtube.com/watch?v=5JZ-tYHsJKg",
-  "web-link" : "https://siggraphcontact.github.io/",
-  "paper-link" : "https://profs.etsmtl.ca/sandrews/pdf/textureFriction_SCA21_preprint.pdf",
-  "code-link" : "https://github.com/sheldona/contactFrictionSim",
-  "publisher-link": "https://dl.acm.org/doi/10.1145/3450508.3464571",
-  "icon-link" : "andrews.erleben.21.png",
-  "month" : "July",
-  "year" : "2021"
+  "title" : "Non-Smooth Newton Methods for Deformable Multi-Body Dynamics",
+  "authors" : "Miles Macklin, Kenny Erleben, Matthias Müller, Nuttapong Chentanez, Stefan Jeschke, Viktor Makoviychuk",
+  "abstract" : "We present a framework for the simulation of rigid and deformable bodies in the presence of contact and friction. Our method is based on a non-smooth Newton iteration that solves the underlying nonlinear complementarity problems (NCPs) directly. This approach allows us to support nonlinear dynamics models, including hyperelastic deformable bodies and articulated rigid mechanisms, coupled through a smooth isotropic friction model. The fixed-point nature of our method means it requires only the solution of a symmetric linear system as a building block. We propose a new complementarity preconditioner for NCP functions that improves convergence, and we develop an efficient GPU-based solver based on the conjugate residual (CR) method that is suitable for interactive simulations. We show how to improve robustness using a new geometric stiffness approximation and evaluate our method's performance on a number of robotics simulation scenarios, including dexterous manipulation and training using reinforcement learning.",
+  "paper-link" : "https://arxiv.org/pdf/1907.04587.pdf",
+  "publisher-link": "https://dl.acm.org/doi/10.1145/3338695",
+  "venue" : "ACM Transactions on Graphics, Volume 38, Issue 5O, Article No.: 140, pp 1–20",
+  "video-link" : "https://www.youtube.com/watch?v=1mCwtRemT3g",
+  "doi-link" : "https://doi.org/10.1145/3338695",
+  "icon-link" : "macklin.erleben.ea19.png",
+  "month" : "October",
+  "year" : "2019"
 }
-
-Teaser
-A full GPU based non-smooth Newton method for deformable (soft) and rigid body simulation
-
-Subject
-Robotics & Computational Contact Mechanics
-
-Title
-Non-Smooth Newton Methods for Deformable Multi-Body Dynamics
-
-Authors
-Miles Macklin, Kenny Erleben, Matthias Müller, Nuttapong Chentanez, Stefan Jeschke, Viktor Makoviychuk
-
-Abstract
-We present a framework for the simulation of rigid and deformable bodies in the presence of contact and friction. Our method is based on a non-smooth Newton iteration that solves the underlying nonlinear complementarity problems (NCPs) directly. This approach allows us to support nonlinear dynamics models, including hyperelastic deformable bodies and articulated rigid mechanisms, coupled through a smooth isotropic friction model. The fixed-point nature of our method means it requires only the solution of a symmetric linear system as a building block. We propose a new complementarity preconditioner for NCP functions that improves convergence, and we develop an efficient GPU-based solver based on the conjugate residual (CR) method that is suitable for interactive simulations. We show how to improve robustness using a new geometric stiffness approximation and evaluate our method's performance on a number of robotics simulation scenarios, including dexterous manipulation and training using reinforcement learning.
-
-Video
-https://www.youtube.com/watch?v=1mCwtRemT3g
-
-
-
-
-BibTex
-
-@article {macklin2019nonsmooth1,
-    author  = {Macklin, Miles and Erleben, Kenny and M\"{u}ller, Matthias and Chentanez, Nuttapong and Jeschke, Stefan and Makoviychuk, Viktor},
-    title   = {Non-Smooth Newton Methods for Deformable Multi-Body Dynamics},
-    journal = {ACM Trans. Graph.},
-    year    = {2019},
-    volume  = {38},
-    number  = {5},
-    pages   = {20},
-    publisher = {ACM},
-    doi = {10.1145/3338695},
-}
-
-
-
-
-https://dl.acm.org/citation.cfm?id=3341165.3338695
-
-https://doi.org/10.1145/3338695

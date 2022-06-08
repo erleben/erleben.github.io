@@ -1,40 +1,16 @@
 {
-  "title" : "Contact and friction simulation for computer graphics",
-  "authors" : "Sheldon Andrews, Kenny Erleben",
-  "venue" : "SIGGRAPH '21: ACM SIGGRAPH 2021 Courses, August 2021, Article No.: 2, Pages 1–124",
-  "abstract" : "Efficient simulation of contact is of interest for numerous physics-based animation applications. For instance, virtual reality training, video games, rapid digital prototyping, and robotics simulation are all examples of applications that involve contact modeling and simulation. However, despite its extensive use in modern computer graphics, contact simulation remains one of the most challenging problems in physics-based animation. This course covers fundamental topics on the nature of contact modeling and simulation for computer graphics. Specifically, we provide mathematical details about formulating contact as a complementarity problem in rigid body and soft body animations. We briefly cover several approaches for contact generation using discrete collision detection. Then, we present a range of numerical techniques for solving the associated LCPs and NCPs. The advantages and disadvantages of each technique are further discussed in a practical manner, and best practices for implementation are discussed. Finally, we conclude the course with several advanced topics, such as anisotropic friction modeling and proximal operators. Programming examples are provided on the course website to accompany the course notes.",
-  "doi-link" : "https://doi.org/10.1145/3450508.3464571",
-  "video-link" : "https://www.youtube.com/watch?v=5JZ-tYHsJKg",
-  "web-link" : "https://siggraphcontact.github.io/",
-  "paper-link" : "https://profs.etsmtl.ca/sandrews/pdf/textureFriction_SCA21_preprint.pdf",
-  "code-link" : "https://github.com/sheldona/contactFrictionSim",
-  "publisher-link": "https://dl.acm.org/doi/10.1145/3450508.3464571",
-  "icon-link" : "andrews.erleben.21.png",
-  "month" : "July",
-  "year" : "2021"
+  "title" : "Local Models for Data Driven Inverse Kinematics of Soft Robots",
+  "authors" : "Fredrik Holsten, Sune Darkner, Morten P. Engell-Nørregård, Kenny Erleben",
+  "abstract" : "Soft robots are attractive because they have the potential of being safer, faster and cheaper than traditional rigid robots. If we can predict the shape of a soft robot for a given set of control parameters, then we can solve the inverse problem: to find an optimal set of control parameters for a given shape. This work takes a data-driven approach to create multiple local inverse models. This has two benefits: (1) We overcome the reality gap and (2) we gain performance and naive parallelism from using local models. Furthermore, we empirically prove that our approach outperforms a higher order global model.",
+  "code-link" : "https://github.com/erleben/pySoRo",
+  "video-link" : "https://youtu.be/edTy_Flbrk8",
+  "venue" : "SCA Posters '18: Proceedings of the Conference on Computer Animation, Pages 7–8",
+  "doi-link" : "https://doi.org/10.2312/sca.20181186",
+  "paper-link": "holsten.ea18.abstract.pdf",
+  "publisher-link": "https://diglib.eg.org/xmlui/handle/10.2312/sca20181186",
+  "poster-link" : "https://diglib.eg.org/xmlui/bitstream/handle/10.2312/sca20181186/poster1004.pdf?sequence=2&isAllowed=y",
+  "icon-link" : "holsten.ea18.png",
+  "month" : "June",
+  "year" : "2018",
+  "prize" : "Best Poster Prize"
 }
-
-Teaser
-New agile and in-expensive computer vision approach to train soft
-robots
-
-Subject
-Soft Robotics
-
-Best Poster Prize
-
-Title
-Local Models for Data Driven Inverse Kinematics of Soft Robots
-
-Authors
-Fredrik Holsten, Sune Darkner, Morten P. Engell-Nørregård, and Kenny Erleben
-
-Abstract
-Soft robots are attractive because they have the potential of being safer, faster and cheaper than traditional rigid robots. If we can predict the shape of a soft robot for a given set of control parameters, then we can solve the inverse problem: to find an optimal set of control parameters for a given shape. This work takes a data-driven approach to create multiple local inverse models. This has two benefits: (1) We overcome the reality gap and (2) we gain performance and naive parallelism from using local models. Furthermore, we empirically prove that our approach outperforms a higher order global model.
-
-Code
-https://github.com/erleben/pySoRo
-
-Video
-https://youtu.be/edTy_Flbrk8
-

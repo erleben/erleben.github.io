@@ -1,36 +1,13 @@
 {
-  "title" : "Contact and friction simulation for computer graphics",
-  "authors" : "Sheldon Andrews, Kenny Erleben",
-  "venue" : "SIGGRAPH '21: ACM SIGGRAPH 2021 Courses, August 2021, Article No.: 2, Pages 1–124",
-  "abstract" : "Efficient simulation of contact is of interest for numerous physics-based animation applications. For instance, virtual reality training, video games, rapid digital prototyping, and robotics simulation are all examples of applications that involve contact modeling and simulation. However, despite its extensive use in modern computer graphics, contact simulation remains one of the most challenging problems in physics-based animation. This course covers fundamental topics on the nature of contact modeling and simulation for computer graphics. Specifically, we provide mathematical details about formulating contact as a complementarity problem in rigid body and soft body animations. We briefly cover several approaches for contact generation using discrete collision detection. Then, we present a range of numerical techniques for solving the associated LCPs and NCPs. The advantages and disadvantages of each technique are further discussed in a practical manner, and best practices for implementation are discussed. Finally, we conclude the course with several advanced topics, such as anisotropic friction modeling and proximal operators. Programming examples are provided on the course website to accompany the course notes.",
-  "doi-link" : "https://doi.org/10.1145/3450508.3464571",
-  "video-link" : "https://www.youtube.com/watch?v=5JZ-tYHsJKg",
-  "web-link" : "https://siggraphcontact.github.io/",
-  "paper-link" : "https://profs.etsmtl.ca/sandrews/pdf/textureFriction_SCA21_preprint.pdf",
-  "code-link" : "https://github.com/sheldona/contactFrictionSim",
-  "publisher-link": "https://dl.acm.org/doi/10.1145/3450508.3464571",
-  "icon-link" : "andrews.erleben.21.png",
-  "month" : "July",
-  "year" : "2021"
+  "title" : "A Fast Linear Complementarity Problem (LCP) Solver for Separating Fluid-Solid Wall Boundary Conditions",
+  "authors" : "Michael Andersen, Sarah Niebe, Kenny Erleben",
+  "abstract" : "We address the task of computing solutions for a separating fluid-solid wall boundary condition model. We present an embarrassingly parallel, easy to implement, fluid LCP solver. We are able to use greater domain sizes than previous works have shown, due to our new solver. The solver exploits matrix-vector products as computational building blocks. We block the matrix-vector products in a way that allows us to evaluate the products, without having to assemble the full systems. Any iterative sub-solver can be used. Our work shows speedup factors ranging up to 500 for larger grid sizes.",
+  "video-link" : ["https://www.youtube.com/watch?v=-omUUPVJ8jw", "https://youtu.be/dBJYuZOoZ-E", "https://youtu.be/p6ssUHxrDfk"],
+  "icon-link" : "andersen.ea17b.png",
+  "month" : "April",
+  "year" : "2017",
+  "venue" : "VRIPHYS '17: Proceedings of the 13th Workshop on Virtual Reality Interactions and Physical Simulations, Pages 39–48",
+  "doi-link" : "https://doi.org/10.2312/vriphys.20171082",
+  "publisher-link": "https://diglib.eg.org/handle/10.2312/vriphys20171082",
+  "paper-link" : "https://diglib.eg.org/bitstream/handle/10.2312/vriphys20171082/039-048.pdf?sequence=1&isAllowed=y"
 }
-
-Teaser
-Fast GPU solver for solid wall boundary conditions in fluid animation
-
-Subject
-Digital Prototyping and Fluid Animation
-
-Title
-A Fast Linear Complementarity Problem (LCP) Solver for Separating Fluid-Solid Wall Boundary Conditions
-
-Authors
-Michael Andersen, Sarah Niebe and Kenny Erleben
-
-Abstract
-We address the task of computing solutions for a separating fluid-solid wall boundary condition model. We present an embarrassingly parallel, easy to implement, fluid LCP solver. We are able to use greater domain sizes than previous works have shown, due to our new solver. The solver exploits matrix-vector products as computational building blocks. We block the matrix-vector products in a way that allows us to evaluate the products, without having to assemble the full systems. Any iterative sub-solver can be used. Our work shows speedup factors ranging up to 500 for larger grid sizes.
-
-
-Videos
-https://youtu.be/dBJYuZOoZ-E
-https://youtu.be/p6ssUHxrDfk
-

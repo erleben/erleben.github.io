@@ -1,46 +1,14 @@
 {
-  "title" : "Contact and friction simulation for computer graphics",
-  "authors" : "Sheldon Andrews, Kenny Erleben",
-  "venue" : "SIGGRAPH '21: ACM SIGGRAPH 2021 Courses, August 2021, Article No.: 2, Pages 1–124",
-  "abstract" : "Efficient simulation of contact is of interest for numerous physics-based animation applications. For instance, virtual reality training, video games, rapid digital prototyping, and robotics simulation are all examples of applications that involve contact modeling and simulation. However, despite its extensive use in modern computer graphics, contact simulation remains one of the most challenging problems in physics-based animation. This course covers fundamental topics on the nature of contact modeling and simulation for computer graphics. Specifically, we provide mathematical details about formulating contact as a complementarity problem in rigid body and soft body animations. We briefly cover several approaches for contact generation using discrete collision detection. Then, we present a range of numerical techniques for solving the associated LCPs and NCPs. The advantages and disadvantages of each technique are further discussed in a practical manner, and best practices for implementation are discussed. Finally, we conclude the course with several advanced topics, such as anisotropic friction modeling and proximal operators. Programming examples are provided on the course website to accompany the course notes.",
-  "doi-link" : "https://doi.org/10.1145/3450508.3464571",
-  "video-link" : "https://www.youtube.com/watch?v=5JZ-tYHsJKg",
-  "web-link" : "https://siggraphcontact.github.io/",
-  "paper-link" : "https://profs.etsmtl.ca/sandrews/pdf/textureFriction_SCA21_preprint.pdf",
-  "code-link" : "https://github.com/sheldona/contactFrictionSim",
-  "publisher-link": "https://dl.acm.org/doi/10.1145/3450508.3464571",
-  "icon-link" : "andrews.erleben.21.png",
-  "month" : "July",
-  "year" : "2021"
+  "title" : "A numerical strategy for finite element modeling of frictionless asymmetric vocal fold collision",
+  "authors" : "Alba Granados, Marek Krzysztof Misztal, Jonas Brunskog, Vincent Visseq, Kenny Erleben",
+  "abstract" : "Analysis of voice pathologies may require vocal fold models that include relevant features such as vocal fold asymmetric collision. The present study numerically addresses the problem of frictionless asymmetric collision in a self-sustained three-dimensional continuum model of the vocal folds. Theoretical background and numerical analysis of the finite-element position-based contact model are presented, along with validation. A novel contact detection mechanism capable to detect collision in asymmetric oscillations is developed. The effect of inexact contact constraint enforcement on vocal fold dynamics is examined by different variational methods for inequality constrained minimization problems, namely the Lagrange multiplier method and the penalty method. In contrast to the penalty solution, which is related to classical spring-like contact forces, numerical examples show that the parameter-independent Lagrange multiplier solution is more robust and accurate in the estimation of dynamical and mechanical features at vocal fold contact. Furthermore, special attention is paid to the temporal integration schemes in relation to the contact problem, the results suggesting an advantage of highly diffusive schemes. Finally, vocal fold contact enforcement is shown to affect asymmetric oscillations. The present model may be adapted to existing vocal fold models, which may contribute to a better understanding of the effect of the non-linear contact phenomenon on phonation.",
+  "publisher-link": "https://onlinelibrary.wiley.com/doi/abs/10.1002/cnm.2793",
+  "doi-link" : " https://doi.org/10.1002/cnm.2793",
+  "venue" : "International Journal for Numerical Methods in Biomedical Engineering, volume 33, Issue 2, Pages e02793.",
+  "paper-link" : "granados.ea17.pdf",
+  "icon-link" : "granados.ea17.png",
+  "month" : "February",
+  "year" : "2017"
 }
 
-Title
-A numerical strategy for finite element modeling of frictionless asymmetric vocal fold collision
-
-Authors
-Alba Granados, Marek Krzysztof Misztal, Jonas Brunskog, Vincent Visseq and Kenny Erleben
-
-Abstract
-Analysis of voice pathologies may require vocal fold models that include relevant features such as vocal fold asymmetric collision. The present study numerically addresses the problem of frictionless asymmetric collision in a self-sustained three-dimensional continuum model of the vocal folds. Theoretical background and numerical analysis of the finite-element position-based contact model are presented, along with validation. A novel contact detection mechanism capable to detect collision in asymmetric oscillations is developed. The effect of inexact contact constraint enforcement on vocal fold dynamics is examined by different variational methods for inequality constrained minimization problems, namely the Lagrange multiplier method and the penalty method. In contrast to the penalty solution, which is related to classical spring-like contact forces, numerical examples show that the parameter-independent Lagrange multiplier solution is more robust and accurate in the estimation of dynamical and mechanical features at vocal fold contact. Furthermore, special attention is paid to the temporal integration schemes in relation to the contact problem, the results suggesting an advantage of highly diffusive schemes. Finally, vocal fold contact enforcement is shown to affect asymmetric oscillations. The present model may be adapted to existing vocal fold models, which may contribute to a better understanding of the effect of the non-linear contact phenomenon on phonation.
-
-Numerical Methods in Biomedical Engineering
-https://onlinelibrary.wiley.com/doi/abs/10.1002/cnm.2793
-
-BibTex
-
-@article{granados.ea17,
-author = {Granados, Alba and Misztal, Marek Krzysztof and Brunskog, Jonas and Visseq, Vincent and Erleben, Kenny},
-title = {A numerical strategy for finite element modeling of frictionless asymmetric vocal fold collision},
-journal = {International Journal for Numerical Methods in Biomedical Engineering},
-volume = {33},
-number = {2},
-pages = {e02793},
-keywords = {biomechanics, vocal folds, contact detection, impact problem, variational methods, computer model},
-doi = {10.1002/cnm.2793},
-url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/cnm.2793},
-eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/cnm.2793},
-note = {e02793 cnm.2793},
-abstract = {Summary Analysis of voice pathologies may require vocal fold models that include relevant features such as vocal fold asymmetric collision. The present study numerically addresses the problem of frictionless asymmetric collision in a self-sustained three-dimensional continuum model of the vocal folds. Theoretical background and numerical analysis of the finite-element position-based contact model are presented, along with validation. A novel contact detection mechanism capable to detect collision in asymmetric oscillations is developed. The effect of inexact contact constraint enforcement on vocal fold dynamics is examined by different variational methods for inequality constrained minimization problems, namely, the Lagrange multiplier method and the penalty method. In contrast to the penalty solution, which is related to classical spring-like contact forces, numerical examples show that the parameter-independent Lagrange multiplier solution is more robust and accurate in the estimation of dynamical and mechanical features at vocal fold contact. Furthermore, special attention is paid to the temporal integration schemes in relation to the contact problem, the results suggesting an advantage of highly diffusive schemes. Finally, vocal fold contact enforcement is shown to affect asymmetric oscillations. The present model may be adapted to existing vocal fold models, which may contribute to a better understanding of the effect of the nonlinear contact phenomenon on phonation. Copyright © 2016 John Wiley \& Sons, Ltd.},,
-year = {2017}
-}
 

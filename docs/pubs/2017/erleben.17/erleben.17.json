@@ -1,36 +1,13 @@
 {
-  "title" : "Contact and friction simulation for computer graphics",
-  "authors" : "Sheldon Andrews, Kenny Erleben",
-  "venue" : "SIGGRAPH '21: ACM SIGGRAPH 2021 Courses, August 2021, Article No.: 2, Pages 1–124",
-  "abstract" : "Efficient simulation of contact is of interest for numerous physics-based animation applications. For instance, virtual reality training, video games, rapid digital prototyping, and robotics simulation are all examples of applications that involve contact modeling and simulation. However, despite its extensive use in modern computer graphics, contact simulation remains one of the most challenging problems in physics-based animation. This course covers fundamental topics on the nature of contact modeling and simulation for computer graphics. Specifically, we provide mathematical details about formulating contact as a complementarity problem in rigid body and soft body animations. We briefly cover several approaches for contact generation using discrete collision detection. Then, we present a range of numerical techniques for solving the associated LCPs and NCPs. The advantages and disadvantages of each technique are further discussed in a practical manner, and best practices for implementation are discussed. Finally, we conclude the course with several advanced topics, such as anisotropic friction modeling and proximal operators. Programming examples are provided on the course website to accompany the course notes.",
-  "doi-link" : "https://doi.org/10.1145/3450508.3464571",
-  "video-link" : "https://www.youtube.com/watch?v=5JZ-tYHsJKg",
-  "web-link" : "https://siggraphcontact.github.io/",
-  "paper-link" : "https://profs.etsmtl.ca/sandrews/pdf/textureFriction_SCA21_preprint.pdf",
-  "code-link" : "https://github.com/sheldona/contactFrictionSim",
-  "publisher-link": "https://dl.acm.org/doi/10.1145/3450508.3464571",
-  "icon-link" : "andrews.erleben.21.png",
+  "title" : "Rigid Body Contact Problems using Proximal Operators",
+  "authors" : "Kenny Erleben",
+  "abstract" : "Iterative methods are popular for solving contact force problems in rigid body dynamics. They are loved for their robustness and surrounded by mystery as to whether they converge or not. We provide a mathematical foundation for iterative (PROX) schemes based on proximal operators. This is a class of iterative Jacobi and blocked Gauss–Seidel variants that theoretically proven always converge and provides a flexible plug and play framework for exploring different friction laws. We provide a portfolio of experience for choosing r-Factor strategies for such schemes and we analyze the distribution of convergence behaviors. Our results indicate the Gauss-Seidel variant is superior in terms of delivering predictable convergence behaviour and hence should be preferred over Jacobi variants. Our results also suggest that Global r -Factor strategies are better for structured stacking scenarios and can achieve absolute convergence in more cases.",
+  "video-link" : ["https://youtu.be/CFRNLi6VE_8", "https://youtu.be/Ja7U0uD1hGE"],
+  "doi-link" : "https://doi.org/10.1145/3099564.3099575",
+  "venue" : "SCA '17: Proceedings of the ACM SIGGRAPH / Eurographics Symposium on Computer Animation, Article No.: 13, Pages 1–12.",
+  "paper-link" : "erleben.17.pdf",
+  "publisher-link": "https://dl.acm.org/doi/10.1145/3099564.3099575",
+  "icon-link" : "erleben.17.png",
   "month" : "July",
-  "year" : "2021"
+  "year" : "2017"
 }
-
-Teaser
-Novel adaptive r-factor schemes for iterative proximal operator schemes for contact mechanics
-
-Subjects
-Digital Protyping and Computational Contact Mechanics
-
-
-Title
-Rigid Body Contact Problems using Proximal Operators
-
-Author
-Kenny Erleben
-
-Abstract
-Iterative methods are popular for solving contact force problems in rigid body dynamics. They are loved for their robustness and surrounded by mystery as to whether they converge or not. We provide a mathematical foundation for iterative (PROX) schemes based on proximal operators. This is a class of iterative Jacobi and blocked Gauss–Seidel variants that theoretically proven always converge and provides a flexible plug and play framework for exploring different friction laws. We provide a portfolio of experience for choosing r-Factor strategies for such schemes and we analyze the distribution of convergence behaviors. Our results indicate the Gauss-Seidel variant is superior in terms of delivering predictable convergence behaviour and hence should be preferred over Jacobi variants. Our results also suggest that Global r -Factor strategies are better for structured stacking scenarios and can achieve absolute convergence in more cases.
-
-Videos
-https://youtu.be/CFRNLi6VE_8
-https://youtu.be/Ja7U0uD1hGE
-

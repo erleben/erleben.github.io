@@ -1,10 +1,10 @@
 {
-  "title" : "Non-Smooth Newton Methods for Deformable Multi-Body Dynamics",
+  "title" : "Non-Smooth Newton Methods for Deformable Multi-Body Dynamics.",
   "authors" : "Miles Macklin, Kenny Erleben, Matthias Müller, Nuttapong Chentanez, Stefan Jeschke, Viktor Makoviychuk",
   "abstract" : "We present a framework for the simulation of rigid and deformable bodies in the presence of contact and friction. Our method is based on a non-smooth Newton iteration that solves the underlying nonlinear complementarity problems (NCPs) directly. This approach allows us to support nonlinear dynamics models, including hyperelastic deformable bodies and articulated rigid mechanisms, coupled through a smooth isotropic friction model. The fixed-point nature of our method means it requires only the solution of a symmetric linear system as a building block. We propose a new complementarity preconditioner for NCP functions that improves convergence, and we develop an efficient GPU-based solver based on the conjugate residual (CR) method that is suitable for interactive simulations. We show how to improve robustness using a new geometric stiffness approximation and evaluate our method's performance on a number of robotics simulation scenarios, including dexterous manipulation and training using reinforcement learning.",
   "paper-link" : "https://arxiv.org/pdf/1907.04587.pdf",
   "publisher-link": "https://dl.acm.org/doi/10.1145/3338695",
-  "venue" : "ACM Transactions on Graphics, Volume 38, Issue 5O, Article No.: 140, pp 1–20",
+  "venue" : "ACM Transactions on Graphics, Volume 38, Issue 5O, Number 140, Pages 1–20.",
   "video-link" : "https://www.youtube.com/watch?v=1mCwtRemT3g",
   "doi-link" : "https://doi.org/10.1145/3338695",
   "icon-link" : "macklin.erleben.ea19.png",

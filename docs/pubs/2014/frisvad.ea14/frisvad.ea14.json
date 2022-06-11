@@ -1,12 +1,12 @@
 {
-  "title" : "Photon Differential Splatting for Rendering Caustics",
+  "title" : "Photon Differential Splatting for Rendering Caustics.",
   "authors" : "Jeppe Revall Frisvad, Lars Schjøth, Kenny Erleben, Jon Sporring",
   "abstract" : "We present a photon splatting technique which reduces noise and blur in the rendering of caustics. Blurring of illumination edges is an inherent problem in photon splatting, as each photon is unaware of its neighbours when being splatted. This means that the splat size is usually based on heuristics rather than knowledge of the local flux density. We use photon differentials to determine the size and shape of the splats such that we achieve adaptive anisotropic flux density estimation in photon splatting. As compared to previous work that uses photon differentials, we present the first method where no photons or beams or differentials need to be stored in a map. We also present improvements in the theory of photon differentials, which give more accurate results and a faster implementation. Our technique has good potential for GPU acceleration, and we limit the number of parameters requiring user adjustment to an overall smoothing parameter and the number of photons to be traced.",
   "publisher-link": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.12347",
   "doi-link" : " https://doi.org/10.1111/cgf.12347",
   "month" : "September",
   "year" : "2014",
-  "venue" : "Computer Graphics Forum, Vol. 33, Issue 6, pp. 252-263",
+  "venue" : "Computer Graphics Forum, Volume 33, Issue 6, Pages 252-263.",
   "paper-link" : "frisvad.ea14.pdf",
   "icon-link" : "frisvad.ea14.png"
 }

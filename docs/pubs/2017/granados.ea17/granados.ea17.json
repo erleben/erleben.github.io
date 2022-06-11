@@ -1,14 +1,12 @@
 {
-  "title" : "A numerical strategy for finite element modeling of frictionless asymmetric vocal fold collision",
+  "title" : "A numerical strategy for finite element modeling of frictionless asymmetric vocal fold collision.",
   "authors" : "Alba Granados, Marek Krzysztof Misztal, Jonas Brunskog, Vincent Visseq, Kenny Erleben",
   "abstract" : "Analysis of voice pathologies may require vocal fold models that include relevant features such as vocal fold asymmetric collision. The present study numerically addresses the problem of frictionless asymmetric collision in a self-sustained three-dimensional continuum model of the vocal folds. Theoretical background and numerical analysis of the finite-element position-based contact model are presented, along with validation. A novel contact detection mechanism capable to detect collision in asymmetric oscillations is developed. The effect of inexact contact constraint enforcement on vocal fold dynamics is examined by different variational methods for inequality constrained minimization problems, namely the Lagrange multiplier method and the penalty method. In contrast to the penalty solution, which is related to classical spring-like contact forces, numerical examples show that the parameter-independent Lagrange multiplier solution is more robust and accurate in the estimation of dynamical and mechanical features at vocal fold contact. Furthermore, special attention is paid to the temporal integration schemes in relation to the contact problem, the results suggesting an advantage of highly diffusive schemes. Finally, vocal fold contact enforcement is shown to affect asymmetric oscillations. The present model may be adapted to existing vocal fold models, which may contribute to a better understanding of the effect of the non-linear contact phenomenon on phonation.",
   "publisher-link": "https://onlinelibrary.wiley.com/doi/abs/10.1002/cnm.2793",
   "doi-link" : " https://doi.org/10.1002/cnm.2793",
-  "venue" : "International Journal for Numerical Methods in Biomedical Engineering, volume 33, Issue 2, Pages e02793.",
+  "venue" : "International Journal for Numerical Methods in Biomedical Engineering, Volume 33, Issue 2, Pages e02793.",
   "paper-link" : "granados.ea17.pdf",
   "icon-link" : "granados.ea17.png",
   "month" : "February",
   "year" : "2017"
 }
-
-

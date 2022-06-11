@@ -1,10 +1,10 @@
 {
-  "title" : "Multiphase Flow of Immiscible Fluids on Unstructured Moving Meshes",
+  "title" : "Multiphase Flow of Immiscible Fluids on Unstructured Moving Meshes.",
   "authors" : "Marek. K. Misztal, Kenny Erleben, Adam Bargteil, Jens Fursund, Brian Bunch Christensen, J. Andreas. Bærentzen, Robert Bridson",
   "abstract" : "In this paper, we present a method for animating multiphase flow of immiscible fluids using unstructured moving meshes. Our underlying discretization is an unstructured tetrahedral mesh, the deformable simplicial complex (DSC), that moves with the flow in a Lagrangian manner. Mesh optimization operations improve element quality and avoid element inversion. In the context of multiphase flow, we guarantee that every element is occupied by a single fluid and, consequently, the interface between fluids is represented by a set of faces in the simplicial complex. This approach ensures that the underlying discretization matches the physics and avoids the additional book-keeping required in grid-based methods where multiple fluids may occupy the same cell. Our Lagrangian approach naturally leads us to adopt a finite element approach to simulation, in contrast to the finite volume approaches adopted by a majority of fluid simulation techniques that use tetrahedral meshes. We characterize fluid simulation as an optimization problem allowing for full coupling of the pressure and velocity fields and the incorporation of a second-order surface energy. We introduce a preconditioner based on the diagonal Schur complement and solve our optimization on the GPU. We provide the results of parameter studies as well as a performance analysis of our method, together with suggestions for performance optimization.",
   "video-link" : ["https://youtu.be/fBiwomuIBG0", "https://youtu.be/UjoSgJSWk3w", "https://youtu.be/CbtHDBDsRKA"],
   "publisher-link": "https://ieeexplore.ieee.org/document/6552824",
-  "venue" : "IEEE Transactions on Visualization and Computer Graphics, Vol. 20, Issue 1, pp. 4-16.",
+  "venue" : "IEEE Transactions on Visualization and Computer Graphics, Volume 20, Issue 1, Pages 4-16.",
   "icon-link" : "misztal.ea14.png",
   "doi-link" : "https://doi.org/10.1109/TVCG.2013.97",
   "paper-link" : "misztal.ea14.pdf",

@@ -1,7 +1,7 @@
 {
-  "title" : "A direct geometry processing cartilage generation method using segmented bone models from datasets with poor cartilage visibility",
+  "title" : "A direct geometry processing cartilage generation method using segmented bone models from datasets with poor cartilage visibility.",
   "authors" : "Faezeh Moshfeghifar, Max Kragballle Nielsen, Jose D. Tascon-Vidarte, Sune Darkner, Kenny Erleben",
-  "venue" : "Computational Biomechanics for Medicine XVI",
+  "venue" : "Computational Biomechanics for Medicine XVI.",
   "abstract" : "We present a method to generate subject-specific cartilage for the hip joint. Given bone geometry, our approach is agnostic to im- age modality, creates conforming interfaces, and is well suited for finite element analysis. We demonstrate our method on ten hip joints show- ing anatomical shape consistency and well-behaved stress patterns. Our method is fast and may assist in large-scale biomechanical population studies of the hip joint when manual segmentation or training data is not feasible.",
   "paper-link" : "https://arxiv.org/abs/2203.10667",
   "code-link" : "https://github.com/diku-dk/cargen",

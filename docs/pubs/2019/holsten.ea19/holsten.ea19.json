@@ -1,11 +1,12 @@
 {
-  "title" : "Data Driven Inverse Kinematics of Soft Robots using Local Models",
+  "title" : "Data Driven Inverse Kinematics of Soft Robots using Local Models.",
   "authors" : "Fredrik Holsten, Morten Pol Engell-Nørregård, Sune Darkner, Kenny Erleben",
-  "venue" : "International Conference on Robotics and Automation (ICRA), pp. 6251-6257.",
+  "venue" : "International Conference on Robotics and Automation (ICRA), Pages 6251-6257.",
   "abstract" : "Soft robots are advantageous in terms of flexibility, safety and adaptability. It is challenging to find efficient computational approaches for planning and controlling their motion. This work takes a direct data-driven approach to learn the kinematics of the three-dimensional shape of a soft robot, by using visual markers. No prior information about the robot at hand is required. The model is oblivious to the design of the robot and type of actuation system. This allows adaptation to erroneous manufacturing. We present a highly versatile and inexpensive learning cube environment for collecting and analysing data. We prove that using multiple, lower order models of data opposed to one global, higher order model, will reduce the required data quantity, time complexity and memory complexity significantly without compromising accuracy. Further, our approach allows for embarrassingly parallelism. Yielding an overall much more simple and efficient approach.",
   "video-link" : "https://youtu.be/VGMCmV5-Owk",
   "doi-link" : "https://doi.org/10.1109/ICRA.2019.8794191",
   "publisher-link": "https://ieeexplore.ieee.org/document/8794191",
+  "paper-link": "holsten.ea19.pdf",
   "icon-link" : "holsten.ea19.png",
   "month" : "May",
   "year" : "2019"

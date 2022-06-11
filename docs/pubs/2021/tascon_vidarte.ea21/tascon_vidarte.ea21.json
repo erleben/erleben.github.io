@@ -1,7 +1,7 @@
 {
-  "title" : "Cine-MRI Simulation to Evaluate Tumor Tracking",
+  "title" : "Cine-MRI Simulation to Evaluate Tumor Tracking.",
   "authors" : "Jose David Tascon Vidarte, Isak Wahlstedt, Julien Jomier, Kenny Erleben, Ivan R. Vogelius, Sune Darkner",
-  "venue" : "In: Svoboda, D., Burgos, N., Wolterink, J.M., Zhao, C. (eds) Simulation and Synthesis in Medical Imaging. SASHIMI 2021. Lecture Notes in Computer Science(), vol 12965. Springer, Cham",
+  "venue" : "In Simulation and Synthesis in Medical Imaging. SASHIMI 2021. Lecture Notes in Computer Science, vol 12965. Springer, Cham",
   "abstract" : "Conventional evaluations of tumor tracking algorithms require inter-observer segmentations from radiation oncologists on the Cine-MRI (2D sagittal MR video). Instead of performing intensive manual annotations on images, we present a 2D video simulator that uses the pre-treatment images, including a breathing model, that generates Cine-MR images in parallel with the underlined segmentation of the tumor. We include the data of seven patients within a retrospective clinical study that received stereotactic body radiation therapy for liver metastases. Each patient has a pre-treatment 4DCT scan, a pre-treatment 3D MR with tumor and liver delineations, and the treatment Cine-MRI. We augment the data with the simulator by changing breathing motion parameters and adding noise. The simulator generates a total of 84 Cine-MRI sequences, thus having 12 videos per patient. We validate the simulated versus the real Cine-MRI in terms of tumor motion. Finally, we used the simulator to evaluate the performance of real-time tumor tracking algorithms with this dataset.",
   "month" : "September",
   "year" : "2021",

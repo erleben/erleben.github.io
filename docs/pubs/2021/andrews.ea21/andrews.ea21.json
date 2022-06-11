@@ -1,7 +1,7 @@
 {
-  "title" : "Coupling Friction with Visual Appearance",
+  "title" : "Coupling Friction with Visual Appearance.",
   "authors" : "Sheldon Andrews, Loic Nassif, Kenny Erleben, Paul G. Kry",
-  "venue" : "Proceedings of the ACM on Computer Graphics and Interactive Techniques, Volume 4, Issue 3, Article No.: 31, pp 1–20",
+  "venue" : "Proceedings of the ACM on Computer Graphics and Interactive Techniques, Volume 4, Issue 3, Number 31, Pages 1–20.",
   "abstract" : "We present a novel meso-scale model for computing anisotropic and asymmetric friction for contacts in rigid body simulations that is based on surface facet orientations. The main idea behind our approach is to compute a direction dependent friction coefficient that is determined by an object’s roughness. Specifically, where the friction is dependent on asperity interlocking, but at a scale where surface roughness is also a visual characteristic of the surface. A GPU rendering pipeline is employed to rasterize surfaces using a shallow depth orthographic projection at each contact point in order to sample facet normal information from both surfaces, which we then combine to produce direction dependent friction coefficients that can be directly used in typical LCP contact solvers, such as the projected Gauss-Seidel method. We demonstrate our approach with a variety of rough textures, where the roughness is both visible in the rendering and in the motion produced by the physical simulation.",
   "doi-link" : "https://doi.org/10.1145/3480138",
   "video-link" : "https://www.youtube.com/watch?v=bf8qxpaGfXg",

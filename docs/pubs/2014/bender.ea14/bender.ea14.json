@@ -1,9 +1,9 @@
 {
-  "title" : "Interactive Simulation of Rigid Body Dynamics in Computer Graphics",
+  "title" : "Interactive Simulation of Rigid Body Dynamics in Computer Graphics.",
   "authors" : "Jan Bender, Kenny Erleben, Jeff Trinkle",
   "abstract" : "Interactive rigid body simulation is an important part of many modern computer tools, which no authoring tool nor game engine can do without. Such high‐performance computer tools open up new possibilities for changing how designers, engineers, modelers and animators work with their design problems. This paper is a self contained state‐of‐the‐art report on the physics, the models, the numerical methods and the algorithms used in interactive rigid body simulation all of which have evolved and matured over the past 20 years. Furthermore, the paper communicates the mathematical and theoretical details in a pedagogical manner. This paper is not only a stake in the sand on what has been done, it also seeks to give the reader deeper insights to help guide their future research.",
   "publisher-link": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.12272",
-  "venue" : "Computer Graphics Forum, vol. 33, no. 1, pp. 246-270.",
+  "venue" : "Computer Graphics Forum, Volume 33, Issue 1, Pages 246-270.",
   "month" : "February",
   "year" : "2014",
   "doi-link" : " https://doi.org/10.1111/cgf.12272",

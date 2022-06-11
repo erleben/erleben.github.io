@@ -1,10 +1,10 @@
 {
-  "title" : "Local Models for Data Driven Inverse Kinematics of Soft Robots",
+  "title" : "Local Models for Data Driven Inverse Kinematics of Soft Robots.",
   "authors" : "Fredrik Holsten, Sune Darkner, Morten P. Engell-Nørregård, Kenny Erleben",
   "abstract" : "Soft robots are attractive because they have the potential of being safer, faster and cheaper than traditional rigid robots. If we can predict the shape of a soft robot for a given set of control parameters, then we can solve the inverse problem: to find an optimal set of control parameters for a given shape. This work takes a data-driven approach to create multiple local inverse models. This has two benefits: (1) We overcome the reality gap and (2) we gain performance and naive parallelism from using local models. Furthermore, we empirically prove that our approach outperforms a higher order global model.",
   "code-link" : "https://github.com/erleben/pySoRo",
   "video-link" : "https://youtu.be/edTy_Flbrk8",
-  "venue" : "SCA Posters '18: Proceedings of the Conference on Computer Animation, Pages 7–8",
+  "venue" : "SCA Posters '18: Proceedings of the Conference on Computer Animation, Pages 7–8.",
   "doi-link" : "https://doi.org/10.2312/sca.20181186",
   "paper-link": "holsten.ea18.abstract.pdf",
   "publisher-link": "https://diglib.eg.org/xmlui/handle/10.2312/sca20181186",
@@ -12,5 +12,5 @@
   "icon-link" : "holsten.ea18.png",
   "month" : "June",
   "year" : "2018",
-  "prize" : "Best Poster Prize"
+  "prize" : "Best Poster Prize."
 }

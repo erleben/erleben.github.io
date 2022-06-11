@@ -1,7 +1,7 @@
 {
-  "title" : "High fidelity simulation of corotational linear FEM for incompressible materials",
+  "title" : "High fidelity simulation of corotational linear FEM for incompressible materials.",
   "authors" : "Mihai Francu, Arni Asgeirsson, Kenny Erleben",
-  "venue" : "MIG '19: Motion, Interaction and Games, Article No.: 28, Pages 1–6.",
+  "venue" : "MIG '19: Motion, Interaction and Games, Number 28, Pages 1–6.",
   "abstract" : "We present a novel method of simulating incompressible materials undergoing large deformation without locking artifacts. We apply it for simulating silicone soft robots with a Poisson ratio close to 0.5. The new approach is based on the mixed finite element method (FEM) using a pressure-displacement formulation; the deviatoric deformation is still handled in a traditional fashion. We support large deformations without volume increase using the corotational formulation of linear elasticity. Stability is ensured by an implicit integration scheme which always reduces to a sparse linear system. For even more deformation accuracy we support higher order simulation through the use of Bernstein-Bézier polynomials.",
   "doi-link" : "https://doi.org/10.1145/3359566.3360079",
   "video-link" : "https://www.youtube.com/watch?v=TtpU84KDFgM",

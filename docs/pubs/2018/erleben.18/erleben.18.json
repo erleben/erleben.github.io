@@ -1,9 +1,9 @@
 {
-  "title" : "Methodology for Assessing Mesh-Based Contact Point Methods",
+  "title" : "Methodology for Assessing Mesh-Based Contact Point Methods.",
   "authors" : "Kenny Erleben",
   "abstract" : "Computation of contact points is a critical sub-component of physics-based animation. The success and correctness of simulation results are very sensitive to the quality of the contact points. Hence, quality plays a critical role when comparing methods, and this is highly relevant for simulating objects with sharp edges. The importance of contact point quality is largely overlooked and lacks rigor and as such may become a bottleneck in moving the research field forward.",
   "publisher-link": "https://dl.acm.org/citation.cfm?id=3096239",
-  "venue" : "ACM Transactions on Graphics, Volume 37, Issue 3, Article No.: 39, pp 1–30",
+  "venue" : "ACM Transactions on Graphics, Volume 37, Issue 3, Number 39, Pages 1–30.",
   "month" : "June",
   "year" : "2018",
   "icon-link" : "erleben.18.png",

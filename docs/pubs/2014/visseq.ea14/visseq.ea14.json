@@ -1,11 +1,11 @@
 {
-  "title" : "Conforming Contact Manifolds for Multibody Simulations",
+  "title" : "Conforming Contact Manifolds for Multibody Simulations.",
   "authors" : "Vincent Visseq, Ulrik Bonde, Marek K. Misztal, Kenny Erleben",
   "abstract" : "Computer simulation of physical phenomena involving contact mechanics is of great in- terest to many fields of research and industries. New applications, such as biomedical simulations, are appealing for the modelling of soft materials and sliding contact. Several different approaches have been developed over the last four decades to formulate con- tact constraints for numerical simulation methods. In the finite element method, mortar meshes, Lagrange multipliers and penalty approaches are widely used to handle con- tact constraints. We propose to develop a new simulation framework providing conform- ing contact manifolds for deformable multibody dynamics, based on the Moving Meshes framework.",
   "video-link" : ["https://youtu.be/IvUc364Xn4g", "https://youtu.be/t6f0mf2Pxhk"],
   "month" : "July",
   "year" : "2014",
-  "venue" : "World Congress on Computational Mechanics (WCCM XI)",
+  "venue" : "World Congress on Computational Mechanics (WCCM XI).",
   "icon-link" : "visseq.ea14.png",
   "paper-link" : "https://congress.cimne.com/iacm-eccomas2014/admin/files/fileabstract/a3475.pdf"
 }

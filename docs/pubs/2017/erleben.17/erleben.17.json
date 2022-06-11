@@ -1,10 +1,10 @@
 {
-  "title" : "Rigid Body Contact Problems using Proximal Operators",
+  "title" : "Rigid Body Contact Problems using Proximal Operators.",
   "authors" : "Kenny Erleben",
   "abstract" : "Iterative methods are popular for solving contact force problems in rigid body dynamics. They are loved for their robustness and surrounded by mystery as to whether they converge or not. We provide a mathematical foundation for iterative (PROX) schemes based on proximal operators. This is a class of iterative Jacobi and blocked Gauss–Seidel variants that theoretically proven always converge and provides a flexible plug and play framework for exploring different friction laws. We provide a portfolio of experience for choosing r-Factor strategies for such schemes and we analyze the distribution of convergence behaviors. Our results indicate the Gauss-Seidel variant is superior in terms of delivering predictable convergence behaviour and hence should be preferred over Jacobi variants. Our results also suggest that Global r -Factor strategies are better for structured stacking scenarios and can achieve absolute convergence in more cases.",
   "video-link" : ["https://youtu.be/CFRNLi6VE_8", "https://youtu.be/Ja7U0uD1hGE"],
   "doi-link" : "https://doi.org/10.1145/3099564.3099575",
-  "venue" : "SCA '17: Proceedings of the ACM SIGGRAPH / Eurographics Symposium on Computer Animation, Article No.: 13, Pages 1–12.",
+  "venue" : "SCA '17: Proceedings of the ACM SIGGRAPH / Eurographics Symposium on Computer Animation, Issue 13, Pages 1–12.",
   "paper-link" : "erleben.17.pdf",
   "publisher-link": "https://dl.acm.org/doi/10.1145/3099564.3099575",
   "icon-link" : "erleben.17.png",

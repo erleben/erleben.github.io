@@ -1,7 +1,7 @@
 {
-  "title" : "Automated Acquisition of Anisotropic Friction",
+  "title" : "Automated Acquisition of Anisotropic Friction.",
   "authors" : "Keno Dreßel, Kenny Erleben, Paul Kry, Sheldon Andrews",
-  "venue" : "16th Conference on Computer and Robot Vision (CRV), 2019, pp. 159-165.",
+  "venue" : "16th Conference on Computer and Robot Vision (CRV), Pages 159-165.",
   "abstract" : "Automated acquisition of friction data is an interesting approach to more successfully bridge the reality gap in simulation than conventional mathematical models. To advance this area of research, we present a novel inexpensive computer vision platform as a solution for collecting and processing friction data, and we make available the open source software and data sets collected with our vision robotic approach. This paper is focused on gathering data on anisotropic static friction behavior as this is ideal for inexpensive vision approach we propose. The data set and experimental setup provide a solid foundation for a wider robotics simulation community to conduct their own experiments.",
   "video-link" : "https://www.youtube.com/watch?v=GZHdOASzEMw",
   "code-link" : "https://github.com/kenodressel/afm/",

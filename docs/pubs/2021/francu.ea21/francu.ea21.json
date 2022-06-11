@@ -1,7 +1,7 @@
 {
-  "title" : "Locking-Proof Tetrahedra",
+  "title" : "Locking-Proof Tetrahedra.",
   "authors" : "Mihai Frâncu, Arni Asgeirsson, Kenny Erleben, Mads J. L. Rønnow",
-  "venue" : "ACM Transactions on Graphics, Volume 40, Issue 2, Article No.: 12, pp 1–17",
+  "venue" : "ACM Transactions on Graphics, Volume 40, Issue 2, Number 12, Pages 1–17.",
   "doi-link" : "https://doi.org/10.1145/3444949",
   "abstract" : "The simulation of incompressible materials suffers from locking when using the standard finite element method (FEM) and coarse linear tetrahedral meshes. Locking increases as the Poisson ratio ν gets close to 0.5 and often lower Poisson ratio values are used to reduce locking, affecting volume preservation. We propose a novel mixed FEM approach to simulating incompressible solids that alleviates the locking problem for tetrahedra. Our method uses linear shape functions for both displacements and pressure, and adds one scalar per node. It can accommodate nonlinear isotropic materials described by a Young’s modulus and any Poisson ratio value by enforcing a volumetric constitutive law. The most realistic such material is Neo-Hookean, and we focus on adapting it to our method. For ν = 0.5, we can obtain full volume preservation up to any desired numerical accuracy. We show that standard Neo-Hookean simulations using tetrahedra are often locking, which, in turn, affects accuracy. We show that our method gives better results and that our Newton solver is more robust. As an alternative, we propose a dual ascent solver that is simple and has a good convergence rate. We validate these results using numerical experiments and quantitative analysis.",
   "video-link" : "https://www.youtube.com/watch?v=MqTYNOkHiXE",

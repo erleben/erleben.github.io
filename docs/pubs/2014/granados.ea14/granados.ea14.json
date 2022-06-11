@@ -1,8 +1,8 @@
 {
-  "title" : "Finite element modeling of the vocal folds with deformable interface tracking",
+  "title" : "Finite element modeling of the vocal folds with deformable interface tracking.",
   "authors" : "Alba Granados, Jonas Brunskog, Marek Krzysztof Misztal, Vincent Visseq, Kenny Erleben",
   "abstract" : "Continuous and prolonged use of the speaking voice may lead to functional speech disorders that are not apparent for voice clinicians from high-speed imaging of the vocal folds’ vibration. However, it is hypothesized that time dependent tissue properties provide some insight into the injury process. To infer material parameters via an inverse optimization problem from recorded deformation, a self sustained theoretical model of the vocal folds is needed. With this purpose, a transversely isotropic three-dimensional nite element model is proposed and investigated. Special attention is paid to the collision and time integration schemes. Accuracy in the deformation process is introduced by means of a topology-adaptive method for deformable interface tracking, called the Deformable Simplicial Complex, which has been previously applied to immiscible uids. For computational reasons, aerodynamic driving forces are derived from Bernoulli’s principle.",
-  "venue" : "Proceedins of 7th Forum Acusticum",
+  "venue" : "Proceedins of 7th Forum Acusticum.",
   "month" : "September",
   "year" : "2014",
   "paper-link" : "granados.ea14.pdf",

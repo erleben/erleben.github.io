@@ -1,37 +1,11 @@
 {
-  "title" : "Contact and friction simulation for computer graphics",
-  "authors" : "Sheldon Andrews, Kenny Erleben",
-  "venue" : "SIGGRAPH '21: ACM SIGGRAPH 2021 Courses, August 2021, Article No.: 2, Pages 1–124",
-  "abstract" : "Efficient simulation of contact is of interest for numerous physics-based animation applications. For instance, virtual reality training, video games, rapid digital prototyping, and robotics simulation are all examples of applications that involve contact modeling and simulation. However, despite its extensive use in modern computer graphics, contact simulation remains one of the most challenging problems in physics-based animation. This course covers fundamental topics on the nature of contact modeling and simulation for computer graphics. Specifically, we provide mathematical details about formulating contact as a complementarity problem in rigid body and soft body animations. We briefly cover several approaches for contact generation using discrete collision detection. Then, we present a range of numerical techniques for solving the associated LCPs and NCPs. The advantages and disadvantages of each technique are further discussed in a practical manner, and best practices for implementation are discussed. Finally, we conclude the course with several advanced topics, such as anisotropic friction modeling and proximal operators. Programming examples are provided on the course website to accompany the course notes.",
-  "doi-link" : "https://doi.org/10.1145/3450508.3464571",
-  "video-link" : "https://www.youtube.com/watch?v=5JZ-tYHsJKg",
-  "web-link" : "https://siggraphcontact.github.io/",
-  "paper-link" : "https://profs.etsmtl.ca/sandrews/pdf/textureFriction_SCA21_preprint.pdf",
-  "code-link" : "https://github.com/sheldona/contactFrictionSim",
-  "publisher-link": "https://dl.acm.org/doi/10.1145/3450508.3464571",
-  "icon-link" : "andrews.erleben.21.png",
+  "title" : "Conforming Contact Manifolds for Multibody Simulations",
+  "authors" : "Vincent Visseq, Ulrik Bonde, Marek K. Misztal, Kenny Erleben",
+  "abstract" : "Computer simulation of physical phenomena involving contact mechanics is of great in- terest to many fields of research and industries. New applications, such as biomedical simulations, are appealing for the modelling of soft materials and sliding contact. Several different approaches have been developed over the last four decades to formulate con- tact constraints for numerical simulation methods. In the finite element method, mortar meshes, Lagrange multipliers and penalty approaches are widely used to handle con- tact constraints. We propose to develop a new simulation framework providing conform- ing contact manifolds for deformable multibody dynamics, based on the Moving Meshes framework.",
+  "video-link" : ["https://youtu.be/IvUc364Xn4g", "https://youtu.be/t6f0mf2Pxhk"],
   "month" : "July",
-  "year" : "2021"
+  "year" : "2014",
+  "venue" : "World Congress on Computational Mechanics (WCCM XI)",
+  "icon-link" : "visseq.ea14.png",
+  "paper-link" : "https://congress.cimne.com/iacm-eccomas2014/admin/files/fileabstract/a3475.pdf"
 }
-
-Teaser
-New novel idea for mesh representation of contact interface problems
-
-Subjects
-Computational Contact Mechanics
-
-
-
-Title
-Conforming Contact Manifolds for Multibody Simulations
-
-Authors
-Vincent Visseq, Ulrik Bonde, Marek K. Misztal and Kenny Erleben
-
-Abstract
-Computer simulation of physical phenomena involving contact mechanics is of great in- terest to many fields of research and industries. New applications, such as biomedical simulations, are appealing for the modelling of soft materials and sliding contact. Several different approaches have been developed over the last four decades to formulate con- tact constraints for numerical simulation methods. In the finite element method, mortar meshes, Lagrange multipliers and penalty approaches are widely used to handle con- tact constraints. We propose to develop a new simulation framework providing conform- ing contact manifolds for deformable multibody dynamics, based on the Moving Meshes framework.
-
-Video
-https://youtu.be/IvUc364Xn4g
-https://youtu.be/t6f0mf2Pxhk
-

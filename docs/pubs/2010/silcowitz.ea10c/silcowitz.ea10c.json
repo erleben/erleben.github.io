@@ -1,39 +1,13 @@
 {
-  "title" : "Contact and friction simulation for computer graphics",
-  "authors" : "Sheldon Andrews, Kenny Erleben",
-  "venue" : "SIGGRAPH '21: ACM SIGGRAPH 2021 Courses, August 2021, Article No.: 2, Pages 1–124",
-  "abstract" : "Efficient simulation of contact is of interest for numerous physics-based animation applications. For instance, virtual reality training, video games, rapid digital prototyping, and robotics simulation are all examples of applications that involve contact modeling and simulation. However, despite its extensive use in modern computer graphics, contact simulation remains one of the most challenging problems in physics-based animation. This course covers fundamental topics on the nature of contact modeling and simulation for computer graphics. Specifically, we provide mathematical details about formulating contact as a complementarity problem in rigid body and soft body animations. We briefly cover several approaches for contact generation using discrete collision detection. Then, we present a range of numerical techniques for solving the associated LCPs and NCPs. The advantages and disadvantages of each technique are further discussed in a practical manner, and best practices for implementation are discussed. Finally, we conclude the course with several advanced topics, such as anisotropic friction modeling and proximal operators. Programming examples are provided on the course website to accompany the course notes.",
-  "doi-link" : "https://doi.org/10.1145/3450508.3464571",
-  "video-link" : "https://www.youtube.com/watch?v=5JZ-tYHsJKg",
-  "web-link" : "https://siggraphcontact.github.io/",
-  "paper-link" : "https://profs.etsmtl.ca/sandrews/pdf/textureFriction_SCA21_preprint.pdf",
-  "code-link" : "https://github.com/sheldona/contactFrictionSim",
-  "publisher-link": "https://dl.acm.org/doi/10.1145/3450508.3464571",
-  "icon-link" : "andrews.erleben.21.png",
-  "month" : "July",
-  "year" : "2021"
+  "title" : "Projected Gauss–Seidel Subspace Minimization Method for Interactive Rigid Body Dynamics",
+  "authors" : "Morten Silcowitz, Sarah Niebe, Kenny Erleben",
+  "abstract" : "In interactive physical simulation, contact forces are applied to prevent rigid bodies from penetrating and to control slipping between bodies. Accurate contact force determination is a computationally hard problem. Thus, in practice one trades accuracy for performance. This results in visual artifacts such as viscous or damped contact response. In this paper, we present a new approach to contact force determination. We formulate the contact force problem as a nonlinear complementarity problem, and discretize the problem to derive the Projected Gauss–Seidel method. We combine the Projected Gauss–Seidel method with a subspace minimization method. Our new method shows improved qualities and superior convergence properties for specific configurations.",
+  "video-link" : "https://youtu.be/JZfw8FFgixo",
+  "publisher-link": "https://link.springer.com/chapter/10.1007/978-3-642-25382-9_15",
+  "venue" : "In Computer Vision, Imaging and Computer Graphics. Theory and Applications. VISIGRAPP 2010. Communications in Computer and Information Science, vol 229. pp. 218–229. Springer, Berlin, Heidelberg.",
+  "doi-link" : "https://doi.org/10.1007/978-3-642-25382-9_15",
+  "icon-link" : "silcowitz.ea10c.png",
+  "month" : "May",
+  "year" : "2010"
 }
-
-Teaser
-New numerical method for interactive rigid body simulation
-
-Subjects
-Digital Prototyping
-
-
-Title:
-Projected Gauss–Seidel Subspace Minimization Method for Interactive Rigid Body Dynamics
-
-Authors
-Morten Silcowitz, Sarah Niebe and Kenny Erleben
-
-Abstract
-In interactive physical simulation, contact forces are applied to prevent rigid bodies from penetrating and to control slipping between bodies. Accurate contact force determination is a computationally hard problem. Thus, in practice one trades accuracy for performance. This results in visual artifacts such as viscous or damped contact response. In this paper, we present a new approach to contact force determination. We formulate the contact force problem as a nonlinear complementarity problem, and discretize the problem to derive the Projected Gauss–Seidel method. We combine the Projected Gauss–Seidel method with a subspace minimization method. Our new method shows improved qualities and superior convergence properties for specific configurations.
-
-Video
-https://youtu.be/JZfw8FFgixo
-
-Spring Link
-https://link.springer.com/chapter/10.1007/978-3-642-25382-9_15
-
 

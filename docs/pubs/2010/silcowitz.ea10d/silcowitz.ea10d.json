@@ -1,62 +1,14 @@
 {
-  "title" : "Contact and friction simulation for computer graphics",
-  "authors" : "Sheldon Andrews, Kenny Erleben",
-  "venue" : "SIGGRAPH '21: ACM SIGGRAPH 2021 Courses, August 2021, Article No.: 2, Pages 1–124",
-  "abstract" : "Efficient simulation of contact is of interest for numerous physics-based animation applications. For instance, virtual reality training, video games, rapid digital prototyping, and robotics simulation are all examples of applications that involve contact modeling and simulation. However, despite its extensive use in modern computer graphics, contact simulation remains one of the most challenging problems in physics-based animation. This course covers fundamental topics on the nature of contact modeling and simulation for computer graphics. Specifically, we provide mathematical details about formulating contact as a complementarity problem in rigid body and soft body animations. We briefly cover several approaches for contact generation using discrete collision detection. Then, we present a range of numerical techniques for solving the associated LCPs and NCPs. The advantages and disadvantages of each technique are further discussed in a practical manner, and best practices for implementation are discussed. Finally, we conclude the course with several advanced topics, such as anisotropic friction modeling and proximal operators. Programming examples are provided on the course website to accompany the course notes.",
-  "doi-link" : "https://doi.org/10.1145/3450508.3464571",
-  "video-link" : "https://www.youtube.com/watch?v=5JZ-tYHsJKg",
-  "web-link" : "https://siggraphcontact.github.io/",
-  "paper-link" : "https://profs.etsmtl.ca/sandrews/pdf/textureFriction_SCA21_preprint.pdf",
-  "code-link" : "https://github.com/sheldona/contactFrictionSim",
-  "publisher-link": "https://dl.acm.org/doi/10.1145/3450508.3464571",
-  "icon-link" : "andrews.erleben.21.png",
-  "month" : "July",
-  "year" : "2021"
-}
-
-Teaser
-Novel numerical method for faster convergence rate of interactive
-rigid body simulation
-
-Subjects
-Digital Prototyping
-
-Title
-A Nonsmooth Nonlinear Conjugate Gradient Method for Interactive Contact Force Problems
-
-Authors
-Morten Silcowitz, Sarah Niebe and Kenny Erleben
-
-Abstract
-Interactive rigid body simulation is important for robot simulation and virtual design. A vital part of the simulation is the computation of contact forces. This paper addresses the contact force problem, as used in interactive simulation. The contact force problem can be formulated in the form of a nonlinear complementarity problem (NCP), which can be solved using an iterative splitting method, such as the projected Gauss–Seidel (PGS) method. We present a novel method for solving the NCP problem by applying a Fletcher–Reeves type nonlinear nonsmooth conjugate gradient (NNCG) type method. We analyze and present experimental convergence behavior and properties of the new method. Our results show that the NNCG method has at least the same convergence rate as PGS, and in many cases better.
-
-
-Video
-https://youtu.be/YOuco0fWlxo
-
-
-Springer Link
-https://link.springer.com/article/10.1007%2Fs00371-010-0502-6
-
-BibTex
-
-@article{silcowitz.ea10d,
- author = {Silcowitz-Hansen, Morten and Niebe, Sarah and Erleben, Kenny},
- title = {A Nonsmooth Nonlinear Conjugate Gradient Method for\&\#x00a0;Interactive Contact Force Problems},
- journal = {Vis. Comput.},
- issue_date = {June 2010},
- volume = {26},
- number = {6-8},
- month = jun,
- year = {2010},
- issn = {0178-2789},
- pages = {893--901},
- numpages = {9},
- url = {https://doi.org/10.1007/s00371-010-0502-6},
- doi = {10.1007/s00371-010-0502-6},
- acmid = {1821968},
- publisher = {Springer-Verlag},
- address = {Berlin, Heidelberg},
- keywords = {Nonsmooth conjugate gradients, Rigid body simulation},
+  "title" : "A Nonsmooth Nonlinear Conjugate Gradient Method for Interactive Contact Force Problems",
+  "authors" : "Morten Silcowitz, Sarah Niebe, Kenny Erleben",
+  "abstract" : "Interactive rigid body simulation is important for robot simulation and virtual design. A vital part of the simulation is the computation of contact forces. This paper addresses the contact force problem, as used in interactive simulation. The contact force problem can be formulated in the form of a nonlinear complementarity problem (NCP), which can be solved using an iterative splitting method, such as the projected Gauss–Seidel (PGS) method. We present a novel method for solving the NCP problem by applying a Fletcher–Reeves type nonlinear nonsmooth conjugate gradient (NNCG) type method. We analyze and present experimental convergence behavior and properties of the new method. Our results show that the NNCG method has at least the same convergence rate as PGS, and in many cases better.",
+  "video-link" : "https://youtu.be/YOuco0fWlxo",
+  "publisher-link": "https://link.springer.com/article/10.1007%2Fs00371-010-0502-6",
+  "icon-link" : "silcowitz.ea10d.png",
+  "month" : "June",
+  "year" : "2010",
+  "doi-link" : "https://doi.org/10.1007/s00371-010-0502-6",
+  "venue" : "Visual Computer, vol 26, No. 6-8, pp. 893–901.",
+  "paper-link" : "silcowitz.ea10d..pdf"
 }
 

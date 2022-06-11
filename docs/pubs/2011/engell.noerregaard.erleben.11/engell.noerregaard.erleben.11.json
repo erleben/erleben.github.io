@@ -1,55 +1,14 @@
 {
-  "title" : "Contact and friction simulation for computer graphics",
-  "authors" : "Sheldon Andrews, Kenny Erleben",
-  "venue" : "SIGGRAPH '21: ACM SIGGRAPH 2021 Courses, August 2021, Article No.: 2, Pages 1–124",
-  "abstract" : "Efficient simulation of contact is of interest for numerous physics-based animation applications. For instance, virtual reality training, video games, rapid digital prototyping, and robotics simulation are all examples of applications that involve contact modeling and simulation. However, despite its extensive use in modern computer graphics, contact simulation remains one of the most challenging problems in physics-based animation. This course covers fundamental topics on the nature of contact modeling and simulation for computer graphics. Specifically, we provide mathematical details about formulating contact as a complementarity problem in rigid body and soft body animations. We briefly cover several approaches for contact generation using discrete collision detection. Then, we present a range of numerical techniques for solving the associated LCPs and NCPs. The advantages and disadvantages of each technique are further discussed in a practical manner, and best practices for implementation are discussed. Finally, we conclude the course with several advanced topics, such as anisotropic friction modeling and proximal operators. Programming examples are provided on the course website to accompany the course notes.",
-  "doi-link" : "https://doi.org/10.1145/3450508.3464571",
-  "video-link" : "https://www.youtube.com/watch?v=5JZ-tYHsJKg",
-  "web-link" : "https://siggraphcontact.github.io/",
-  "paper-link" : "https://profs.etsmtl.ca/sandrews/pdf/textureFriction_SCA21_preprint.pdf",
-  "code-link" : "https://github.com/sheldona/contactFrictionSim",
-  "publisher-link": "https://dl.acm.org/doi/10.1145/3450508.3464571",
-  "icon-link" : "andrews.erleben.21.png",
-  "month" : "July",
-  "year" : "2021"
-}
-
-Teaser
-Fast numerical method for modeling inverse kinematics of humans
-
-Subjects
-Digital Prototyping & Biomechanics
-
-
-Title
-A Projected Back-tracking Line-search for Constrained Interactive Inverse Kinematics
-
-Authors
-Morten Engell-Nørregård and Kenny Erleben
-
-Abstract
-Inverse kinematics is the problem of manipulating the pose of an articulated figure in order to achieve a desired goal disregarding inertia and forces. One can approach the problem as a non-linear optimization problem or as non-linear equation solving. The former approach is superior in its generality and ability to generate realistic poses, whereas the latter approach is recognized for its low iteration cost. Therefore, many prefer equation solving over optimization for interactive applications. In this paper we present a projected gradient method for solving the inverse kinematics problem interactively, which exhibit good performance and precision. The method is compared to existing work in terms of visual quality and accuracy. Our method shows good convergence properties and deals with joint constraints in a simple and elegant manner. Our main contribution lies in the explicit incorporation of joint limits in an interactive solver. This makes it possible to compute the pose in each frame without the discontinuities exhibited by existing key frame animation techniques.
-
-
-Video
-http://youtu.be/QbOrgxWjRd8
-
-Computers and Graphics
-https://www.sciencedirect.com/science/article/pii/S0097849310002098
-
-@article{engell.noerregaard.erleben.11,
-title = "A projected back-tracking line-search for constrained interactive inverse kinematics",
-journal = "Computers & Graphics",
-volume = "35",
-number = "2",
-pages = "288 - 298",
-year = "2011",
-note = "Virtual Reality in Brazil Visual Computing in Biology and Medicine Semantic 3D media and content Cultural Heritage",
-issn = "0097-8493",
-doi = "https://doi.org/10.1016/j.cag.2010.12.011",
-url = "http://www.sciencedirect.com/science/article/pii/S0097849310002098",
-author = "Morten Engell-Nørregård and Kenny Erleben",
-keywords = "Projected line-search, Joint limits, Constraints, Non-linear optimization, Inverse kinematics",
-abstract = "Inverse kinematics is the problem of manipulating the pose of an articulated figure in order to achieve a desired goal disregarding inertia and forces. One can approach the problem as a non-linear optimization problem or as non-linear equation solving. The former approach is superior in its generality and ability to generate realistic poses, whereas the latter approach is recognized for its low iteration cost. Therefore, many prefer equation solving over optimization for interactive applications. In this paper we present a projected-gradient method for solving an inverse kinematics problem interactively, which exhibit good performance and precision. The method is compared to existing work in terms of visual quality and accuracy. Our method shows good convergence properties and deals with joint constraints in a simple and elegant manner. Our main contribution lies in an explicit incorporation of joint limits in an interactive solver. This makes it possible to compute the pose in each frame without the discontinuities exhibited by existing key frame animation techniques."
+  "title" : "A Projected Back-tracking Line-search for Constrained Interactive Inverse Kinematics",
+  "authors" : "Morten Engell-Nørregård, Kenny Erleben",
+  "abstract" : "Inverse kinematics is the problem of manipulating the pose of an articulated figure in order to achieve a desired goal disregarding inertia and forces. One can approach the problem as a non-linear optimization problem or as non-linear equation solving. The former approach is superior in its generality and ability to generate realistic poses, whereas the latter approach is recognized for its low iteration cost. Therefore, many prefer equation solving over optimization for interactive applications. In this paper we present a projected gradient method for solving the inverse kinematics problem interactively, which exhibit good performance and precision. The method is compared to existing work in terms of visual quality and accuracy. Our method shows good convergence properties and deals with joint constraints in a simple and elegant manner. Our main contribution lies in the explicit incorporation of joint limits in an interactive solver. This makes it possible to compute the pose in each frame without the discontinuities exhibited by existing key frame animation techniques.",
+  "video-link" : "http://youtu.be/QbOrgxWjRd8",
+  "publisher-link": "https://www.sciencedirect.com/science/article/pii/S0097849310002098",
+  "doi-link" : "https://doi.org/10.1016/j.cag.2010.12.011",
+  "venue" : "Computers & Graphics\", vol. 33, Issue 2, pp. 288 - 298.",
+  "paper-link" : "engell.noerregaard.erleben.11.pdf",
+  "icon-link" : "engell.noerregaard.erleben.11.png",
+  "month" : "April",
+  "year" : "2011"
 }
 

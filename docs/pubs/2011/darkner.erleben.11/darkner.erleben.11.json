@@ -1,55 +1,14 @@
 {
-  "title" : "Contact and friction simulation for computer graphics",
-  "authors" : "Sheldon Andrews, Kenny Erleben",
-  "venue" : "SIGGRAPH '21: ACM SIGGRAPH 2021 Courses, August 2021, Article No.: 2, Pages 1–124",
-  "abstract" : "Efficient simulation of contact is of interest for numerous physics-based animation applications. For instance, virtual reality training, video games, rapid digital prototyping, and robotics simulation are all examples of applications that involve contact modeling and simulation. However, despite its extensive use in modern computer graphics, contact simulation remains one of the most challenging problems in physics-based animation. This course covers fundamental topics on the nature of contact modeling and simulation for computer graphics. Specifically, we provide mathematical details about formulating contact as a complementarity problem in rigid body and soft body animations. We briefly cover several approaches for contact generation using discrete collision detection. Then, we present a range of numerical techniques for solving the associated LCPs and NCPs. The advantages and disadvantages of each technique are further discussed in a practical manner, and best practices for implementation are discussed. Finally, we conclude the course with several advanced topics, such as anisotropic friction modeling and proximal operators. Programming examples are provided on the course website to accompany the course notes.",
-  "doi-link" : "https://doi.org/10.1145/3450508.3464571",
-  "video-link" : "https://www.youtube.com/watch?v=5JZ-tYHsJKg",
-  "web-link" : "https://siggraphcontact.github.io/",
-  "paper-link" : "https://profs.etsmtl.ca/sandrews/pdf/textureFriction_SCA21_preprint.pdf",
-  "code-link" : "https://github.com/sheldona/contactFrictionSim",
-  "publisher-link": "https://dl.acm.org/doi/10.1145/3450508.3464571",
-  "icon-link" : "andrews.erleben.21.png",
-  "month" : "July",
-  "year" : "2021"
+  "title" : "A Hyper Elasticity Method for Interactive Virtual Design of Hearing Aids",
+  "authors" : "Sune Darkner, Kenny Erleben",
+  "abstract" : "We present a computational efficient method for isotropic hyper elasticity based on functional analysis. By selecting a class of shape functions, we arrive at a computational scheme which yields very sparse tensors. This enables fast computations of the hyper elastic energy potential and its derivatives. We achieve efficiency and performance through the use of shape functions that are linear in their parameters and through rotation into the eigenspace of the right Cauchy-Green strain tensor. This makes near real time evaluation of hyper elasticity of complex meshes on CPU relatively easy to implement. The approach does not rely on a specific shape function or material model but offers a general framework for isotropic hyper elasticity. The method is aimed at interactive and accurate non-linear hyper elastic modeling for a wide range of industrial virtual design applications, which we exemplify by insertion of hearing aid domes into the ear canal. We validate the method for tetrahedral meshes with linear shape functions with an Ogden material model by comparing simulations to deformations of real material. We illustrate the use of other shape functions and models using uniform cubic B-splines in combination with Riemanian elasticity.",
+  "publisher-link": "https://link.springer.com/article/10.1007/s00371-011-0574-y",
+  "icon-link" : "darkner.erleben.11.png",
+  "year" : "2011",
+  "doi-link" : "https://doi.org/10.1007/s00371-011-0574-y",
+  "month" : "June",
+  "venue" : "Visual Computer, vol. 27, no. 6-8, pp. 645–653.",
+  "paper-link" : "darkner.erleben.11.pdf"
 }
 
-Teaser
-New computational tool for designing hearing aids
-
-Subjects
-Digital Prototyping
-
-
-Title
-A Hyper Elasticity Method for Interactive Virtual Design of Hearing Aids
-
-Authors Sune Darkner and Kenny Erleben
-
-Abstract We present a computational efficient method for isotropic hyper elasticity based on functional analysis. By selecting a class of shape functions, we arrive at a computational scheme which yields very sparse tensors. This enables fast computations of the hyper elastic energy potential and its derivatives. We achieve efficiency and performance through the use of shape functions that are linear in their parameters and through rotation into the eigenspace of the right Cauchy-Green strain tensor. This makes near real time evaluation of hyper elasticity of complex meshes on CPU relatively easy to implement. The approach does not rely on a specific shape function or material model but offers a general framework for isotropic hyper elasticity. The method is aimed at interactive and accurate non-linear hyper elastic modeling for a wide range of industrial virtual design applications, which we exemplify by insertion of hearing aid domes into the ear canal. We validate the method for tetrahedral meshes with linear shape functions with an Ogden material model by comparing simulations to deformations of real material. We illustrate the use of other shape functions and models using uniform cubic B-splines in combination with Riemanian elasticity.
-
-Spring Link
-https://link.springer.com/article/10.1007/s00371-011-0574-y
-
-BibTex
-
-@article{darkner.erleben.11,
- author = {Darkner, Sune and Erleben, Kenny},
- title = {A Hyper Elasticity Method for Interactive Virtual Design of Hearing Aids: A Parallel Method for General Non-linear Hyper Elasticity Modeling},
- journal = {Vis. Comput.},
- issue_date = {June 2011},
- volume = {27},
- number = {6-8},
- month = jun,
- year = {2011},
- issn = {0178-2789},
- pages = {645--653},
- numpages = {9},
- url = {https://doi.org/10.1007/s00371-011-0574-y},
- doi = {10.1007/s00371-011-0574-y},
- acmid = {1989131},
- publisher = {Springer-Verlag New York, Inc.},
- address = {Secaucus, NJ, USA},
- keywords = {General framework, Interactive design, Virtual prototyping},
-} 
 

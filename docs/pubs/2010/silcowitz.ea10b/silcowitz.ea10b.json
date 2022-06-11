@@ -1,9 +1,9 @@
 {
-  "title" : "Contact Point Generation for Convex Polytopes in Interactive Rigid Body Dynamics",
+  "title" : "Contact Point Generation for Convex Polytopes in Interactive Rigid Body Dynamics.",
   "authors" : "Morten Silcowitz, Sarah Niebe, Kenny Erleben",
   "abstract" : "When computing contact forces in rigid body dynamics systems, most state-of-the-art solutions use iterative methods such as the projected Gauss–Seidel (PGS) method. Methods such as the PGS method are preferred for their robustness. However, the time-critical nature of interactive applications combined with the linear convergence rates of such methods, will often result in visual artifacts in the final simulation. With this paper, we address an issue which is of major impact on the animation quality, when using methods such as the PGS method. The issue is robust generation of contact points for convex polytopes. A novel contact point generation method is presented, which is based on growth distances and Gauss maps. We demonstrate improvements when using our method in the context of interactive rigid body simulation.",
   "video-link" : ["https://youtu.be/kgcxwL2VQes", "https://youtu.be/2Ni0fq0nSuI", "https://youtu.be/rYfJk2StuLU"],
-  "venue" : "Poster at Eurographics Symposium on Computer Animation, Madrid, Spanien",
+  "venue" : "Poster at Eurographics Symposium on Computer Animation, Madrid, Spanien.",
   "poster-link" : "silcowitz.ea10.poster.pdf",
   "abstract-link" : "silcowitz.ea10.abstract.pdf",
   "icon-link" : "silcowitz.ea10.png",

@@ -1,43 +1,17 @@
 {
-  "title" : "Contact and friction simulation for computer graphics",
-  "authors" : "Sheldon Andrews, Kenny Erleben",
-  "venue" : "SIGGRAPH '21: ACM SIGGRAPH 2021 Courses, August 2021, Article No.: 2, Pages 1–124",
-  "abstract" : "Efficient simulation of contact is of interest for numerous physics-based animation applications. For instance, virtual reality training, video games, rapid digital prototyping, and robotics simulation are all examples of applications that involve contact modeling and simulation. However, despite its extensive use in modern computer graphics, contact simulation remains one of the most challenging problems in physics-based animation. This course covers fundamental topics on the nature of contact modeling and simulation for computer graphics. Specifically, we provide mathematical details about formulating contact as a complementarity problem in rigid body and soft body animations. We briefly cover several approaches for contact generation using discrete collision detection. Then, we present a range of numerical techniques for solving the associated LCPs and NCPs. The advantages and disadvantages of each technique are further discussed in a practical manner, and best practices for implementation are discussed. Finally, we conclude the course with several advanced topics, such as anisotropic friction modeling and proximal operators. Programming examples are provided on the course website to accompany the course notes.",
+  "title" : "Interactive Simulation of Rigid Body Dynamics in Computer Graphics",
+  "authors" : "Jan Bender, Kenny Erleben, Jeff Trinkle, Erwin Coumans",
+  "abstract" : "Interactive rigid body simulation is an important part of many modern computer tools. No authoring tool nor a game engine can do without. The high performance computer tools open up new possibilities for changing how designers, engineers, modelers and animators work with their design problems. This paper is a self contained state-of-the-art report on the physics, the models, the numerical methods and the algorithms used in interactive rigid body simulation all of which has evolved and matured over the past 20 years. The paper covers applications and the usage of interactive rigid body simulation. Besides the mathematical and theoretical details that this paper communicates in a pedagogical manner the paper surveys common practice and reflects on applications of interactive rigid body simulation. The grand merger of interactive and off-line simulation methods is imminent, multi-core is everyman’s property. These observations pose future challenges for research which we reflect on. In perspective several avenues for possible future work is touched upon such as more descriptive models and contact point generation problems. This paper is not only a stake in the sand on what has been done, it also seeks to give newcomers practical hands on advices and reflections that can give experienced researchers afterthought for the future.",
+  "venue" : "EUROGRAPHICS 2012 State of the Art Reports, Eurographics Association, Cagliari, Sardinia, Italy.",
+  "paper-link" : "bender.ea12.pdf",
+  "icon-link" : "bender.ea12.png",
+  "month" : "July",
+  "year" : "2012"
+}
+
+
   "doi-link" : "https://doi.org/10.1145/3450508.3464571",
   "video-link" : "https://www.youtube.com/watch?v=5JZ-tYHsJKg",
   "web-link" : "https://siggraphcontact.github.io/",
-  "paper-link" : "https://profs.etsmtl.ca/sandrews/pdf/textureFriction_SCA21_preprint.pdf",
   "code-link" : "https://github.com/sheldona/contactFrictionSim",
   "publisher-link": "https://dl.acm.org/doi/10.1145/3450508.3464571",
-  "icon-link" : "andrews.erleben.21.png",
-  "month" : "July",
-  "year" : "2021"
-}
-
-Teaser
-Great overview of interactive rigid body simulation methods
-
-Subjects
-Digital Prototyping, Robotics & Computational Contact Mechanics
-
-
-Title
-Interactive Simulation of Rigid Body Dynamics in Computer Graphics
-
-Authors Jan Bender, Kenny Erleben, Jeff Trinkle, and Erwin Coumans
-
-Abstract
-Interactive rigid body simulation is an important part of many modern computer tools. No authoring tool nor a game engine can do without. The high performance computer tools open up new possibilities for changing how designers, engineers, modelers and animators work with their design problems. This paper is a self contained state-of-the-art report on the physics, the models, the numerical methods and the algorithms used in interactive rigid body simulation all of which has evolved and matured over the past 20 years. The paper covers applications and the usage of interactive rigid body simulation.
-Besides the mathematical and theoretical details that this paper communicates in a pedagogical manner the paper surveys common practice and reflects on applications of interactive rigid body simulation. The grand merger of interactive and off-line simulation methods is imminent, multi-core is everyman’s property. These observations pose future challenges for research which we reflect on. In perspective several avenues for possible future work is touched upon such as more descriptive models and contact point generation problems. This paper is not only a stake in the sand on what has been done, it also seeks to give newcomers practical hands on advices and reflections that can give experienced researchers afterthought for the future.
-
-BibTex
-
-@inproceedings{bender.ea12,
-  title =      "Interactive Simulation of Rigid Body Dynamics in Computer Graphics",
-  author =     "Jan Bender and Kenny Erleben and Jeff Trinkle and Erwin Coumans",
-  year =       "2012",  
-  booktitle =  "EUROGRAPHICS 2012 State of the Art Reports",
-  publisher =  "Eurographics Association",
-  location =   "Cagliari, Sardinia, Italy"
-}
-

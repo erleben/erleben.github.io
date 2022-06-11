@@ -1,10 +1,10 @@
 {
-  "title" : "Projected Gauss–Seidel Subspace Minimization Method for Interactive Rigid Body Dynamics",
+  "title" : "Projected Gauss–Seidel Subspace Minimization Method for Interactive Rigid Body Dynamics.",
   "authors" : "Morten Silcowitz, Sarah Niebe, Kenny Erleben",
   "abstract" : "In interactive physical simulation, contact forces are applied to prevent rigid bodies from penetrating and to control slipping between bodies. Accurate contact force determination is a computationally hard problem. Thus, in practice one trades accuracy for performance. This results in visual artifacts such as viscous or damped contact response. In this paper, we present a new approach to contact force determination. We formulate the contact force problem as a nonlinear complementarity problem, and discretize the problem to derive the Projected Gauss–Seidel method. We combine the Projected Gauss–Seidel method with a subspace minimization method. Our new method shows improved qualities and superior convergence properties for specific configurations.",
   "video-link" : "https://youtu.be/JZfw8FFgixo",
   "publisher-link": "https://link.springer.com/chapter/10.1007/978-3-642-25382-9_15",
-  "venue" : "In Computer Vision, Imaging and Computer Graphics. Theory and Applications. VISIGRAPP 2010. Communications in Computer and Information Science, vol 229. pp. 218–229. Springer, Berlin, Heidelberg.",
+  "venue" : "In Computer Vision, Imaging and Computer Graphics. Theory and Applications. VISIGRAPP 2010. Communications in Computer and Information Science, Volume 229. Pages 218–229. Springer, Berlin, Heidelberg.",
   "doi-link" : "https://doi.org/10.1007/978-3-642-25382-9_15",
   "icon-link" : "silcowitz.ea10c.png",
   "month" : "May",

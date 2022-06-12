@@ -25,6 +25,9 @@ def create_safe_link(root, link: str):
 
 
 def verify_image_size(link):
+    if link is None:
+        print("ERROR:  verify_image_size was called with None")
+        return False
     image = cv2.imread(link)
     height, width = image.shape[:2]
     if height == 128 and width == 128:
@@ -34,11 +37,27 @@ def verify_image_size(link):
         return False
 
 
+def style_name(name):
+    if "Kenny" in name:
+        return "<strong>" + name + "</strong>"
+    return name
+
+
 def generate_authors_text(data):
-    if not isinstance(data, list):
-        print("ERROR: ", data, " was not a list of author names")
-        return ""
-    return ""
+    """
+
+    :param data:
+    :return:
+    """
+    if isinstance(data, list):
+        authors = ""
+        for name in data:
+            if len(authors) > 0:
+                authors += ", "
+            authors += style_name(name)
+        return authors
+    else:
+        return style_name(data)
 
 
 def generate_html_links(base_name, root, data, links):

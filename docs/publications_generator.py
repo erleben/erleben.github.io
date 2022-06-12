@@ -6,9 +6,15 @@ import cv2
 
 def exist_url(url):
     try:
-        r = requests.head(url, allow_redirects=True)
+        r = requests.head(url, allow_redirects=True, timeout=10)
         if r.status_code == 200:
             return True
+        elif r.status_code == 503:
+            print("WARNING: " + url + " resulted in status code " + str(r.status_code))
+            return True
+        else:
+            print("ERROR: " + url + " resulted in status code " + str(r.status_code))
+            return False
     except:
         return False
 
@@ -51,8 +57,10 @@ def generate_authors_text(data):
     """
     if isinstance(data, list):
         authors = ""
-        for name in data:
-            if len(authors) > 0:
+        for idx, name in enumerate(data):
+            if idx == len(data)-1:
+                authors += " and "
+            elif idx > 0:
                 authors += ", "
             authors += style_name(name)
         return authors
@@ -82,7 +90,12 @@ def generate_html_links(base_name, root, data, links):
 def genereate_icon_tag(root, data):
     link = create_safe_link(root, data["icon-link"])
     verify_image_size(link)
-    return "<img src=\"" + link + "\" alt=\"paper icon\" width=\"64\" height=\"64\">"
+    tag = ""
+    tag += "<img src=\"" + link + "\" alt=\"paper icon\""
+    #tag += " width=\"64\""
+    #tag += " height=\"64\""
+    tag += ">"
+    return tag
 
 
 def trim(text):
@@ -158,6 +171,15 @@ if __name__ == '__main__':
     markdown_file.write("---\n")
     markdown_file.write("layout : default\n")
     markdown_file.write("---\n")
+
+    markdown_file.write("<style>\n")
+    markdown_file.write("img\n")
+    markdown_file.write("{\n")
+    markdown_file.write("    width: 64;\n")
+    markdown_file.write("    height: 64;\n")
+    markdown_file.write("}\n")
+    markdown_file.write("</style>\n")
+
     markdown_file.write("<h1>Publications</h1>\n")
     library = content.items()
     library = sorted(library, reverse=True)

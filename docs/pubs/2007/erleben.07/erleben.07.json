@@ -2,7 +2,7 @@
   "title" : "Velocity-based Shock Propagation for Multibody Dynamics Animation",
   "authors" : ["Kenny Erleben"],
   "abstract" : "Multibody dynamics are used in interactive and real-time applications, ranging from computer games to virtual prototyping, and engineering. All these areas strive towards faster and larger scale simulations. Particularly challenging are large-scale simulations with highly organized and structured stacking. We present a stable, robust, and versatile method for multibody dynamics simulation. Novel contributions include a new, explicit, fixed time-stepping scheme for velocity-based complementarity formulations using shock propagation with a simple reliable implementation strategy for an iterative complementarity problem solver specifically optimized for multibody dynamics.",
-  "doi-link" : "http://doi.acm.org/10.1145/1243980.1243986",
+  "doi-link" : "https://doi.org/10.1145/1243980.1243986",
   "video-link" : "https://youtu.be/fT-aD_xUI9I?list=PLNtAp--NfuioNyOrPiZ0O1i9cUnx4jeeh",
   "publisher-link": "https://dl.acm.org/doi/10.1145/1243980.1243986",
   "venue" : "ACM Transactions on Graphics, Volume 26, Issue 2, Pages 12–es",

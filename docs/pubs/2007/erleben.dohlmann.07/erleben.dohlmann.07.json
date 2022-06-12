@@ -1,6 +1,6 @@
 {
   "title" : "Signed Distance Fields Using Single-Pass GPU Scan Conversion of Tetrahedra.",
-  "authors" : "Kenny Erleben, Henrik Dohlmann",
+  "authors" : ["Kenny Erleben", "Henrik Dohlmann"],
   "venue" : "GPU Gems, Chapter 34.",
   "abstract" : "In this chapter we address the practicalities in computing a signed distance field. We present a method that accelerates the computation by using graphics hardware. Our method is simple to implement and offers a trade-off between performance and quality.",
   "paper-link" : "https://developer.nvidia.com/gpugems/GPUGems3/gpugems3_ch34.html",

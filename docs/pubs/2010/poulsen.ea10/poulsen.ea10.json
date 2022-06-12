@@ -1,6 +1,6 @@
 {
   "title" : "Heuristic Convergence Rate Improvements of the Projected Gauss–Seidel Method for Frictional Contact Problems.",
-  "authors" : "Morten Poulsen, Sarah Niebe, Kenny Erleben",
+  "authors" : ["Morten Poulsen", "Sarah Niebe", "Kenny Erleben"],
   "abstract" : "In interactive physical simulation, contact forces are applied to prevent rigid bodies from penetrating and control slipping between bodies. Accurate contact force determination is a computationally hard problem. Thus, in practice one trades accuracy for performance. The result is visual artifacts such as viscous or damped contact response. In this paper, we present heuristics for improving performance for solving contact force problems in interactive rigid body simulation. We formulate the contact force problem as a nonlinear complementarity problem, and discretize the problem using a splitting method and a minimum map reformulation. The resulting model is called the Projected Gauss–Seidel method. Quantitative research results are presented and can be used as a taxonomy for selecting a suitable heuristic when using the Projected Gauss–Seidel method.",
   "video-link" : ["https://youtu.be/revwWU5KCmU", "https://youtu.be/Ncn5SMEi7to", "https://youtu.be/ptVpyO30r6A"],
   "year" : "2010",

@@ -1,6 +1,6 @@
 {
   "title" : "A Fast Linear Complementarity Problem (LCP) Solver for Separating Fluid-Solid Wall Boundary Conditions.",
-  "authors" : "Michael Andersen, Sarah Niebe, Kenny Erleben",
+  "authors" : ["Michael Andersen", "Sarah Niebe", "Kenny Erleben"],
   "abstract" : "We address the task of computing solutions for a separating fluid-solid wall boundary condition model. We present an embarrassingly parallel, easy to implement, fluid LCP solver. We are able to use greater domain sizes than previous works have shown, due to our new solver. The solver exploits matrix-vector products as computational building blocks. We block the matrix-vector products in a way that allows us to evaluate the products, without having to assemble the full systems. Any iterative sub-solver can be used. Our work shows speedup factors ranging up to 500 for larger grid sizes.",
   "video-link" : ["https://www.youtube.com/watch?v=-omUUPVJ8jw", "https://youtu.be/dBJYuZOoZ-E", "https://youtu.be/p6ssUHxrDfk"],
   "icon-link" : "andersen.ea17b.png",

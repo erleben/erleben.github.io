@@ -1,6 +1,6 @@
 {
   "title" : "Numerical Methods for Linear Complementarity Problems in Physics-Based Animation.",
-  "authors" : "Kenny Erleben",
+  "authors" : ["Kenny Erleben"],
   "abstract" : "This course provides an introduction to the definition of linear complementarity problems (LCPs) and outlines the derivation of a toolbox of numerical methods. It also presents a small convergence study on the methods to illustrate their numerical properties. The course is a good introduction to implementing numerical methods, because it includes tips and tricks for implementation based on considerable practical experience.",
   "code-link" : "https://github.com/erleben/num4lcp",
   "publisher-link": "http://dl.acm.org/citation.cfm?id=2504443",

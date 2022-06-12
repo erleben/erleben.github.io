@@ -1,6 +1,6 @@
 {
   "title" : "A Fast Linear Complementarity Problem Solver for Fluid Animation using High Level Algebra Interfaces for GPU Libraries.",
-  "authors" : "Michael Andersen, Sarah Niebe, Kenny Erleben",
+  "authors" : ["Michael Andersen", "Sarah Niebe", "Kenny Erleben"],
   "abstract" : "We address the task of computing solutions for a separating solid wall boundary condition model. We present a parallel, easy to implement, fluid linear complementarity problem solver. All that is needed is the implementation of linear operators, using an existing high-level sparse algebra GPU library. No low-level GPU programming is necessary. This means we can rely on the efficiency of a tried-and-tested library, requiring minimal debugging compared to writing more low level GPU kernels. The solver exploits matrix-vector products as computational building blocks. We block the matrix-vector products in a way that allows us to evaluate the products, without having to assemble the full systems. Our work shows speedup factors ranging up to two orders of magnitudes for larger grid resolutions.",
   "video-link" : "https://youtu.be/-omUUPVJ8jw",
   "publisher-link": "https://www.sciencedirect.com/science/article/pii/S0097849317301589",

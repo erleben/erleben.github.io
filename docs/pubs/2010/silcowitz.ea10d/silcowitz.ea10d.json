@@ -1,6 +1,6 @@
 {
   "title" : "A Nonsmooth Nonlinear Conjugate Gradient Method for Interactive Contact Force Problems",
-  "authors" : "Morten Silcowitz, Sarah Niebe, Kenny Erleben",
+  "authors" : ["Morten Silcowitz", "Sarah Niebe", "Kenny Erleben"],
   "abstract" : "Interactive rigid body simulation is important for robot simulation and virtual design. A vital part of the simulation is the computation of contact forces. This paper addresses the contact force problem, as used in interactive simulation. The contact force problem can be formulated in the form of a nonlinear complementarity problem (NCP), which can be solved using an iterative splitting method, such as the projected Gauss–Seidel (PGS) method. We present a novel method for solving the NCP problem by applying a Fletcher–Reeves type nonlinear nonsmooth conjugate gradient (NNCG) type method. We analyze and present experimental convergence behavior and properties of the new method. Our results show that the NNCG method has at least the same convergence rate as PGS, and in many cases better.",
   "video-link" : "https://youtu.be/YOuco0fWlxo",
   "publisher-link": "https://link.springer.com/article/10.1007%2Fs00371-010-0502-6",

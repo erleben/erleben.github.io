@@ -1,6 +1,6 @@
 {
   "title" : "Inverse Kinematics Problems with Exact Hessian Matrices.",
-  "authors" : "Kenny Erleben, Sheldon Andrews",
+  "authors" : ["Kenny Erleben", "Sheldon Andrews"],
   "abstract" : "Inverse kinematics (IK) is a central component of systems for motion capture, character animation, motion planning, and robotics control. The field of computer graphics has developed fast stationary point solvers methods, such as the Jacobian transpose method and cyclic coordinate descent. Much work with Newton methods focus on avoiding directly computing the Hessian, and instead approximations are sought, such as in the BFGS class of solvers. This paper presents a numerical method for computing the exact Hessian of an IK system with spherical joints. It is applicable to human skeletons in computer animation applications and some, but not all, robots. Our results show that using exact Hessians can give performance advantages and higher accuracy compared to standard numerical methods used for solving IK problems. Furthermore, we provide code and supplementary details that allows researchers to plug-in exact Hessians in their own work with little effort.",
   "code-link" : "https://github.com/sheldona/hessianIK",
   "video-link" : "https://youtu.be/bGKV_ZxgQzU",

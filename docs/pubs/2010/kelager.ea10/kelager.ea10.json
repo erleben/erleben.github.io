@@ -1,6 +1,6 @@
 {
   "title" : "A Triangle Bending Constraint Model for Position-Based Dynamics.",
-  "authors" : "Micky Kelager, Sarah Niebe, Kenny Erleben",
+  "authors" : ["Micky Kelager", "Sarah Niebe", "Kenny Erleben"],
   "abstract" : "We present a novel bending model and constraint creation method for position-based dynamics. Our new bending model is introduced as an alternative to the current state-of-the-art dihedral bending model. Our model is motivated by geometric principles and works on virtual triangles. It has the same cheap computational cost as the stick constraint model but with higher simulation quality and faster convergence than the dihedral bending model. With the model a new global bending parameter is introduced that makes it easier and more intuitive to control the bending deformation. Further we propose a new constraint creation method that is well suited for the triangle bending model and is less affected by the underlying mesh tessellation.",
   "publisher-link": "https://diglib.eg.org/handle/10.2312/PE.vriphys.vriphys10.031-037",
   "video-link" : "https://youtu.be/KUikvs0LG5Y",

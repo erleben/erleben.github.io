@@ -1,6 +1,6 @@
 {
   "title" : "Normal and Friction Stabilization Techniques for Interactive Rigid Body Constraint-based Contact Force Computations.",
-  "authors" : "Morten Silcowitz, Sarah Niebe, Kenny Erleben",
+  "authors" : ["Morten Silcowitz", "Sarah Niebe", "Kenny Erleben"],
   "abstract" : "We present a novel, yet simple, method for stabilization of normal forces. A normal stabilization term, carefully designed from hypotheses about interactive usability, is added to the contact force problem. Further, we propose friction stabilization as a completely new stabilization paradigm in interactive simulation. We present a comparison between our normal stabilization method and the Baumgarte stabilization method under extreme interactive conditions. Preliminary results on friction stabilization are presented, showing both the potential advantages of the method and that there is still work to be done.",
   "video-link" : "https://youtu.be/4hxnANCBS7k",
   "publisher-link": "https://diglib.eg.org/handle/10.2312/PE.vriphys.vriphys10.089-095",

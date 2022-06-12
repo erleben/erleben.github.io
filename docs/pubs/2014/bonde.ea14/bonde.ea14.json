@@ -1,6 +1,6 @@
 {
   "title" : "Disjoint Domains Interactions Framework for Hyperelastic Simulations.",
-  "authors" : "Ulrik Bonde, Marek K. Misztal, Vincent Visseq, Kenny Erleben",
+  "authors" : ["Ulrik Bonde", "Marek K. Misztal", "Vincent Visseq", "Kenny Erleben"],
   "abstract" : "Contact interactions in the modeling of biomechanical systems are often simplified as Dirichlet or Neumann boundary conditions. The aim of this work is to propose a generic framework for the simulation of biomechanical disjoint domains and large transformations.",
   "video-link" : ["https://youtu.be/IvUc364Xn4g", "https://youtu.be/t6f0mf2Pxhk"],
   "paper-link" : "https://congress.cimne.com/iacm-eccomas2014/admin/files/fileabstract/a3793.pdf",

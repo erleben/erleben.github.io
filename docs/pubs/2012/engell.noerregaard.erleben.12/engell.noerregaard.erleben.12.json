@@ -1,6 +1,6 @@
 {
   "title" : "Activation Force Splines.",
-  "authors" : "Morten Engell-Nørregård, Kenny Erleben",
+  "authors" : ["Morten Engell-Nørregård", "Kenny Erleben"],
   "video-link" : "https://youtu.be/2mM8vdqz7tk",
   "abstract" : "We present a method for simulating the active contraction of deformable models, usable for interactive animation of soft deformable objects. We present a novel physical principle as the governing equation for the coupling between the low dimensional 1D activation force model and the higher dimensional 2D/3D deformable model. Our activation splines are easy to set up and can be used for physics based animation of deformable models such as snake motion and locomotion of characters. Our approach generalises easily to both 2D and 3D simulations and is applicable in physics based games or animations due to its simplicity and very low computational cost.",
   "venue" : "ACM/Eurographics Symposium on Computer Animation - Ecole Polytechnique Fédérale de Lausanne (EPFL), Lausanne, Switzerland.",

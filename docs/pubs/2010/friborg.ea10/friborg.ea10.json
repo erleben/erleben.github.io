@@ -1,6 +1,6 @@
 {
   "title" : "GPU Accelerated Likelihoods for Stereo-Based Articulated Tracking.",
-  "authors" : "Rune Møllergaard Friborg, Søren Hauberg, Kenny Erleben",
+  "authors" : ["Rune Møllergaard Friborg", "Søren Hauberg", "Kenny Erleben"],
   "abstract" : "For many years articulated tracking has been an active research topic in the computer vision community. While working solutions have been suggested, computational time is still problematic. We present a GPU implementation of a ray-casting based likelihood model that is orders of magnitude faster than a traditional CPU implementation. We explain the non-intuitive steps required to attain an optimized GPU implementation, where the dominant part is to hide the memory latency effectively. Benchmarks show that computations which previously required several minutes, are now performed in few seconds.",
   "publisher-link": "https://link.springer.com/chapter/10.1007%2F978-3-642-35740-4_28",
   "doi-link" : "https://doi.org/10.1007/978-3-642-35740-4_28,,,,

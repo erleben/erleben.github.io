@@ -1,6 +1,6 @@
 {
   "title" : "A Projected Back-tracking Line-search for Constrained Interactive Inverse Kinematics.",
-  "authors" : "Morten Engell-Nørregård, Kenny Erleben",
+  "authors" : ["Morten Engell-Nørregård", "Kenny Erleben"],
   "abstract" : "Inverse kinematics is the problem of manipulating the pose of an articulated figure in order to achieve a desired goal disregarding inertia and forces. One can approach the problem as a non-linear optimization problem or as non-linear equation solving. The former approach is superior in its generality and ability to generate realistic poses, whereas the latter approach is recognized for its low iteration cost. Therefore, many prefer equation solving over optimization for interactive applications. In this paper we present a projected gradient method for solving the inverse kinematics problem interactively, which exhibit good performance and precision. The method is compared to existing work in terms of visual quality and accuracy. Our method shows good convergence properties and deals with joint constraints in a simple and elegant manner. Our main contribution lies in the explicit incorporation of joint limits in an interactive solver. This makes it possible to compute the pose in each frame without the discontinuities exhibited by existing key frame animation techniques.",
   "video-link" : "http://youtu.be/QbOrgxWjRd8",
   "publisher-link": "https://www.sciencedirect.com/science/article/pii/S0097849310002098",

@@ -1,6 +1,6 @@
 {
   "title" : "Physics-based Animation.",
-  "authors" : "Kenny Erleben, Jon Sporring, Knud Henriksen, Henrik Dohlman",
+  "authors" : ["Kenny Erleben", "Jon Sporring", "Knud Henriksen", "Henrik Dohlman"],
   "venue" : "Charles River Media, Inc. Rockland, MA, USA.",
   "paper-link" : "erleben.ea05.pdf",
   "icon-link" : "erleben.ea05.png",

@@ -4,6 +4,7 @@
 @import "jekyll-theme-minimal";
 img.icon
 {
+    aspect-ratio: 1;
     width: 64px;
     height: 64px;
     background-color: white;

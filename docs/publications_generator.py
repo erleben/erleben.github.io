@@ -174,6 +174,7 @@ if __name__ == '__main__':
     markdown_file.write("<style>\n")
     markdown_file.write("img.icon\n")
     markdown_file.write("{\n")
+    markdown_file.write("    aspect - ratio: 1;\n")
     markdown_file.write("    width: 64px;\n")
     markdown_file.write("    height: 64px;\n")
     markdown_file.write("    background-color: white;\n")

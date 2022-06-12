@@ -1,10 +1,10 @@
 {
-  "title" : "Local Joint–Limits using Distance Field Cones in Euler Angle Space.",
+  "title" : "Local Joint–Limits using Distance Field Cones in Euler Angle Space",
   "authors" : ["Morten Engell-Nørregård", "Sarah Niebe", "Kenny Erleben"],
   "abstract" : "Joint–limits are often modeled too simple, causing redundancy and allowing unnatural poses. We model the boundary of the feasible region, using a geometric approach. We show how to generate fast, general joint–limit cones for kinematic ﬁgures using signed distance ﬁelds. The distance–cone joint–limits can support highly nonconvex joint–limits. The join–limit geometry is easily edited by an animator, either by adding or moving pose samples or sculpturing the distance–cones.",
   "video-link" : "https://youtu.be/_jfYRXalpH4",
   "icon-link" : "engell.noerregaard.ea10.png",
-  "venue" : "Computer Graphics International (CGI).",
+  "venue" : "Computer Graphics International (CGI)",
   "year" : "2010",
   "month" : "June",
   "paper-link" : "engell.noerregaard.ea10.pdf"

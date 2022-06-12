@@ -1,7 +1,7 @@
 {
-  "title" : "Stable, Robust, and Versatile Multibody Dynamics Animation.",
+  "title" : "Stable, Robust, and Versatile Multibody Dynamics Animation",
   "authors" : ["Kenny Erleben"],
-  "venue" : "PhD thesis, Department of Computer Science, University of Copenhagen.",
+  "venue" : "PhD thesis, Department of Computer Science, University of Copenhagen",
   "abstract" : "This dissertation is concerned with the theory and difficulties of stable, robust, and versatile multibody dynamics simulation for the purpose of computer animation. The subjects covered touch many aspects in simulation and animation including convergence rate, numerical errors, time-stepping, error-correction et cetera. From an algorithmic viewpoint, the most novel contributions are considered to be a velocity-based shock-propagation time-stepping scheme, and a method for computing general scripted motion. A formal presentation of contact graphs and their usage is given. Also discussed is insight into speed-up methods, object oriented design of constraints, and optimized and easy implementation of iterative linear complementarity problem (LCP) solvers. Contributions to the subject of collision detection include improvements of using signed distance maps for collision detection and contact point generation for box-box primitives. The focus of the dissertation is technical and theoretical. Great effort has been made to show clearly how one should approach an implementation of the presented material. An implementation of all the presented algorithms and data structures has been made publicly available in [113].",
   "video-link" : "https://www.youtube.com/watch?v=W9y8JhjpI-c&list=PLNtAp--NfuiqdWk3F4RtD0oxDs3vTtAmG",
   "icon-link" : "erleben.05.png",

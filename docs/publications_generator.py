@@ -79,32 +79,43 @@ def generate_html_links(base_name, root, data, links):
         links.append("<a href=\"" + href + "\">" + base_name + "</a>")
 
 
+def genereate_icon_tag(root, data):
+    link = create_safe_link(root, data["icon-link"])
+    verify_image_size(link)
+    return "<img src=\"" + link + "\" alt=\"paper icon\" width=\"64\" height=\"64\">"
+
+
+def trim(text):
+    if text.endswith("."):
+        return text[:-1]
+    return text
+
+
 def generate_html_paper(root, data):
     paper = ""
     paper += "<tr>\n"
     paper += "  <td>\n"
-    link = create_safe_link(root, data["icon-link"])
-    verify_image_size(link)
-    paper += "    <img src=\"" + link + "\" alt=\"paper icon\" width=\"64\" height=\"64\">\n"
+    paper += "    " + genereate_icon_tag(root, data) + "\n"
     paper += "  </td>\n"
     paper += "  <td>\n"
-    paper += "    " + generate_authors_text(data["authors"]) + ": " + data["title"] + "." + data["venue"] + " (" + data[
-        "year"] + ").<br>\n"
+    paper += "    " + generate_authors_text(data["authors"]) + ": "
+    paper += trim(data["title"]) + "."
+    paper += trim(data["venue"]) + " "
+    paper += "(" + data["year"] + ").<br>\n"
+
     links = []
+    if "paper-link" in data.keys():
+        generate_html_links("paper", root, data["paper-link"], links)
     if "video-link" in data.keys():
         generate_html_links("video", root, data["video-link"], links)
-    if "paper-link" in data.keys():
-        link = create_safe_link(root, data["paper-link"])
-        links.append("<a href=\"" + link + "\">paper</a>")
     if "code-link" in data.keys():
-        link = create_safe_link(root, data["code-link"])
-        links.append("<a href=\"" + link + "\">code</a>")
+        generate_html_links("code", root, data["code-link"], links)
     if "data-link" in data.keys():
-        link = create_safe_link(root, data["data-link"])
-        links.append("<a href=\"" + link + "\">data</a>")
+        generate_html_links("data", root, data["data-link"], links)
     if "web-link" in data.keys():
-        link = create_safe_link(root, data["web-link"])
-        links.append("<a href=\"" + link + "\">web</a>")
+        generate_html_links("web", root, data["web-link"], links)
+    if "doi-link" in data.keys():
+        generate_html_links("doi", root, data["doi-link"], links)
     N = len(links)
     if N > 0:
         paper += links[0]

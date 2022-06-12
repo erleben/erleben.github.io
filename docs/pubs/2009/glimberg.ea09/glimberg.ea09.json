@@ -1,10 +1,10 @@
 {
-  "title" : "Smoke Simulation for Fire Engineering using a Multigrid Method on Graphics Hardware.",
+  "title" : "Smoke Simulation for Fire Engineering using a Multigrid Method on Graphics Hardware",
   "authors" : ["Stefan Glimberg", "Kenny Erleben", "Jens C. Bennetsen"],
   "abstract" : "We present a GPU–based Computational Fluid Dynamics solver for the purpose of fire engineering. We apply a multigrid method to the Jacobi solver when solving the Poisson pressure equation, supporting internal boundaries. Boundaries are handled on the coarse levels, ensuring that boundaries will never vanish after restriction. We demonstrate cases where the multigrid solver computes results up to three times more accurate than the standard Jacobi method within the same time. Providing rich visual details and flows closer to widely accepted standards in fire engineering. Making accurate interactive physical simulation for engineering purposes, has the benefit of reducing production turn-around time. We have measured speed-up improvements by a factor of up to 350, compared to existing CPU-based solvers. The present CUDA-based solver promises huge potential in economical benefits, as well as constructions of safer and more complex buildings. In this paper, the multigrid method is applied to fire engineering. However, this is not a limitation, since improvements are possible for other fields as well. Traditional Jacobi solvers are particular suitable for the methods presented.",
   "publisher-link": "https://diglib.eg.org/handle/10.2312/PE.vriphys.vriphys09.011-020",
   "doi-link" : "https://doi.org/10.2312/PE/vriphys/vriphys09/011-020",
-  "venue" : "Workshop in Virtual Reality Interactions and Physical Simulation (VRIPHYS 2009).",
+  "venue" : "Workshop in Virtual Reality Interactions and Physical Simulation (VRIPHYS 2009)",
   "month" : "November",
   "year" : "2009",
   "icon-link" : "glimberg.ea09.png",

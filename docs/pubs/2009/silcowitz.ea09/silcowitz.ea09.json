@@ -1,10 +1,10 @@
 {
-  "title" : "Nonsmooth Newton Method for Fischer Function Reformulation of Contact Force Problems for Interactive Rigid Body Simulation.",
+  "title" : "Nonsmooth Newton Method for Fischer Function Reformulation of Contact Force Problems for Interactive Rigid Body Simulation",
   "authors" : ["Morten Silcowitz", "Sarah Niebe", "Kenny Erleben"],
   "abstract" : "In interactive physical simulation, contact forces are applied to prevent rigid bodies from penetrating each other. Accurate contact force determination is a computationally hard problem. Thus, in practice one trades accuracy for performance. The result is visual artifacts such as viscous or damped contact response. In this paper, we present a new approach to contact force determination. We reformulate the contact force problem as a nonlinear root search problem, using a Fischer function. We solve this problem using a generalized Newton method. Our new Fischer-Newton method shows improved qualities for specific configurations where the most widespread alternative, the Projected Gauss-Seidel method, fails. Experiments show superior convergence properties of the exact Fischer-Newton method.",
   "publisher-link": "https://diglib.eg.org/handle/10.2312/PE.vriphys.vriphys09.105-114",
   "doi-link" : "https://doi.org/10.2312/PE/vriphys/vriphys09/105-114",
-  "venue" : "Workshop in Virtual Reality Interactions and Physical Simulation (VRIPHYS 2009).",
+  "venue" : "Workshop in Virtual Reality Interactions and Physical Simulation (VRIPHYS 2009)",
   "month" : "November",
   "year" : "2009",
   "paper-link" : "https://diglib.eg.org/bitstream/handle/10.2312/PE.vriphys.vriphys09.105-114/105-114.pdf?sequence=1&isAllowed=y",

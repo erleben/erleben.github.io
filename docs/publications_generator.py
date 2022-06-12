@@ -177,6 +177,11 @@ if __name__ == '__main__':
     markdown_file.write("{\n")
     markdown_file.write("    width: 64px;\n")
     markdown_file.write("    height: 64px;\n")
+    markdown_file.write("    background-color: white;\n")
+    markdown_file.write("    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);\n")
+    markdown_file.write("    border: 1px solid #ddd;\n")
+    markdown_file.write("    border-radius: 4px;\n")
+    markdown_file.write("    padding: 4px;\n")
     markdown_file.write("}\n")
     markdown_file.write("</style>\n")
 

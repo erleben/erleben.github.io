@@ -56,14 +56,17 @@ def generate_authors_text(data):
     :return:
     """
     if isinstance(data, list):
-        authors = ""
-        for idx, name in enumerate(data):
-            if idx == len(data)-1:
-                authors += " and "
-            elif idx > 0:
-                authors += ", "
-            authors += style_name(name)
-        return authors
+        if len(data) == 1:
+            return style_name(data[0])
+        else:
+            authors = ""
+            for idx, name in enumerate(data):
+                if idx == len(data)-1:
+                    authors += " and "
+                elif idx > 0:
+                    authors += ", "
+                authors += style_name(name)
+            return authors
     else:
         return style_name(data)
 
@@ -111,7 +114,7 @@ def generate_html_paper(root, data):
     paper += "  </td>\n"
     paper += "  <td  class=\"text\">\n"
     paper += "    " + generate_authors_text(data["authors"]) + ": "
-    paper += trim(data["title"]) + "."
+    paper += trim(data["title"]) + ". "
     paper += trim(data["venue"]) + " "
     paper += "(" + data["year"] + ").<br>\n"
 

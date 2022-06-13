@@ -39,22 +39,32 @@
         </ul>
         {% endif %}
 
+
+
+        <style>
+          nav.ul.li {
+            text-decoration: none;
+          }
+          a.active {
+            text-decoration: none;
+            text-underline: black;
+          }
+          nav.ul.li.a:hover {
+            text-underline: black;
+          }
+        </style>
+
+
         <nav>
         <ul>
         {% for item in site.data.navigation %}
-          <li class="{% if item.url == page.url %}active{% endif %}">
-            <a href="{{ item.url }}">{{ item.title }}</a>
+          <li>
+            <a  class="{% if item.url == page.url %}active{% endif %}" href="{{ item.url }}">{{ item.title }}</a>
           </li>
         {% endfor %}
         </ul>
         </nav>
 
-        <style>
-          nav.ul.li.active {
-          color: lightgray;
-          cursor: default;
-          }
-        </style>
 
       </header>
       <section>

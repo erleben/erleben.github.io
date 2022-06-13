@@ -106,10 +106,10 @@ def trim(text):
 def generate_html_paper(root, data):
     paper = ""
     paper += "<tr>\n"
-    paper += "  <td>\n"
+    paper += "  <td class=\"pic\">\n"
     paper += "    " + genereate_icon_tag(root, data) + "\n"
     paper += "  </td>\n"
-    paper += "  <td>\n"
+    paper += "  <td  class=\"text\">\n"
     paper += "    " + generate_authors_text(data["authors"]) + ": "
     paper += trim(data["title"]) + "."
     paper += trim(data["venue"]) + " "
@@ -183,6 +183,33 @@ if __name__ == '__main__':
     markdown_file.write("    border-radius: 4px;\n")
     markdown_file.write("    padding: 4px;\n")
     markdown_file.write("}\n")
+    markdown_file.write("td.pic\n")
+    markdown_file.write("{\n")
+    markdown_file.write("    width: 80px;\n")
+    markdown_file.write("    text-align: center;\n")
+    markdown_file.write("    vertical-align: top;\n")
+    markdown_file.write("    padding-top: 10px;\n")
+    markdown_file.write("    padding-bottom: 10px;\n")
+    markdown_file.write("    padding-left: 0px;\n")
+    markdown_file.write("    padding-right: 0px;\n")
+    markdown_file.write("}\n")
+    markdown_file.write("td.text\n")
+    markdown_file.write("{\n")
+    markdown_file.write("    width: 320px;\n")
+    markdown_file.write("    text-align: left;\n")
+    markdown_file.write("    vertical-align: top;\n")
+    markdown_file.write("    padding-top: 10px;\n")
+    markdown_file.write("    padding-bottom: 10px;\n")
+    markdown_file.write("    padding-left: 0px;\n")
+    markdown_file.write("    padding-right: 0px;\n")
+    markdown_file.write("}\n")
+    markdown_file.write("table.pubs\n")
+    markdown_file.write("{\n")
+    markdown_file.write("    border: none;\n")
+    markdown_file.write("    width: 400px;\n")
+    markdown_file.write("    margin-left: auto;\n")
+    markdown_file.write("    margin-right: auto;\n")
+    markdown_file.write("}\n")
     markdown_file.write("</style>\n")
 
     markdown_file.write("<h1>Publications</h1>\n")
@@ -191,7 +218,7 @@ if __name__ == '__main__':
     for collection in library:
         markdown_file.write("\n")
         markdown_file.write("<h2>" + collection[0] + "</h2>\n")
-        markdown_file.write("<table>\n")
+        markdown_file.write("<table class=\"pubs\">\n")
         for paper in collection[1]:
             markdown_file.write(paper)
         markdown_file.write("</table>\n")

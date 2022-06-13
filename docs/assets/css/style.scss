@@ -13,3 +13,34 @@ img.icon
     border-radius: 4px;
     padding: 4px;
 }
+
+td.pic
+{
+    width: 80px;
+    text-align: center;
+    vertical-align: top;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+td.text
+{
+    width: 320px;
+    text-align: left;
+    vertical-align: top;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+table.pubs
+{
+    border: none;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+
+}

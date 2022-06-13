@@ -27,7 +27,7 @@ def create_safe_link(root, link: str):
         if os.path.exists(filename):
             return filename
     print("ERROR: Could not find link =", link)
-    return None
+    return link
 
 
 def verify_image_size(link):
@@ -84,10 +84,10 @@ def generate_html_links(base_name, root, data, links):
         for idx, link in enumerate(data):
             href = create_safe_link(root, link)
             link_name = base_name + str(idx + 1)
-            links.append("<a href=\"" + href + "\">" + link_name + "</a>")
+            links.append("<a class=\"link_button\" href=\"" + href + "\">" + link_name + "</a>")
     else:
         href = create_safe_link(root, data)
-        links.append("<a href=\"" + href + "\">" + base_name + "</a>")
+        links.append("<a class=\"link_button\" href=\"" + href + "\">" + base_name + "</a>")
 
 
 def genereate_icon_tag(root, data):
@@ -129,18 +129,20 @@ def generate_paper_table_row(root, data):
         generate_html_links("data", root, data["data-link"], links)
     if "web-link" in data.keys():
         generate_html_links("web", root, data["web-link"], links)
+    if "publisher-link" in data.keys():
+        generate_html_links("publisher", root, data["publisher-link"], links)
     if "doi-link" in data.keys():
-        generate_html_links("doi", root, data["doi-link"], links)
+        generate_html_links("DOI", root, data["doi-link"], links)
     N = len(links)
     if N > 0:
         paper += links[0]
         if N > 1:
-            paper += ", \n"
+            paper += " \n"
         for i in range(1, N):
             paper += "    " + links[i]
             if i < N - 1:
-                paper += ", \n"
-        paper += ".\n"
+                paper += " \n"
+        paper += "\n"
     paper += "  </td>\n"
     paper += "</tr>\n"
     return paper
@@ -172,6 +174,7 @@ if __name__ == '__main__':
     markdown_file = open("publications.html", 'w')
     markdown_file.write("---\n")
     markdown_file.write("layout : default\n")
+    markdown_file.write("permalink : publications\n")
     markdown_file.write("---\n")
 
     markdown_file.write("<style>\n")
@@ -212,6 +215,23 @@ if __name__ == '__main__':
     markdown_file.write("    width: 550px;\n")
     markdown_file.write("    margin-left: auto;\n")
     markdown_file.write("    margin-right: auto;\n")
+    markdown_file.write("}\n")
+    markdown_file.write("a.link_button {\n")
+    markdown_file.write("    background-color: #e5e5e5;\n")
+    markdown_file.write("    border: 1px solid #267CB9;\n")
+    markdown_file.write("    border-radius: 4px;\n")
+    markdown_file.write("    color: #267CB9;\n")
+    markdown_file.write("    padding-top: 0px;\n")
+    markdown_file.write("    padding-bottom: 0px;\n")
+    markdown_file.write("    padding-left: 2px;\n")
+    markdown_file.write("    padding-right: 2px;\n")
+    markdown_file.write("    text-decoration: none;\n")
+    markdown_file.write("    transition-duration: 0.4s;\n")
+    markdown_file.write("    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);\n")
+    markdown_file.write("}\n")
+    markdown_file.write("a.link_button:hover {\n")
+    markdown_file.write("    background-color: #069;\n")
+    markdown_file.write("    color: #e5e5e5;\n")
     markdown_file.write("}\n")
     markdown_file.write("</style>\n")
 

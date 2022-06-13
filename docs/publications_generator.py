@@ -106,7 +106,7 @@ def trim(text):
     return text
 
 
-def generate_html_paper(root, data):
+def generate_paper_table_row(root, data):
     paper = ""
     paper += "<tr>\n"
     paper += "  <td class=\"pic\">\n"
@@ -156,7 +156,7 @@ def read_json(directory: str):
                 try:
                     data = json.load(json_file)
                     year = data["year"]
-                    html_paper = generate_html_paper(root, data)
+                    html_paper = generate_paper_table_row(root, data)
                     if year not in content.keys():
                         content[year] = []
                     content[year].append(html_paper)
@@ -215,12 +215,16 @@ if __name__ == '__main__':
     markdown_file.write("}\n")
     markdown_file.write("</style>\n")
 
+    markdown_file.write("<table><tr><td>\n")
     markdown_file.write("<h1>Publications</h1>\n")
+    markdown_file.write("</td></tr></table>\n")
     library = content.items()
     library = sorted(library, reverse=True)
     for collection in library:
         markdown_file.write("\n")
+        markdown_file.write("<table><tr><td>\n")
         markdown_file.write("<h2>" + collection[0] + "</h2>\n")
+        markdown_file.write("</td></tr></table>\n")
         markdown_file.write("<table class=\"pubs\">\n")
         for paper in collection[1]:
             markdown_file.write(paper)

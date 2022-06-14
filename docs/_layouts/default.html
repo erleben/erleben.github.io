@@ -11,6 +11,20 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
     {% include head-custom.html %}
+
+        <style>
+          .nav_link {
+            text-decoration: none;
+          }
+          .nav_link_page {
+            text-decoration: none;
+            text-underline: black;
+          }
+          .nav_link:hover, .nav_link_page:hover {
+            text-underline: black;
+          }
+        </style>
+
   </head>
   <body>
     <div class="wrapper">
@@ -41,25 +55,11 @@
         {% endif %}
         -->
 
-        <style>
-          nav.ul.li {
-            text-decoration: none;
-          }
-          a.active {
-            text-decoration: none;
-            text-underline: black;
-          }
-          nav.ul.li.a:hover {
-            text-underline: black;
-          }
-        </style>
-
-
         <nav>
         <ul>
         {% for item in site.data.navigation %}
           <li>
-            <a  class="{% if item.url == page.url %}active{% endif %}" href="{{ item.url }}">{{ item.title }}</a>
+            <a  class="{% if item.url == page.url %} nav_link_page {% else %} nav_link {% endif %}" href="{{ item.url }}">{{ item.title }}</a>
           </li>
         {% endfor %}
         </ul>

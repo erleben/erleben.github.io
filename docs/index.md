@@ -1,3 +1,8 @@
+---
+layout : default
+permalink : /home/
+---
+
 # Welcome
 
 My name is Kenny Erleben and I am a professor in computer graphics and simulation at University of Copenhagen.

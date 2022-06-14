@@ -45,8 +45,8 @@ def verify_image_size(link):
 
 def style_name(name):
     if "Kenny" in name:
-        return "<strong>" + name + "</strong>"
-    return name
+        return "<u>" + name + "</u>"
+    return "<i>" + name + "</i>"
 
 
 def generate_authors_text(data):
@@ -113,8 +113,8 @@ def generate_paper_table_row(root, data):
     paper += "    " + genereate_icon_tag(root, data) + "\n"
     paper += "  </td>\n"
     paper += "  <td  class=\"text\">\n"
-    paper += "    " + generate_authors_text(data["authors"]) + ": "
-    paper += trim(data["title"]) + ". "
+    paper += "    <b>" + trim(data["title"]) + "</b>, by "
+    paper += generate_authors_text(data["authors"]) + ". "
     paper += trim(data["venue"]) + " "
     paper += "(" + data["year"] + ").<br>\n"
 
@@ -137,12 +137,12 @@ def generate_paper_table_row(root, data):
     if N > 0:
         paper += links[0]
         if N > 1:
-            paper += " \n"
+            paper += ", \n"
         for i in range(1, N):
             paper += "    " + links[i]
             if i < N - 1:
-                paper += " \n"
-        paper += "\n"
+                paper += ",\n"
+        paper += ".\n"
     paper += "  </td>\n"
     paper += "</tr>\n"
     return paper

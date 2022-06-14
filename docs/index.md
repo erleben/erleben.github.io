@@ -5,13 +5,16 @@ layout : default
 
 # Welcome
 
-My name is Kenny Erleben and I am a professor in computer graphics and simulation at University of Copenhagen.
+My name is Kenny Erleben. I am a professor in computer graphics and simulation at the Department of Computer Science, University of Copenhagen, Denmark.
 
-I am leading a reserach section named [IMAGE](https://di.ku.dk/english/research/image/) at University of Copenhagen. One can read more about the IMAGE section on this [web-site](https://diku-dk.github.io/IMAGE/) too. IMAGE has about 15 faculty staff, 5 Postdocs and 30 PhDs. The numbers fluctuates a bit depending on funding and projects that we are involved in. IMAGE is organized into smaller reserach teams or labs, my own team is called RAINBOW and has about 15 people.
+<img  src="/assets/img/kenny.jpg" alt="Kenny Erleben" width="128"/>
 
-In my team we are really interested in how to build simulators and how to use data-driven approaches together with simulation. Hence, our work ranges from inventing new numerical methods for simulation to use simulation for generating data for machine learning or learning physical models from real-world data. Some of the topics that I am currently very much interested in are:
+I am leading a research section named <a class="link_button" href="https://di.ku.dk/english/research/image/">IMAGE</a>. One can read more about the IMAGE section on this <a class="link_button" href="https://diku-dk.github.io/IMAGE/">web-site</a> too. IMAGE has about 15 faculty staff, 5 Postdocs and 30 PhDs. The numbers fluctuate a bit depending on funding and projects that we are involved in. IMAGE is organized into smaller research teams or labs, my own team is called RAINBOW and has about 15 people.
 
-- High fidelity contact simulations with complex geoemtry.
+
+In my team we are really interested in how to build simulators and how to use data-driven approaches together with simulation. Hence, our work ranges from inventing new numerical methods for simulation to use simulation for generating data for machine learning or learning physical models from real-world data. Some topics that I am currently very much interested in are:
+
+- High fidelity contact simulations with complex geometry.
 - Differentiable simulation for computer-based design and control of medical devices and soft-robots.
 - Data-driven constitutive equations for more accurate simulations.
 - Automated creation of large scale finite-element model collections from medical images (digital populations).
@@ -19,29 +22,28 @@ In my team we are really interested in how to build simulators and how to use da
 
 All of the above items have one common challenge that need to be solved, namely that someone has to invent and build a simulator.
 
-One can have a glimpse at the kind of reserach topcis that I really like to work with from the selection of research papers on this [publications](publications.html) page. Many of the works on this page have links to movies and supplementary material as well.
-
+One can have a glimpse at the kind of research topics that I really like to work with from the selection of research papers on this <a class="link_button" href="/publications/">publications</a> page. Many of the works on this page have links to movies and supplementary material as well.
 
 ## Bibliometrics
 
 Here is a list of links for various online places that keep track of all my research papers.
 
-- Google Scholar: [CQkvlpUAAAAJ&hl](https://scholar.google.com/citations?user=CQkvlpUAAAAJ&hl)
-- ResearchGate: [Kenny-Erleben](https://www.researchgate.net/profile/Kenny-Erleben/4)
-- ORCID: [0000-0001-6808-4747](https://orcid.org/0000-0001-6808-4747)
-- DBLP: [88/4453](https://dblp.org/pid/88/4453.html)
-- Semantic Scholar: [2253410](https://www.semanticscholar.org/author/Kenny-Erleben/2253410)
+- Google Scholar: <a class="link_button" href="https://scholar.google.com/citations?user=CQkvlpUAAAAJ&hl">CQkvlpUAAAAJ&hl</a>
+- ResearchGate: <a class="link_button" href="https://www.researchgate.net/profile/Kenny-Erleben/4">Kenny-Erleben</a>
+- ORCID: <a class="link_button" href="https://orcid.org/0000-0001-6808-4747">0000-0001-6808-4747</a>
+- DBLP: <a class="link_button" href="https://dblp.org/pid/88/4453.html">88/4453</a>
+- Semantic Scholar: <a class="link_button" href="https://www.semanticscholar.org/author/Kenny-Erleben/2253410">2253410</a>
 
 ## Social media
 
-I have a few social media accounts as well, mostly for sharing the good scientific events and results that I have been part of.
+I use these mostly for sharing news about scientific events or research results.
 
-- LinkedIn: [kenny-erleben-1054aa2](https://www.linkedin.com/in/kenny-erleben-1054aa2)
-- Twitter: [KErleben](https://twitter.com/KErleben)
+- LinkedIn: <a class="link_button" href="https://www.linkedin.com/in/kenny-erleben-1054aa2">kenny-erleben-1054aa2</a>
+- Twitter: <a class="link_button" href="https://twitter.com/KErleben">KErleben</a>
 
 ## Coding
 
-I am a computer sciencetist at heart and I really love to code when I get the chance to actual do it. Below you can find a few of my own private projects that I am tinkering with whenever I have the chance.
+I really love to code when I get the chance to actually do it. Below you can find a few of my own private projects that I am tinkering with whenever I have the chance.
 
 - Github: [github.com/erleben](https://github.com/erleben/)
 

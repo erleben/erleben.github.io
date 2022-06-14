@@ -38,28 +38,35 @@ table.pubs {
 }
 .link_button {
   background-color: #FFFFFF;
+  color: #267CB9;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  font-weight: normal !important;
   //border: 1px solid #267CB9;
   //border-radius: 4px;
-  color: #267CB9;
   //padding-top: 1px;
   //padding-bottom: 1px;
   //padding-left: 2px;
   //padding-right: 2px;
-  text-decoration: none;
-  transition-duration: 0.4s;
   //box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 .link_button:hover {
   background-color: #069;
   color: #FFFFFF;
+  font-weight: normal !important;
 }
 .nav_link {
+  color: #267CB9;
   text-decoration: none;
+  font-weight: normal !important;
 }
 .nav_link_page {
-  text-decoration: none;
-  text-underline: black;
+  color: #069;
+  text-decoration: underline #069 solid;
+  font-weight: normal !important;
 }
 .nav_link:hover, .nav_link_page:hover {
-  text-underline: black;
+  color: #069;
+  text-decoration: underline #069 solid;
+  font-weight: normal !important;
 }

@@ -94,7 +94,7 @@ def genereate_icon_tag(root, data):
     link = create_safe_link(root, data["icon-link"])
     verify_image_size(link)
     tag = ""
-    tag += "<img src=\"" + link + "\" alt=\"paper icon\""
+    tag += "<img src=\"/" + link + "\" alt=\"paper icon\""
     tag += " class =\"icon\""
     tag += ">"
     return tag

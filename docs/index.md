@@ -1,6 +1,6 @@
 ---
 layout : default
-permalink : /home/
+
 ---
 
 # Welcome

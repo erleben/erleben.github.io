@@ -36,25 +36,30 @@ table.pubs {
   margin-left: auto;
   margin-right: auto;
 }
-a.link_button {
-  background-color: #e5e5e5;
-  border: 1px solid #267CB9;
-  border-radius: 4px;
+.link_button {
+  background-color: #FFFFFF;
+  //border: 1px solid #267CB9;
+  //border-radius: 4px;
   color: #267CB9;
-  padding-top: 1px;
-  padding-bottom: 1px;
-  padding-left: 2px;
-  padding-right: 2px;
+  //padding-top: 1px;
+  //padding-bottom: 1px;
+  //padding-left: 2px;
+  //padding-right: 2px;
   text-decoration: none;
   transition-duration: 0.4s;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  //box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
-a.link_button:hover {
+.link_button:hover {
   background-color: #069;
-  color: #e5e5e5;
+  color: #FFFFFF;
 }
-
-
-
-
-
+.nav_link {
+  text-decoration: none;
+}
+.nav_link_page {
+  text-decoration: none;
+  text-underline: black;
+}
+.nav_link:hover, .nav_link_page:hover {
+  text-underline: black;
+}

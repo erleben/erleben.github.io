@@ -113,7 +113,9 @@ def generate_paper_table_row(root, data):
     paper += "    " + genereate_icon_tag(root, data) + "\n"
     paper += "  </td>\n"
     paper += "  <td  class=\"text\">\n"
-    paper += "    <b>" + trim(data["title"]) + "</b>, by "
+    if "prize" in data.keys():
+        paper += "    " + trim(data["prize"]) + ": "
+    paper += "<b>" + trim(data["title"]) + "</b>, by "
     paper += generate_authors_text(data["authors"]) + ". "
     paper += trim(data["venue"]) + " "
     paper += "(" + data["year"] + ").<br>\n"
@@ -121,6 +123,12 @@ def generate_paper_table_row(root, data):
     links = []
     if "paper-link" in data.keys():
         generate_html_links("paper", root, data["paper-link"], links)
+    if "abstract-link" in data.keys():
+        generate_html_links("abstract", root, data["abstract-link"], links)
+    if "poster-link" in data.keys():
+        generate_html_links("poster", root, data["poster-link"], links)
+    if "supp-link" in data.keys():
+        generate_html_links("supplementary", root, data["supp-link"], links)
     if "video-link" in data.keys():
         generate_html_links("video", root, data["video-link"], links)
     if "code-link" in data.keys():

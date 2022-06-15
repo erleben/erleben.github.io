@@ -4,7 +4,7 @@
   "abstract" : "Foam is the natural phenomenon of bubbles that arise due to nucleation of gas in liquids. The current state of art in Computer Graphics rarely includes foam effects on large scales. In this paper we introduce a vertexbased, quasi-static equilibrium model from the field of Computational Physics as a new paradigm for foam effects. Dynamic processes like gas diffusion and bubble collapse are added prior equilibration. Animationwise the numerical model is well behaved and stable and can converge even if the foam is locally ill-defined. A novel contribution is the Ghost-Bubble method that allows foam simulations with free dynamic boundary conditions. The presented model is interesting and well suited for 2D graphics applications like video games and procedural or animated textures.",
   "video-link" : "https://youtu.be/jErbihMrKo8",
   "web-link" : "http://www.glowinggoo.com/foam/",
-  "venue" : "In Proceedings of GRAPP 2010, International Conference on Computer Graphics Theory and Applications, Pages. 296-303, Angers, France.",
+  "venue" : "Proceedings of GRAPP 2010, International Conference on Computer Graphics Theory and Applications, Pages. 296-303, Angers, France.",
   "year" : "2010",
   "paper-link" : "kelager.erleben.10.pdf",
   "icon-link" : "kelager.erleben.10.png",

@@ -1,9 +1,5 @@
-
 .DS_Store
 .idea/
-*.mp4
-*.m4v
-*.mov
 docs/.sass-cache/
 docs/_site/
 Gemfile~

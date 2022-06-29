@@ -19,13 +19,16 @@ def exist_url(url):
         return False
 
 
-def create_safe_link(root, link: str):
+def create_safe_link(root, link: str, permalink=False):
     if exist_url(link):
         return link
     else:
         filename = root + "/" + link
         if os.path.exists(filename):
-            return filename
+            if permalink:
+                return "/" + filename
+            else:
+                return filename
     print("ERROR: Could not find link =", link)
     return link
 
@@ -82,19 +85,19 @@ def generate_html_links(base_name, root, data, links):
     """
     if isinstance(data, list):
         for idx, link in enumerate(data):
-            href = create_safe_link(root, link)
+            href = create_safe_link(root, link, permalink=True)
             link_name = base_name + str(idx + 1)
             links.append("<a class=\"link_button\" href=\"" + href + "\">" + link_name + "</a>")
     else:
-        href = create_safe_link(root, data)
+        href = create_safe_link(root, data, permalink=True)
         links.append("<a class=\"link_button\" href=\"" + href + "\">" + base_name + "</a>")
 
 
 def genereate_icon_tag(root, data):
-    link = create_safe_link(root, data["icon-link"])
+    link = create_safe_link(root, data["icon-link"], permalink=False)  # We need to local file path and not the permalink file on the server
     verify_image_size(link)
     tag = ""
-    tag += "<img src=\"/" + link + "\" alt=\"paper icon\""
+    tag += "<img src=\"/" + link + "\" alt=\"paper icon\""             # Observe we added the slash here to get the permalink path on the server.
     tag += " class =\"icon\""
     tag += ">"
     return tag

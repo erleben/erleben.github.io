@@ -123,6 +123,10 @@ def generate_paper_table_row(root, data):
     links = []
     if "paper-link" in data.keys():
         generate_html_links("paper", root, data["paper-link"], links)
+    if "book-link" in data.keys():
+        generate_html_links("book", root, data["book-link"], links)
+    if "thesis-link" in data.keys():
+        generate_html_links("thesis", root, data["thesis-link"], links)
     if "abstract-link" in data.keys():
         generate_html_links("abstract", root, data["abstract-link"], links)
     if "poster-link" in data.keys():

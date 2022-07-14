@@ -9,6 +9,10 @@
   "year" : "2009",
   "paper-link" : "https://diglib.eg.org/bitstream/handle/10.2312/PE.vriphys.vriphys09.105-114/105-114.pdf?sequence=1&isAllowed=y",
   "video-link" : "https://youtu.be/i8HIkuqkt7U",
-  "icon-link" : "silcowitz.ea09.png"
+  "icon-link" : "silcowitz.ea09.png",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "conference",
+  "BFI": "None"
 }
 

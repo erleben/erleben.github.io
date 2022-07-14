@@ -9,7 +9,11 @@
   "year" : "2009",
   "icon-link" : "glimberg.ea09.png",
   "video-link" : [ "https://youtu.be/4zvKLKgyvvY", "https://youtu.be/6FhoGD2RCMw", "https://youtu.be/0R8VIQOeAj0"],
-  "paper-link" : "http://diglib.eg.org/bitstream/handle/10.2312/PE.vriphys.vriphys09.011-020/011-020.pdf?sequence=1&isAllowed=y"
+  "paper-link" : "http://diglib.eg.org/bitstream/handle/10.2312/PE.vriphys.vriphys09.011-020/011-020.pdf?sequence=1&isAllowed=y",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "conference",
+  "BFI": "None"
 }
 
 

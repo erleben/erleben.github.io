@@ -8,5 +8,9 @@
   "publisher-link": "https://link.springer.com/chapter/10.1007/978-3-030-70123-9_3",
   "icon-link" : "gholamalizadeh.ea21b.png",
   "month" : "July",
-  "year" : "2021"
+  "year" : "2021",
+  "corresponding": "False",
+  "reviewed": "True",
+  "type": "conference",
+  "BFI": "None"
 }

@@ -20,6 +20,10 @@ class PaperInfo:
         self.is_book = False
         self.is_book_chapter = False
         self.is_course_notes = False
+        self.is_abstract = False
+        self.is_poster = False
+        self.is_thesis = False
+        self.is_star = False
         self.venue = None
 
 
@@ -28,12 +32,36 @@ def parse_json_paper_data(json_paper_data):
 
     paper_info.venue = json_paper_data["venue"]
 
+    if "True" in json_paper_data["reviewed"]:
+        paper_info.is_peer_reviewed = True
+    if "True" in json_paper_data["corresponding"]:
+        paper_info.is_corresponding_author = True
     if "prize" in json_paper_data.keys():
         paper_info.has_prize = True
+    paper_info.BFI = json_paper_data["BFI"]
+    if "journal" in json_paper_data["type"]:
+        paper_info.is_journal = True
+    elif "course" in json_paper_data["type"]:
+        paper_info.is_course_notes = True
+    elif "conference" in json_paper_data["type"]:
+        paper_info.is_conference = True
+    elif "abstract" in json_paper_data["type"]:
+        paper_info.is_abstract = True
+    elif "chapter" in json_paper_data["type"]:
+        paper_info.is_book_chapter = True
+    elif "book" in json_paper_data["type"]:
+        paper_info.is_book = True
+    elif "poster" in json_paper_data["type"]:
+        paper_info.is_poster = True
+    elif "star" in json_paper_data["type"]:
+        paper_info.is_star = True
+    elif "thesis" in json_paper_data["type"]:
+        paper_info.is_thesis = True
+    else:
+        print("Unknown publication type =", json_paper_data["type"])
 
     my_author_name = "Kenny Erleben"
     author_data = json_paper_data["authors"]
-
     if isinstance(author_data, list):
         if len(author_data) == 1:
             # Verify that author name is me
@@ -79,6 +107,18 @@ if __name__ == '__main__':
     nb_single_author = 0
     nb_last_author = 0
     nb_prizes = 0
+    nb_corresponding_author = 0
+    nb_peer_reviewed = 0
+    nb_journals = 0
+    nb_conferences = 0
+    nb_workshops = 0
+    nb_books = 0
+    nb_book_chapters = 0
+    nb_course_notes = 0
+    nb_abstracts = 0
+    nb_posters = 0
+    nb_theses = 0
+    nb_stars = 0
 
     venues = {"ACM Transactions on Graphics": 0, "VRIPHYS": 0, "Symposium on Computer Animation": 0, "SIGGRAPH": 0,
               "Computer Graphics Forum": 0, "MIG": 0, "Computers & Graphics": 0,
@@ -87,6 +127,31 @@ if __name__ == '__main__':
     production = {}
 
     for paper in papers:
+        if paper.is_corresponding_author:
+            nb_corresponding_author += 1
+        if paper.is_peer_reviewed:
+            nb_peer_reviewed += 1
+        if paper.is_journal:
+            nb_journals += 1
+        if paper.is_conference:
+            nb_conferences += 1
+        if paper.is_workshop:
+            nb_workshops += 1
+        if paper.is_book:
+            nb_books += 1
+        if paper.is_book_chapter:
+            nb_book_chapters += 1
+        if paper.is_course_notes:
+            nb_course_notes += 1
+        if paper.is_abstract:
+            nb_abstracts += 1
+        if paper.is_poster:
+            nb_posters += 1
+        if paper.is_thesis:
+            nb_theses += 1
+        if paper.is_star:
+            nb_stars += 1
+
         for key in venues.keys():
             if key in paper.venue:
                 venues[key] += 1
@@ -115,6 +180,36 @@ if __name__ == '__main__':
           " single authored works.",
           nb_single_author,
           " prizes received."
+          )
+
+    print("Corresponding author on ",
+          nb_corresponding_author,
+          "works. Total of ",
+          nb_peer_reviewed,
+          "peer reviewed works."
+          )
+    print(
+          "Published works distributed as follows:\n \t",
+          nb_journals,
+          " journals, ",
+          nb_conferences,
+          " conferences, ",
+          nb_workshops,
+          " workshops, ",
+          nb_books,
+          " books, ",
+          nb_book_chapters,
+          " book chapters, ",
+          nb_course_notes,
+          " course notes, ",
+          nb_abstracts,
+          " abstracts, ",
+          nb_posters,
+          " posters, ",
+          nb_theses,
+          " theses, ",
+          nb_stars,
+          " state-of-the-art reports."
           )
 
     years = sorted(production.items(), reverse=False)

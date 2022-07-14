@@ -11,5 +11,9 @@
   "publisher-link": "https://dl.acm.org/doi/10.1145/3450508.3464571",
   "icon-link" : "andrews.erleben.21.png",
   "month" : "July",
-  "year" : "2021"
+  "year" : "2021",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "course notes",
+  "BFI": "None"
 }

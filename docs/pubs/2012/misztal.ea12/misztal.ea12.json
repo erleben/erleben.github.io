@@ -9,7 +9,11 @@
   "icon-link" : "misztal.ea12.png",
   "month" : "July",
   "year" : "2012",
-  "prize": "SCA best paper award on fluid animation."
+  "prize": "SCA best paper award on fluid animation.",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "conference",
+  "BFI": "None"
 }
 
 

@@ -6,5 +6,9 @@
   "paper-link" : "https://developer.nvidia.com/gpugems/GPUGems3/gpugems3_ch34.html",
   "month" : "August",
   "year" : "2007",
-  "icon-link" : "erleben.dohlmann.07.png"
+  "icon-link" : "erleben.dohlmann.07.png",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "book chapter",
+  "BFI": "None"
 }

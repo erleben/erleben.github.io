@@ -6,8 +6,12 @@
   "venue" : "ACM/Eurographics Symposium on Computer Animation - Ecole Polytechnique Fédérale de Lausanne (EPFL), Lausanne, Switzerland.",
   "month" : "July",
   "year" : "2012",
-  "paper-link" : "engell.noerregaard.erleben.12.pdf",
-  "icon-link" : "engell.noerregaard.erleben.12.png"
+  "poster-link" : "engell.noerregaard.erleben.12.pdf",
+  "icon-link" : "engell.noerregaard.erleben.12.png",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "poster",
+  "BFI": "None"
 }
 
 

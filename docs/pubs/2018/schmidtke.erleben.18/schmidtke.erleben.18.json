@@ -10,5 +10,9 @@
   "icon-link" : "schmidtke.erleben.18.png",
   "venue" : "IEEE Transactions on Visualization and Computer Graphics, Volume 24, Number 12, Pages 3044-3057.",
   "doi-link" : "https://doi.org/10.1109/TVCG.2017.2784441",
-  "paper-link" : "schmidtke.erleben.18.pdf"
+  "paper-link" : "schmidtke.erleben.18.pdf",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "journal",
+  "BFI": "None"
 }

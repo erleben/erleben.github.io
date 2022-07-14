@@ -9,6 +9,10 @@
   "year" : "2010",
   "doi-link" : "https://doi.org/10.1007/s00371-010-0502-6",
   "venue" : "Visual Computer, Volume 26, Issue 6-8, Pages 893–901.",
-  "paper-link" : "silcowitz.ea10d.pdf"
+  "paper-link" : "silcowitz.ea10d.pdf",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "journal",
+  "BFI": "None"
 }
 

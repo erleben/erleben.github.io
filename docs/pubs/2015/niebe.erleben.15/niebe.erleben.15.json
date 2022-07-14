@@ -8,7 +8,12 @@
   "year" : "2015",
   "venue" : "Book series: Synthesis Lectures on Computer Graphics and Animation, 159 pages.",
   "code-link" : "https://github.com/erleben/num4lcp",
-  "icon-link" : "niebe.erleben.15.png"
+  "icon-link" : "niebe.erleben.15.png",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "book",
+  "BFI": "None"
+
 }
 
 

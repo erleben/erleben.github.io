@@ -9,5 +9,9 @@
   "doi-link" : "https://doi.org/10.1145/3338695",
   "icon-link" : "macklin.erleben.ea19.png",
   "month" : "October",
-  "year" : "2019"
+  "year" : "2019",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "journal",
+  "BFI": "None"
 }

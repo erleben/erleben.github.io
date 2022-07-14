@@ -8,5 +8,9 @@
   "publisher-link": "https://amses-journal.springeropen.com/articles/10.1186/s40323-021-00197-2",
   "icon-link" : "claus.ea21.png",
   "month" : "June",
-  "year" : "2021"
+  "year" : "2021",
+  "corresponding": "False",
+  "reviewed": "True",
+  "type": "journal",
+  "BFI": "None"
 }

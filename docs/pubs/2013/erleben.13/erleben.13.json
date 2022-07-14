@@ -8,6 +8,10 @@
   "doi-link" : "https://doi.org/10.1145/2504435.2504443",
   "venue" : "SIGGRAPH '13: ACM SIGGRAPH 2013 Courses, Issue 8, Pages 1–42.",
   "month" : "July",
-  "year" : "2013"
+  "year" : "2013",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "course notes",
+  "BFI": "None"
 }
 

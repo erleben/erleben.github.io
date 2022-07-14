@@ -10,5 +10,9 @@
   "year" : "2012",
   "doi-link" : "https://doi.org/10.1007/s11044-011-9296-1",
   "icon-link" : "engell.noerregaard.ea12.png",
-  "paper-link" : "engell.noerregaard.ea12.pdf"
+  "paper-link" : "engell.noerregaard.ea12.pdf",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "journal",
+  "BFI": "None"
 }

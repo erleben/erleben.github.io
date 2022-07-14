@@ -9,5 +9,9 @@
   "publisher-link": "https://www.sciencedirect.com/science/article/pii/S0097849318301730",
   "icon-link" : "erleben.andrews.19.png",
   "month" : "February",
-  "year" : "2019"
+  "year" : "2019",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "journal",
+  "BFI": "None"
 }

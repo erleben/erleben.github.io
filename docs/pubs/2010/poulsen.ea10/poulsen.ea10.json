@@ -7,7 +7,11 @@
   "icon-link" : "poulsen.ea10.png",
   "venue" : "Proceedings of 18-th International Conference in Central Europe on Computer Graphics, Visualization and Computer Vision (WSCG).",
   "month" : "February",
-  "publisher-link": "http://wscg.zcu.cz/WSCG2010/Papers_2010/!_2010_FULL-proceedings.pdf"
+  "publisher-link": "http://wscg.zcu.cz/WSCG2010/Papers_2010/!_2010_FULL-proceedings.pdf",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "conference",
+  "BFI": "None"
 }
 
 

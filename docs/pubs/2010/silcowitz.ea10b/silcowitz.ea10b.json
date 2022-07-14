@@ -8,7 +8,11 @@
   "abstract-link" : "silcowitz.ea10.abstract.pdf",
   "icon-link" : "silcowitz.ea10b.png",
   "month" : "July",
-  "year" : "2010"
+  "year" : "2010",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "poster",
+  "BFI": "None"
 }
 
 

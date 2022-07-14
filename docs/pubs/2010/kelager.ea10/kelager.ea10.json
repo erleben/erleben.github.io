@@ -9,7 +9,11 @@
   "venue" : "Workshop in Virtual Reality Interactions and Physical Simulation (VRIPHYS)",
   "year" : "2010",
   "doi-link" : "http://dx.doi.org/10.2312/PE/vriphys/vriphys10/031-037",
-  "month" : "November"
+  "month" : "November",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "conference",
+  "BFI": "None"
 }
 
 

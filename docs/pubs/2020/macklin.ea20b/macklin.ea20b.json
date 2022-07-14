@@ -12,7 +12,11 @@
   "publisher-link": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.14104",
   "icon-link" : "macklin.ea20b.png",
   "month" : "November",
-  "year" : "2020"
+  "year" : "2020",
+  "corresponding": "False",
+  "reviewed": "True",
+  "type": "journal",
+  "BFI": "None"
 }
 
 

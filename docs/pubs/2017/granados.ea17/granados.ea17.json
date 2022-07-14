@@ -8,5 +8,9 @@
   "paper-link" : "granados.ea17.pdf",
   "icon-link" : "granados.ea17.png",
   "month" : "February",
-  "year" : "2017"
+  "year" : "2017",
+  "corresponding": "False",
+  "reviewed": "True",
+  "type": "journal",
+  "BFI": "None"
 }

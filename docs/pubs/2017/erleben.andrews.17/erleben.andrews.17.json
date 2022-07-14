@@ -11,5 +11,10 @@
   "publisher-link": "https://dl.acm.org/doi/10.1145/3136457.3136464",
   "icon-link" : "erleben.andrews.17.png",
   "month" : "November",
-  "year" : "2017"
+  "prize": "Best paper prize",
+  "year" : "2017",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "conference",
+  "BFI": "None"
 }

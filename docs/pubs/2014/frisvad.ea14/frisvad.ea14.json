@@ -8,6 +8,11 @@
   "year" : "2014",
   "venue" : "Computer Graphics Forum, Volume 33, Issue 6, Pages 252-263.",
   "paper-link" : "frisvad.ea14.pdf",
-  "icon-link" : "frisvad.ea14.png"
+  "icon-link" : "frisvad.ea14.png",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "journal",
+  "BFI": "None"
+
 }
 

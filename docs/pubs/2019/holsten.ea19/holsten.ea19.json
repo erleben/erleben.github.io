@@ -9,5 +9,9 @@
   "paper-link": "holsten.ea19.pdf",
   "icon-link" : "holsten.ea19.png",
   "month" : "May",
-  "year" : "2019"
+  "year" : "2019",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "conference",
+  "BFI": "None"
 }

@@ -9,6 +9,10 @@
   "doi-link" : "http://dx.doi.org/10.2312/PE/vriphys/vriphys10/089-095",
   "paper-link" : "https://diglib.eg.org/bitstream/handle/10.2312/PE.vriphys.vriphys10.089-095/089-095.pdf?sequence=1&isAllowed=y",
   "month" : "November",
-  "year" : "2010"
+  "year" : "2010",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "conference",
+  "BFI": "None"
 }
 

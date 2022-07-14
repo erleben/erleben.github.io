@@ -9,6 +9,10 @@
   "publisher-link": "https://dspace5.zcu.cz/handle/11025/10882",
   "paper-link" : "https://dspace5.zcu.cz/bitstream/11025/10882/1/Engell-Norregard.pdf",
   "code-link" : "https://github.com/erleben/OpenTissue/blob/master/OpenTissue/kinematics/inverse/inverse_estimate_joints.h",
-  "icon-link" : "engell.noerregaard.erleben.09.png"
+  "icon-link" : "engell.noerregaard.erleben.09.png",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "conference",
+  "BFI": "None"
 }
 

@@ -8,5 +8,9 @@
   "doi-link" : "http://dx.doi.org/10.2312/conf/EG2012/stars/095-134",
   "icon-link" : "bender.ea12.png",
   "month" : "July",
-  "year" : "2012"
+  "year" : "2012",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "star paper",
+  "BFI": "None"
 }

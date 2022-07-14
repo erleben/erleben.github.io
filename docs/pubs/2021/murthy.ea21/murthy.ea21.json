@@ -9,5 +9,9 @@
   "video-link" : "https://www.youtube.com/watch?v=QHC55bSUe0A&feature=youtu.be",
   "web-link" :  "https://gradsim.github.io/",
   "code-link" : "https://github.com/gradsim/gradsim",
-  "icon-link" : "murthy.ea21.png"
+  "icon-link" : "murthy.ea21.png",
+  "corresponding": "False",
+  "reviewed": "True",
+  "type": "poster",
+  "BFI": "None"
 }

@@ -10,5 +10,9 @@
   "web-link" :  "https://paulschreiner.netlify.app/publication/globalpositions_sca2021/",
   "doi-link" : "https://doi.org/10.1145/3479985",
   "publisher-link" : "https://dl.acm.org/doi/abs/10.1145/3479985",
-  "icon-link" : "schreiner.ea21.png"
+  "icon-link" : "schreiner.ea21.png",
+  "corresponding": "False",
+  "reviewed": "True",
+  "type": "journal",
+  "BFI": "None"
 }

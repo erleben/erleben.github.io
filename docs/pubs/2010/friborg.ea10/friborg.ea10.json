@@ -8,5 +8,9 @@
   "icon-link" : "friborg.ea10.png",
   "paper-link" : "https://link.springer.com/content/pdf/10.1007/978-3-642-35740-4_28.pdf",
   "year" : "2010",
-  "month" : "September"
+  "month" : "September",
+  "corresponding": "False",
+  "reviewed": "True",
+  "type": "conference",
+  "BFI": "None"
 }

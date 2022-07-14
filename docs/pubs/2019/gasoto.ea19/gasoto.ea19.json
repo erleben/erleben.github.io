@@ -9,5 +9,9 @@
   "poster-link" : "gasoto.ea19.poster.pdf",
   "icon-link" : "gasoto.ea19.png",
   "month" : "May",
-  "year" : "2019"
+  "year" : "2019",
+  "corresponding": "False",
+  "reviewed": "True",
+  "type": "conference",
+  "BFI": "None"
 }

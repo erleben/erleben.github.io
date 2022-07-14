@@ -9,5 +9,9 @@
   "year" : "2017",
   "venue" : "Computers & Graphics, Volume 69, Pages 36-48.",
   "doi-link" : "https://doi.org/10.1016/j.cag.2017.09.006",
-  "paper-link" : "andersen.ea17.pdf"
+  "paper-link" : "andersen.ea17.pdf",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "journal",
+  "BFI": "None"
 }

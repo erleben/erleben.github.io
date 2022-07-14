@@ -9,5 +9,9 @@
   "paper-link" : "https://mmacklin.com/sdfcontact.pdf",
   "icon-link" : "macklin.ea20.png",
   "month" : "April",
-  "year" : "2020"
+  "year" : "2020",
+  "corresponding": "False",
+  "reviewed": "True",
+  "type": "journal",
+  "BFI": "None"
 }

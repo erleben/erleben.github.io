@@ -8,6 +8,11 @@
   "doi-link" : "https://doi.org/10.1007/978-3-642-25382-9_15",
   "icon-link" : "silcowitz.ea10c.png",
   "month" : "May",
-  "year" : "2010"
+  "year" : "2010",
+  "prize": "Best paper award",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "conference",
+  "BFI": "None"
 }
 

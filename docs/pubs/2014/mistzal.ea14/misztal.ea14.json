@@ -9,7 +9,11 @@
   "doi-link" : "https://doi.org/10.1109/TVCG.2013.97",
   "paper-link" : "misztal.ea14.pdf",
   "month" : "January",
-  "year" : "2014"
+  "year" : "2014",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "journal",
+  "BFI": "None"
 }
 
 

@@ -6,6 +6,11 @@
   "month" : "September",
   "year" : "2014",
   "paper-link" : "granados.ea14.pdf",
-  "icon-link" : "granados.ea14.png"
+  "icon-link" : "granados.ea14.png",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "conference",
+  "BFI": "None"
+
 }
 

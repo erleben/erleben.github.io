@@ -7,5 +7,9 @@
   "year" : "2014",
   "venue" : "World Congress on Computational Mechanics (WCCM XI).",
   "icon-link" : "visseq.ea14.png",
-  "abstract-link" : "https://congress.cimne.com/iacm-eccomas2014/admin/files/fileabstract/a3475.pdf"
+  "abstract-link" : "https://congress.cimne.com/iacm-eccomas2014/admin/files/fileabstract/a3475.pdf",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "abstract",
+  "BFI": "None"
 }

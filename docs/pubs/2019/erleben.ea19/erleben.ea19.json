@@ -12,5 +12,9 @@
   "code-link" : "https://github.com/erleben/matchstick",
   "icon-link" : "erleben.ea19.png",
   "month" : "November",
-  "year" : "2019"
+  "year" : "2019",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "journal",
+  "BFI": "None"
 }

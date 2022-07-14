@@ -9,5 +9,9 @@
   "venue" : "VRIPHYS '17: Proceedings of the 13th Workshop on Virtual Reality Interactions and Physical Simulations, Pages 39–48.",
   "doi-link" : "https://doi.org/10.2312/vriphys.20171082",
   "publisher-link": "https://diglib.eg.org/handle/10.2312/vriphys20171082",
-  "paper-link" : "https://diglib.eg.org/bitstream/handle/10.2312/vriphys20171082/039-048.pdf?sequence=1&isAllowed=y"
+  "paper-link" : "https://diglib.eg.org/bitstream/handle/10.2312/vriphys20171082/039-048.pdf?sequence=1&isAllowed=y",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "conference",
+  "BFI": "None"
 }

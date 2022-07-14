@@ -12,5 +12,9 @@
   "icon-link" : "holsten.ea18.png",
   "month" : "June",
   "year" : "2018",
-  "prize" : "Best Poster Prize."
+  "prize" : "Best Poster Prize.",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "poster",
+  "BFI": "None"
 }

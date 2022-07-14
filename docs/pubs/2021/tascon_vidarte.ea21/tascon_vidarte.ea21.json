@@ -9,5 +9,10 @@
   "doi-link" : "https://doi.org/10.1007/978-3-030-87592-3_13",
   "paper-link" : "tascon_vidarte.ea21.pdf",
   "research-gate-link": "https://www.researchgate.net/publication/354724631_Cine-MRI_Simulation_to_Evaluate_Tumor_Tracking",
-  "icon-link" : "tascon_vidarte.ea21.png"
+  "icon-link" : "tascon_vidarte.ea21.png",
+  "corresponding": "False",
+  "reviewed": "True",
+  "type": "conference",
+  "BFI": "None"
+
 }

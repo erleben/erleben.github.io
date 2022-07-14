@@ -9,5 +9,9 @@
   "publisher-link": "https://dl.acm.org/doi/10.1145/3099564.3099575",
   "icon-link" : "erleben.17.png",
   "month" : "July",
-  "year" : "2017"
+  "year" : "2017",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "conference",
+  "BFI": "None"
 }

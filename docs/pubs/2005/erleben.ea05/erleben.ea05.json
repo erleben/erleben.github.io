@@ -4,6 +4,10 @@
   "venue" : "Charles River Media, Inc. Rockland, MA, USA",
   "book-link" : "erleben.ea05.pdf",
   "icon-link" : "erleben.ea05.png",
-  "year" : "2005"
+  "year" : "2005",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "book",
+  "BFI": "None"
 }
 

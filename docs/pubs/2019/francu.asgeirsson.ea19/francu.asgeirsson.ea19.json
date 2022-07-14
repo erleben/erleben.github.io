@@ -9,6 +9,10 @@
   "publisher-link": "https://dl.acm.org/doi/10.1145/3359566.3360079",
   "icon-link" : "francu.asgeirsson.ea19.png",
   "month" : "October",
-  "year" : "2019"
+  "year" : "2019",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "conference",
+  "BFI": "None"
 }
 

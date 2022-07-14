@@ -9,6 +9,10 @@
   "paper-link" : "engell.noerregaard.erleben.11.pdf",
   "icon-link" : "engell.noerregaard.erleben.11.png",
   "month" : "April",
-  "year" : "2011"
+  "year" : "2011",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "journal",
+  "BFI": "None"
 }
 

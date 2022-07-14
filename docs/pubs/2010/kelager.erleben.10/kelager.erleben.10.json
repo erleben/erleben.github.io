@@ -8,5 +8,10 @@
   "year" : "2010",
   "paper-link" : "kelager.erleben.10.pdf",
   "icon-link" : "kelager.erleben.10.png",
-  "month" : "May"
+  "publisher-link": "https://www.scitepress.org/Link.aspx?doi=10.5220/0002849002960303",
+  "month" : "May",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "conference",
+  "BFI": "None"
 }

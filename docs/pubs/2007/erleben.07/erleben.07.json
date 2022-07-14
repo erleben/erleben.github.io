@@ -9,5 +9,9 @@
   "paper-link" : "erleben.07.pdf",
   "icon-link" : "erleben.07.png",
   "month" : "June",
-  "year" : "2007"
+  "year" : "2007",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "journal",
+  "BFI": "None"
 }

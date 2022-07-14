@@ -5,5 +5,10 @@
   "icon-link" : "andrews.ea17.png",
   "month" : "June",
   "year" : "2017",
-  "abstract-link" : "andrews.ea17.pdf"
+  "abstract-link" : "andrews.ea17.pdf",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "abstract",
+  "BFI": "None"
+
 }

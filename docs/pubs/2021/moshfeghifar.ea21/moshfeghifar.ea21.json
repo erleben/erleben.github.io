@@ -7,5 +7,9 @@
   "code-link" : "https://github.com/diku-dk/cargen",
   "icon-link" : "moshfeghifar.ea21.png",
   "month" : "September",
-  "year" : "2021"
+  "year" : "2021",
+  "corresponding": "False",
+  "reviewed": "True",
+  "type": "conference",
+  "BFI": "None"
 }

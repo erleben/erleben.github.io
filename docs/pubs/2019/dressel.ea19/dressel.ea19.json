@@ -10,7 +10,11 @@
   "doi-link" : "https://doi.org/10.1109/CRV.2019.00029",
   "icon-link" : "dressel.ea19.png",
   "month" : "May",
-  "year" : "2019"
+  "year" : "2019",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "conference",
+  "BFI": "None"
 }
 
 

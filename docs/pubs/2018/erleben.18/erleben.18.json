@@ -8,5 +8,9 @@
   "year" : "2018",
   "icon-link" : "erleben.18.png",
   "doi-link" : "https://doi.org/10.1145/3096239",
-  "video-link" : "https://youtu.be/Vo10gXD47Bs"
+  "video-link" : "https://youtu.be/Vo10gXD47Bs",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "journal",
+  "BFI": "None"
 }

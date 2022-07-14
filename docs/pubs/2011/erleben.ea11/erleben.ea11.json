@@ -9,6 +9,10 @@
   "paper-link" : "erleben.ea11.pdf",
   "icon-link" : "erleben.ea11.png",
   "month" : "August",
-  "year" : "2011"
+  "year" : "2011",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "conference",
+  "BFI": "None"
 }
 

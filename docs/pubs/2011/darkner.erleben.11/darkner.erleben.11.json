@@ -8,7 +8,11 @@
   "doi-link" : "https://doi.org/10.1007/s00371-011-0574-y",
   "month" : "June",
   "venue" : "Visual Computer, Volume 27, Issue 6-8, Pages 645–653.",
-  "paper-link" : "darkner.erleben.11.pdf"
+  "paper-link" : "darkner.erleben.11.pdf",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "journal",
+  "BFI": "None"
 }
 
 

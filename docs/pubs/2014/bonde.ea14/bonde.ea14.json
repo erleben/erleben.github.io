@@ -7,7 +7,11 @@
   "month" : "July",
   "year" : "2014",
   "icon-link" : "bonde.ea14.png",
-  "venue" : "World Congress on Computational Mechanics (WCCM XI)."
+  "venue" : "World Congress on Computational Mechanics (WCCM XI).",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "abstract",
+  "BFI": "None"
 }
 
 

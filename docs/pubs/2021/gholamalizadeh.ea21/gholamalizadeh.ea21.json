@@ -9,5 +9,9 @@
   "publisher-link": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0259794",
   "icon-link" : "gholamalizadeh.ea21.png",
   "month" : "November",
-  "year" : "2021"
+  "year" : "2021",
+  "corresponding": "False",
+  "reviewed": "True",
+  "type": "journal",
+  "BFI": "None"
 }

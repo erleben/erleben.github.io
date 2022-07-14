@@ -7,7 +7,11 @@
   "month" : "February",
   "year" : "2014",
   "doi-link" : " https://doi.org/10.1111/cgf.12272",
-  "icon-link" : "bender.ea14.png"
+  "icon-link" : "bender.ea14.png",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "journal",
+  "BFI": "None"
 }
 
 

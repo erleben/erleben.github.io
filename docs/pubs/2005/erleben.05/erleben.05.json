@@ -6,5 +6,9 @@
   "video-link" : "https://www.youtube.com/watch?v=W9y8JhjpI-c&list=PLNtAp--NfuiqdWk3F4RtD0oxDs3vTtAmG",
   "icon-link" : "erleben.05.png",
   "thesis-link": "erleben.05.pdf",
-  "year" : "2005"
+  "year" : "2005",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "thesis",
+  "BFI": "None"
 }

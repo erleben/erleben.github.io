@@ -1,0 +1,16 @@
+{
+  "title" : "Accuracy and consistency of intensity-based deformable image registration in 4DCT for tumor motion estimation in liver radiotherapy planning.",
+  "authors" : ["José D. Tascón-Vidarte" ,"Line Bjerregaard Stick","Mirjana Josipovic","Signe Risum", "Julien Jomier", "Kenny Erleben", "Ivan Richter Vogelius", "Sune Darkner"],
+  "publisher-link" : "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0271064",
+  "venue" : "PLoS ONE, Volume 17, Number 7, e0271064, Pages 1-15.",
+  "abstract" : "We investigate the accuracy of intensity-based deformable image registration (DIR) for tumor localization in liver stereotactic body radiotherapy (SBRT). We included 4DCT scans to capture the breathing motion of eight patients receiving SBRT for liver metastases within a retrospective clinical study. Each patient had three fiducial markers implanted. The liver and the tumor were delineated in the mid-ventilation phase, and their positions in the other phases were estimated with deformable image registration. We tested referenced and sequential registrations strategies. The fiducial markers were the gold standard to evaluate registration accuracy. The registration errors related to measured versus estimated fiducial markers showed a mean value less than 1.6mm. The positions of some fiducial markers appeared not stable on the 4DCT throughout the respiratory phases. Markers’ center of mass tends to be a more reliable measurement. Distance errors of tumor location based on registration versus markers center of mass were less than 2mm. There were no statistically significant differences between the reference and the sequential registration, i.e., consistency and errors were comparable to resolution errors. We demonstrated that intensity-based DIR is accurate up to resolution level for locating the tumor in the liver during breathing motion.",
+  "doi-link" : "https://doi.org/10.1371/journal.pone.0271064",
+  "month" : "July",
+  "year" : "2022",
+  "paper-link" : "tascon_vidarte.ea22.pdf",
+  "icon-link" : "tascon_vidarte.ea22.png",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "Journal",
+  "BFI": "1"
+}

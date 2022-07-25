@@ -1,0 +1,17 @@
+{
+  "title" : "Open-Full-Jaw: An open-access dataset and pipeline for finite element models of human jaw.",
+  "authors" : ["Torkan Gholamalizadeh", "Faezeh Moshfeghifar", "Zachary Ferguson", "Teseo Schneider", "Daniele Panozzo", "Sune Darkner", "Masrour Makaremi", "François Chan", "Peter Lampel Søndergaard", "Kenny Erleben"],
+  "venue" : "Computer Methods and Programs in Biomedicine, Volume 224.",
+  "abstract" : "Background: State-of-the-art finite element studies on human jaws are mostly limited to the geometry of a single patient. In general, developing accurate patient-specific computational models of the human jaw acquired from cone-beam computed tomography (CBCT) scans is labor-intensive and non-trivial, which involves time-consuming human-in-the-loop procedures, such as segmentation, geometry reconstruction, and re-meshing tasks. Therefore, with the current practice, researchers need to spend considerable time and effort to produce finite element models (FEMs) to get to the point where they can use the models to answer clinically-interesting questions. Besides, any manual task involved in the process makes it difficult for the researchers to reproduce identical models generated in the literature. Hence, a quantitative comparison is not attainable due to the lack of surface/volumetric meshes and FEMs. Methods: We share an open-access repository composed of 17 patient-specific computational models of human jaws and the utilized pipeline for generating them for reproducibility of our work. The used pipeline minimizes the required time for processing and any potential biases in the model generation process caused by human intervention. It gets the segmented geometries with irregular and dense surface meshes and provides reduced, adaptive, watertight, and conformal surface/volumetric meshes, which can directly be used in finite element (FE) analysis. Results: We have quantified the variability of our 17 models and assessed the accuracy of the developed models from three different aspects; (1) the maximum deviations from the input meshes using the Hausdorff distance as an error measurement, (2) the quality of the developed volumetric meshes, and (3) the stability of the FE models under two different scenarios of tipping and biting. Conclusions: The obtained results indicate that the developed computational models are precise, and they consist of quality meshes suitable for various FE scenarios. We believe the provided dataset of models including a high geometrical variation obtained from 17 different models will pave the way for population studies focusing on the biomechanical behavior of human jaws.",
+  "doi-link" : "https://doi.org/10.1016/j.cmpb.2022.107009",
+  "paper-link" : "gholamalizadeh.ea22.pdf",
+  "icon-link" : "gholamalizadeh.ea22.png",
+  "code-link" : "https://github.com/diku-dk/Open-Full-Jaw",
+  "publisher-link": "https://www.sciencedirect.com/science/article/pii/S0169260722003911",
+  "month" : "September",
+  "year" : "2022",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "journal",
+  "BFI": "1"
+}

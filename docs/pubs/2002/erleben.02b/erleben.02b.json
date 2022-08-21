@@ -1,0 +1,18 @@
+{
+  "title" : "Module Based Design for Rigid Body Simulators.",
+  "authors" : ["Kenny Erleben"],
+  "abstract" : "In this paper we outline a module design for a rigid body simulator. The purpose of the module design is to clarify how many parts a simulator consist of and how these parts work together. The module design can be used as a guideline for how one should implement a simulator. The paper contributes to the field of dynamics simulation by introducing the concepts of a time control module, a motion solver and a contact analysis module.",
+  "doi-link" : "",
+  "video-link" : "",
+  "publisher-link": "https://di.ku.dk/forskning/Publikationer/tekniske_rapporter/tekniske-rapporter-2002/02-06.pdf",
+  "venue" : "Technical Report, Department of Computer Science, University of Copenhagen, Number 02/06.",
+  "paper-link" : "erleben.02b.pdf",
+  "icon-link" : "erleben.02b.png",
+  "code-link": "",
+  "month" : "",
+  "year" : "2002",
+  "corresponding": "True",
+  "reviewed": "False",
+  "type": "techreport",
+  "BFI": "None"
+}

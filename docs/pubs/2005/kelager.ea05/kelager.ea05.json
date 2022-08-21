@@ -1,0 +1,17 @@
+{
+  "title" : "Area and Volume Restoration in Elastically Deformable Solids.",
+  "authors" : ["Micky Kelager", "Anders Fleron", "Kenny Erleben"],
+  "abstract" : "This paper describes an improvement of a classical energy-based model to simulate elastically deformable solids. The classical model lacks the ability to prevent the collapsing of solids under influence of external forces, such as user interactions and collision. A thorough explanation is given for the origins of instabilities, and extensions that solve the issues are proposed to the physical model. Within the original framework of the classical model a complete restoration of area and volume is introduced. The improved model is suitable for interactive simulation and can recover from volumetric collapsing, in particular upon large deformation.",
+  "doi-link" : "https://doi.org/10.5565/rev/elcvia.104",
+  "video-link" : "https://www.youtube.com/watch?v=-lrlrL9fBeM",
+  "publisher-link": "https://elcvia.cvc.uab.cat/article/view/v5-n3-kelager-fleron-erleben",
+  "venue" : "Special issue on Articulated Motion & Deformable Objects in Electronic Letters on Compuer Vision and Image Analysis (ELCVIA), Volume 5, Number 3, Pages 32-43.",
+  "paper-link" : "kelager.ea05.pdf",
+  "icon-link" : "kelager.ea05.png",
+  "month" : "August",
+  "year" : "2005",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "journal",
+  "BFI": "None"
+}

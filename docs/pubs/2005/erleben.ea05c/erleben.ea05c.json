@@ -1,0 +1,17 @@
+{
+  "title" : "OpenTissue - An Open Source Toolkit for Physics-Based Animation.",
+  "authors" : ["Kenny Erleben", "Jon Sporring", "Henrik Dohlmann"],
+  "abstract" : "OpenTissue is a multidisciplinary, open source programming toolkit for physics-based simulation, collision detection, scientific visualization, and medical imaging. The toolkit was initiated in 2001, is driven by academia, and is used by several universities. It implements several cutting edge simulators using cutting edge programming techniques. OpenTissue is available under Windows and Linux, and it implements almost all algorithms presented in the accompanying book, Erleben et al. Physics-Based Animation, Charles River Media, 2005. This presentation will give an overview of OpenTissue: what it can do, how it is done, and where the toolkit is going.",
+  "doi-link" : " https://doi.org/10.54294/ffe8x0",
+  "video-link" : "",
+  "publisher-link": "http://hdl.handle.net/1926/34",
+  "venue" : "The Insight Journal - 2005 MICCAI Open-Source Workshop.",
+  "paper-link" : "erleben.ea05c.pdf",
+  "icon-link" : "erleben.ea05c.png",
+  "month" : "August",
+  "year" : "2005",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "journal",
+  "BFI": "None"
+}

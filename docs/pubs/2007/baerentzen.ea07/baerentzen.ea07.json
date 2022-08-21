@@ -1,0 +1,18 @@
+{
+  "title" : "Boneless Pose Editing and Animation.",
+  "authors" : ["Jakob Andreas Bærentzen", "Kristian Evers Hansen",  "Kenny Erleben"],
+  "abstract" : "In this paper, we propose a pose editing and animation method for triangulated surfaces based on a user controlled partitioning of the model into deformable parts and rigid parts which are denoted handles. In our pose editing system, the user can sculpt a set of poses simply by transforming the handles for each pose. Using Laplacian editing, the deformable parts are deformed to match the handles. In our animation system the user can constrain one or several handles in order to define a new pose. New poses are interpolated from the examples poses, by solving a small non-linear optimization problem in order to obtain the interpolation weights. While the system can be used simply for building poses, it is also an animation system. The user can specify a path for a given constraint and the model is animated correspondingly.",
+  "video-link" : "",
+  "venue" : "In B. K. Ersbøll, & K. S. Pedersen (Eds.), Image Analysis: 15th Scandinavian Conference, SCIA, Aalborg, Denmark, Pages 562-571. Springer. Lecture notes in computer science, Volume 4522.",
+  "month" : "June",
+  "year" : "2007",
+  "doi-link": "https://doi.org/10.1007/978-3-540-73040-8_57",
+  "publisher-link": "https://link.springer.com/chapter/10.1007/978-3-540-73040-8_57",
+  "paper-link" : "baerentzen.ea07.pdf",
+  "code-link" : "",
+  "icon-link" : "baerentzen.ea07.png",
+  "corresponding": "False",
+  "reviewed": "True",
+  "type": "conference",
+  "BFI": "None"
+}

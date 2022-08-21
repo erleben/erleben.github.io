@@ -1,0 +1,17 @@
+{
+  "title" : "Using Implicit Skeleton Shape Representations for Volumetric Shell Meshing.",
+  "authors" : ["Kenny Erleben"],
+  "abstract" : "",
+  "doi-link" : "",
+  "video-link" : "",
+  "publisher-link": "https://di.ku.dk/forskning/Publikationer/tekniske_rapporter/tekniske-rapporter-2007/07-04.pdf",
+  "venue" : "Technical Report, Datalogisk Institut, Københavns Universitet Number 07/04",
+  "paper-link" : "erleben.07b.pdf",
+  "icon-link" : "erleben.07b.png",
+  "month" : "",
+  "year" : "2007",
+  "corresponding": "True",
+  "reviewed": "False",
+  "type": "techreport",
+  "BFI": "None"
+}

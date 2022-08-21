@@ -1,0 +1,18 @@
+{
+  "title" : "Spatial and Temporal Ray Differentials.",
+  "authors" : ["Jon Sporring", "Lars Schjøth", "Kenny Erleben"],
+  "abstract" : "",
+  "video-link" : "",
+  "venue" : "Department of Computer Science, University of Copenhagen. Technical Report Volume 2009 Number 04.",
+  "month" : "",
+  "year" : "2009",
+  "publisher-link": "https://di.ku.dk/forskning/Publikationer/tekniske_rapporter/tekniske-rapporter-2009/Samlet_teknisk_rapport_09-04.pdf",
+  "paper-link" : "sporring.ea09.pdf",
+  "doi-link": "",
+  "code-link" : "",
+  "icon-link" : "sporring.ea09.png",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "techreport",
+  "BFI": "None"
+}

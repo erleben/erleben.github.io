@@ -1,0 +1,18 @@
+{
+  "title" : "Guessing tangents in normal flows.",
+  "authors" : ["Bo Markussen", "Jon Sporring", "Kenny Erleben"],
+  "abstract" : "Given a flow field parallel to isophote normals, a normal flow field, we seek a unobservable tangential field as the minimum of a general energy functional of the total field. We generalize existing methods to any linear, differential operator order on the combined field while keeping the projection onto the isophote normal constant. We discuss invariant flow fields, present a novel iterative solution based on Euler-Lagrange equations, prove continuous convergence, and give synthetic examples for common energy functionals. Possible uses are: estimating physical flow in image sequences, estimating human growth processes, and co-warping textures in animation sequences.",
+  "video-link" : "",
+  "venue" : "Journal of Mathematical Imaging and Vision, Volume 31, Number 2-3, Pages 195-205.",
+  "month" : "May",
+  "year" : "2008",
+  "publisher-link": "https://link.springer.com/article/10.1007/s10851-008-0082-5",
+  "paper-link" : "markussen.ea08.pdf",
+  "doi-link": "https://doi.org/10.1007/s10851-008-0082-5",
+  "code-link" : "",
+  "icon-link" : "markussen.ea08.png",
+  "corresponding": "False",
+  "reviewed": "True",
+  "type": "journal",
+  "BFI": "None"
+}

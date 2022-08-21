@@ -1,0 +1,19 @@
+{
+  "title" : "A Multi-Scale Singularity Bounding Volume Hierarchy.",
+  "authors" : ["Kerawit Somchaipeng","Kenny Erleben", "Jon Sporring"],
+  "abstract" : "A scale space approach is taken for building bounding volume hierarchies for collision detection. An elliptical bounding volume is generated at each node of the bounding volume hierarchy using estimates of the mass distribution. Traditional top-down methods approximates the surface of an object in coarse to fine manner, by recursively increasing resolution by some factor, e.g. 2. The method presented in this article analyzes the mass distribution of a solid object using a well founded scale-space based on the Diffusion Equation: the Gaussian Scale-Space. In the Gaussian Scale-Space, the deep structure of extremal mass points is naturally binary, and the linking process is therefore very simple. The main contribution of this paper is a novel approach for constructing bounding volume hierarchies using multi-scale singularity-trees for collision detection. The bounding volume hierarchy building algorithm extends the field with a new method based on volumetric shape rather than statistics of the surface geometry or geometrical constructs such as medial surfaces.",
+  "doi-link" : "",
+  "video-link" : "",
+  "publisher-link": "https://di.ku.dk/forskning/Publikationer/tekniske_rapporter/tekniske-rapporter-2004/04-08.pdf",
+  "venue" : "Technical Report, Department of Computer Science, University of Copenhagen, Number 04/08.",
+  "paper-link" : "somchaipeng.ea04.pdf",
+  "icon-link" : "somchaipeng.ea04.png",
+  "code-link": "",
+  "month" : "",
+  "year" : "2004",
+  "corresponding": "False",
+  "reviewed": "False",
+  "type": "techreport",
+  "BFI": "None"
+}
+

@@ -1,0 +1,18 @@
+{
+  "title" : "Contact Graphs in Multibody Dynamics Simulation.",
+  "authors" : ["Kenny Erleben"],
+  "abstract" : "In rigid body simulation contact graphs are used detecting contact groups. Contact graphs provide an efficient underlying data structure for keeping information about the entire configuration and in this paper we extend their usage to a new collision detection phase termed “Spatial-Temporal Coherence Analysis”. This paper will review contact graphs and demonstrate the performance impact in a typical constraint based multibody simulator.",
+  "doi-link" : "",
+  "video-link" : "",
+  "publisher-link": "https://di.ku.dk/forskning/Publikationer/tekniske_rapporter/tekniske-rapporter-2004/04-06.pdf",
+  "venue" : "Technical Report, Department of Computer Science, University of Copenhagen, Number 04/06.",
+  "paper-link" : "erleben.04.pdf",
+  "icon-link" : "erleben.04.png",
+  "code-link": "",
+  "month" : "",
+  "year" : "2004",
+  "corresponding": "True",
+  "reviewed": "False",
+  "type": "techreport",
+  "BFI": "None"
+}

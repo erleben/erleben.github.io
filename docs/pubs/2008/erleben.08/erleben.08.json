@@ -1,0 +1,18 @@
+{
+  "title" : "Volumetric shells using path tracing.",
+  "authors" : ["Kenny Erleben"],
+  "abstract" : "Low count tetrahedral meshes are desirable for producing shell maps or animating deformable objects, where accuracy is less important. This paper presents a new method for creating a shell tetrahedral mesh from a triangular sur- face mesh. We propose to use signed distance fields to im- plicitly represent the medial surface of a surface mesh com- bined with a divergence based medial surface representa- tion. An iterative path tracing algorithm is the main result, which is easy to parallelize. The new method respects the structure of the object shape, when generating a shell mesh. We demonstrate the capability of our method to create thick shells with almost no residual space inside our test objects.",
+  "video-link" : "",
+  "venue" : "Proceedings of Computer Graphics International (CGI 08), Istanbul, Turkey.",
+  "month" : "",
+  "year" : "2008",
+  "publisher-link": "",
+  "paper-link" : "erleben.08.pdf",
+  "doi-link": "",
+  "code-link" : "",
+  "icon-link" : "erleben.08.png",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "conference",
+  "BFI": "None"
+}

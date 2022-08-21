@@ -1,0 +1,18 @@
+{
+  "title" : "An introduction to Approximating Heterogeneous Bounding Volume Hierarchies.",
+  "authors" : ["Kenny Erleben"],
+  "abstract" : "Approximating heterogeneous bounding volume hierarchies are a data structure, which we believe could be used for efficient and robust collision detection in the context of simulation, animation, virtual reality and robotics. This paper will introduce the concepts and ideas behind this data structure.",
+  "doi-link" : "",
+  "video-link" : "",
+  "publisher-link": "https://di.ku.dk/forskning/Publikationer/tekniske_rapporter/tekniske-rapporter-2002/02-04.pdf",
+  "venue" : "Technical Report, Department of Computer Science, University of Copenhagen, Number 02/04.",
+  "paper-link" : "erleben.04.pdf",
+  "icon-link" : "erleben.04.png",
+  "code-link": "",
+  "month" : "",
+  "year" : "2004",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "techreport",
+  "BFI": "None"
+}

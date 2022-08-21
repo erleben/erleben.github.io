@@ -1,0 +1,18 @@
+{
+  "title" : "Scripted Bodies and Spline-driven Animation.",
+  "authors" : ["Kenny Erleben", "Knud Henriksen"],
+  "abstract" : "",
+  "doi-link" : "",
+  "video-link" : "",
+  "publisher-link": "https://di.ku.dk/forskning/Publikationer/tekniske_rapporter/tekniske-rapporter-2002/02-04.pdf",
+  "venue" : "In J. Lander (Ed.), Graphics Programming Methods, Charles River Media, Pages 37-50.",
+  "paper-link" : "erleben.henriksen.03.pdf",
+  "icon-link" : "erleben.henriksen.03.png",
+  "code-link": "",
+  "month" : "January",
+  "year" : "2003",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "Chapter",
+  "BFI": "None"
+}

@@ -1,0 +1,17 @@
+{
+  "title" : "Ballet Balance Strategies.",
+  "authors" : ["Kenny Erleben", "Henrik Dohlmann"],
+  "abstract" : "In rigid body simulation contact graphs are used detecting contact groups. Contact graphs provide an efficient underlying data structure for keeping information about the entire configuration and in this paper we extend their usage to a new collision detection phase termed “Spatial-Temporal Coherence Analysis”. This paper will review contact graphs and demonstrate the performance impact in a typical constraint based multibody simulator.",
+  "doi-link" : "",
+  "video-link" : "",
+  "publisher-link": "https://www.scansims.org/media-files/sims2004/SIMS2004proceedings.pdf",
+  "venue" : "In Proceedings of SIMS 2004 the 45th International Conference of Scandinavian Simulation Society Copenhagen, Denmark. Pages 307-314.",
+  "paper-link" : "erleben.dohlmann.04a.pdf",
+  "icon-link" : "erleben.dohlmann.04a.png",
+  "month" : "September",
+  "year" : "2004",
+  "corresponding": "False",
+  "reviewed": "True",
+  "type": "conference",
+  "BFI": "None"
+}

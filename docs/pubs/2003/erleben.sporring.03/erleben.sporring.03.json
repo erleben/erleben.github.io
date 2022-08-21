@@ -1,0 +1,18 @@
+{
+  "title" : "Collision Detection of Deformable Volumetric Meshes.",
+  "authors" : ["Kenny Erleben", "Jon Sporring"],
+  "abstract" : "",
+  "doi-link" : "",
+  "video-link" : "",
+  "publisher-link": "https://di.ku.dk/forskning/Publikationer/tekniske_rapporter/tekniske-rapporter-2002/02-04.pdf",
+  "venue" : "In J. Lander (Ed.), Graphics Programming Methods, Charles River Media, Pages 51-68.",
+  "paper-link" : "erleben.sporring.03.pdf",
+  "icon-link" : "erleben.sporring.03.png",
+  "code-link": "",
+  "month" : "January",
+  "year" : "2003",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "Chapter",
+  "BFI": "None"
+}

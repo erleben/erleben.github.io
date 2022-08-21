@@ -1,0 +1,17 @@
+{
+  "title" : "Proceedings.",
+  "authors" : ["Brian Elmegaard", "Jon Sporring", "Kenny Erleben", "Kim Sørensen"],
+  "abstract" : "",
+  "doi-link" : "",
+  "video-link" : "",
+  "publisher-link": "https://www.scansims.org/media-files/sims2004/",
+  "venue" : "SIMS 2004 the 45th International Conference of Scandinavian Simulation Society Copenhagen, Denmark. Pages 307-314.",
+  "paper-link" : "",
+  "icon-link" : "elmegaard.ea04.png",
+  "month" : "September",
+  "year" : "2004",
+  "corresponding": "False",
+  "reviewed": "True",
+  "type": "proceedings",
+  "BFI": "None"
+}

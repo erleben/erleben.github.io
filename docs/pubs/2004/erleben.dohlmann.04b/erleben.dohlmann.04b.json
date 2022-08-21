@@ -1,0 +1,17 @@
+{
+  "title" : "The Thin Shell Tetrahedral Mesh.",
+  "authors" : ["Kenny Erleben", "Henrik Dohlmann"],
+  "abstract" : "Tetrahedral meshes are often used for simulation of deformable objects. Unlike engineering disciplines graphics is biased towards stable, robust and fast methods, instead of accuracy. In that spirit we present in this paper an approach for building a thin inward shell of the surface of an object. The goal is to device a simple and fast algorithm yet capable of building a topologically sound tetrahedral mesh. The tetrahedral mesh can be used with several different simulation methods, such as the finite element method (FEM). The main contribution of this paper is a novel tetrahedral mesh generation method, based on surface extrusion and prism tesselation.",
+  "doi-link" : "",
+  "video-link" : "",
+  "publisher-link": "https://di.ku.dk/forskning/Publikationer/tekniske_rapporter/tekniske-rapporter-2004/04-10.pdf",
+  "venue" : "In Proceedings fra den 13. Danske Konference i Mønstergenkendelse og Billedanalyse (DSAGM 2004), Pages 94-102.",
+  "paper-link" : "erleben.dohlmann.04b.pdf",
+  "icon-link" : "erleben.dohlmann.04b.png",
+  "month" : "August",
+  "year" : "2004",
+  "corresponding": "True",
+  "reviewed": "False",
+  "type": "conference",
+  "BFI": "None"
+}

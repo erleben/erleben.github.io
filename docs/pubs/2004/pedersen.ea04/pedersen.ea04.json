@@ -1,0 +1,17 @@
+{
+  "title" : "Ballet Balance Strategies.",
+  "authors" : ["Camilla Pedersen", "Kenny Erleben", "Jon Sporring"],
+  "abstract" : "Animating physically realistic human characters is challenging, since human observers are highly tuned to recognize human cues such as emotion and gender from motion patterns. Any new effort towards improving the physical realism of animating the human body is therefore valuable both for application and research purposes.\nThe main contribution of this paper is a new model firmly based on biomechanics. The new model has been developed to animate some basic steps of ballet dancers, and it is supported by computer simulated experiments showing good agreement with biomechanical measurements of real-life dancers.",
+  "doi-link" : "",
+  "video-link" : "",
+  "publisher-link": "https://www.scansims.org/media-files/sims2004/SIMS2004proceedings.pdf",
+  "venue" : "In Proceedings of SIMS 2004 the 45th International Conference of Scandinavian Simulation Society Copenhagen, Denmark. Pages 323-330.",
+  "paper-link" : "pedersen.ea04.pdf",
+  "icon-link" : "pedersen.ea04.png",
+  "month" : "September",
+  "year" : "2004",
+  "corresponding": "False",
+  "reviewed": "True",
+  "type": "conference",
+  "BFI": "None"
+}

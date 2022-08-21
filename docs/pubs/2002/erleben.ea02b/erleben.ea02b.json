@@ -1,0 +1,21 @@
+{
+  "title" : "Scripted Bodies and Spline Driven Animation.",
+  "authors" : ["Kenny Erleben", "Knud Henriksen"],
+  "abstract" : "In this paper we will take a close look at the details and technicalities in applying spline driven animation to scripted bodies in the context of dynamic simulation. The main contributions presented in this paper are methods for computing velocities and accelerations in the time domain of the space splines.",
+  "doi-link" : "",
+  "video-link" : ["https://youtu.be/EnbgzmBgtuE","https://youtu.be/vIyNuQEzohU","https://youtu.be/EG2enHF8w5M","https://youtu.be/_fQvN8hyy08"],
+  "publisher-link": "https://di.ku.dk/forskning/Publikationer/tekniske_rapporter/tekniske-rapporter-2002/02-18.pdf",
+  "venue" : "Technical Report, Department of Computer Science, University of Copenhagen, Number 02/18.",
+  "paper-link" : "erleben.ea02b.pdf",
+  "icon-link" : "erleben.ea02b.png",
+  "code-link": "",
+  "month" : "",
+  "year" : "2002",
+  "corresponding": "True",
+  "reviewed": "False",
+  "type": "techreport",
+  "BFI": "None"
+}
+
+
+

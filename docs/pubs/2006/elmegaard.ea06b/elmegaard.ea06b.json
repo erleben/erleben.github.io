@@ -1,0 +1,17 @@
+{
+  "title" : "SIMS 2004",
+  "authors" : ["Brian Elmegaard", "Jon Sporring", "Kenny Erleben", "Kim Sørensen"],
+  "abstract" : "",
+  "video-link" : [""],
+  "publisher-link": "https://www.sciencedirect.com/journal/simulation-modelling-practice-and-theory/vol/14/issue/8",
+  "doi-link" : "",
+  "venue" : "Proceedings of Simulation Modelling Practice and Theory (SIMS 2004), Volume 14 Number 8, Pages 1057-1154 .",
+  "paper-link" : "",
+  "icon-link" : "elmegaard.ea06b.png",
+  "month" : "November",
+  "year" : "2006",
+  "corresponding": "False",
+  "reviewed": "True",
+  "type": "Proceedings",
+  "BFI": "None"
+}

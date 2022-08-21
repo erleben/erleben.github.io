@@ -1,0 +1,18 @@
+{
+  "title" : "Scan conversion of signed distance fields.",
+  "authors" : ["Kenny Erleben", "Henrik Dohlmann"],
+  "abstract" : "Fast and robust signed distance field computation is often either a performance bottleneck due to high resolution fields or nearly im- possible due to degeneracies in input meshes. Thus, it can be te- dious and very time consuming to obtain a signed distance field to be used for collision detection in for instance a physical based animation, motion planing, or geometry processing. Sign leaking problems in scan conversion methods may result in erroneous signed distance fields for even perfect two-manifold meshes. We present solutions for the sign leaking problems. The major contribution is the robust handling of errors caused by over- lapping bounded volumes of neighboring features. Our method is simple to implement, and has a tradeoff between performance and quality. Further the method is robust in the sense that it handles the sign problems of previous work. The novelty lies in representing the narrow-band as a decompo- sition of tetrahedra, a shell mesh. We provide numerous examples and comparisons on different methods for generating the narrow- band shell.",
+  "doi-link" : "",
+  "video-link" : "",
+  "publisher-link": "https://di.ku.dk/forskning/Publikationer/tekniske_rapporter/tekniske-rapporter-2006/06-08.pdf",
+  "venue" : "In Proceedings fra den 15. Danske Konference i Mønstergenkendelse og Billedanalyse, DIKU technical report, pages 81-91. Datalogisk Institut, Københavns Universitet, 2006. DIKU 2006/08.",
+  "paper-link" : "erleben.dohlmann.06.pdf",
+  "icon-link" : "erleben.dohlmann.06.png",
+  "code-link": "",
+  "month" : "August",
+  "year" : "2006",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "conference",
+  "BFI": "None"
+}

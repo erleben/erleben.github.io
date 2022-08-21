@@ -1,0 +1,17 @@
+{
+  "title" : "Editorial.",
+  "authors" : ["Brian Elmegaard", "Jon Sporring", "Kenny Erleben", "Kim Sørensen"],
+  "abstract" : "",
+  "video-link" : [""],
+  "publisher-link": "https://www.sciencedirect.com/journal/simulation-modelling-practice-and-theory/vol/14/issue/8",
+  "doi-link" : "https://doi.org/10.1016/j.simpat.2006.09.007",
+  "venue" : "Proceedings of Simulation Modelling Practice and Theory (SIMS 2004), Volume 14 Number 8, Pages 1057-1058.",
+  "paper-link" : "elmegaard.ea06.pdf",
+  "icon-link" : "elmegaard.ea06.png",
+  "month" : "November",
+  "year" : "2006",
+  "corresponding": "False",
+  "reviewed": "False",
+  "type": "Editorial",
+  "BFI": "None"
+}

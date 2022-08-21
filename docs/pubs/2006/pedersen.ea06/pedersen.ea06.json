@@ -1,0 +1,17 @@
+{
+  "title" : "Ballet Balance Strategies.",
+  "authors" : ["Camilla Pedersen", "Kenny Erleben", "Jon Sporring"],
+  "abstract" : "Animating physically realistic human characters is challenging, since human observers are highly tuned to recognize human cues such as emotion and gender from motion patterns. The main contribution of this paper is a new model firmly based on biomechanics, which is used to animate balance and basic movements of a ballet dancers. It is supported by computer simulated experiments and it is in good agreement with biomechanical measurements of real-life dancers. Our results questions the previous approaches in dynamic animation, which only uses the center of gravity strategy, and instead demonstrate the viability of the center of pressure strategy.",
+  "doi-link" : "https://doi.org/10.1016/j.simpat.2006.09.009",
+  "video-link" : "",
+  "publisher-link": "https://www.sciencedirect.com/science/article/pii/S1569190X0600061X",
+  "venue" : "Simulation Modelling Practice and Theory, Volume 14, Number 8, Pages 1135-1142.",
+  "paper-link" : "pedersen.ea06.pdf",
+  "icon-link" : "pedersen.ea06.png",
+  "month" : "November",
+  "year" : "2006",
+  "corresponding": "False",
+  "reviewed": "True",
+  "type": "journal",
+  "BFI": "None"
+}

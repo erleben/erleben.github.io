@@ -1,0 +1,18 @@
+{
+  "title" : "A Simple Plane Patcher Algorithm.",
+  "authors" : ["Kenny Erleben", "Knud Henriksen"],
+  "abstract" : "The daily work with mesh data structures can be a painful experience. Topological inconsistency and digital mockup is part of daily life and often unwanted in both visualization, collision detection and animation. In this paper we focus on the particular problem of patching (also termed capping) an open boundary of a mesh after it has been cut by a plane. The paper describes an algorithm for planar patching and outlines an implementation. The novel contribution is a divide and conquer algorithm working on a spatial hierarchical data structure of the cutting boundaries of the mesh.",
+  "doi-link" : "",
+  "video-link" : "",
+  "publisher-link": "https://di.ku.dk/forskning/Publikationer/tekniske_rapporter/tekniske-rapporter-2006/06-09.pdf",
+  "venue" : "Technical Report, Department of Computer Science, University of Copenhagen, Number 06/09.",
+  "paper-link" : "erleben.henriksen.06.pdf",
+  "icon-link" : "erleben.henriksen.06.png",
+  "code-link": "https://github.com/erleben/OpenTissue/blob/master/OpenTissue/core/containers/mesh/polymesh/util/polymesh_naive_patcher.h",
+  "month" : "",
+  "year" : "2006",
+  "corresponding": "True",
+  "reviewed": "False",
+  "type": "techreport",
+  "BFI": "None"
+}

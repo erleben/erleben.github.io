@@ -1,0 +1,18 @@
+{
+  "title" : "Sideways Stepping.",
+  "authors" : ["Bo Markussen", "Jon Sporring", "Kenny Erleben"],
+  "abstract" : "We analyse vector fields, where only the normal component is known. Examples of such fields are: optical flow fields and warps of signed distance maps. We propose to model the tangential component by minimizing an general energy functional of the total field, and we present a novel iterative solution based on Euler-Lagrange equations. Possible applications are estimating physical flow in image sequences, estimating human growth processes, and co-warping textures in animation sequences.",
+  "doi-link" : "",
+  "video-link" : "",
+  "publisher-link": "https://di.ku.dk/forskning/Publikationer/tekniske_rapporter/tekniske-rapporter-2006/06-08.pdf",
+  "venue" : "In Proceedings fra den 15. Danske Konference i Mønstergenkendelse og Billedanalyse, DIKU technical report, pages 80-80. Datalogisk Institut, Københavns Universitet, 2006. DIKU 2006/08.",
+  "paper-link" : "markussen.ea06.pdf",
+  "icon-link" : "markussen.ea06.png",
+  "code-link": "",
+  "month" : "August",
+  "year" : "2006",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "conference",
+  "BFI": "None"
+}

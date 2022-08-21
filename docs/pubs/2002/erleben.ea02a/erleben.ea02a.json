@@ -1,0 +1,18 @@
+{
+  "title" : "B-Splines.",
+  "authors" : ["Kenny Erleben", "Knud Henriksen"],
+  "abstract" : "In this paper we will work out way through classical B-spline theory with focus on efficient implementation. Afterwards we will look into a few advanced details, such as curve decomposition and regular nonuniform B-splines.",
+  "doi-link" : "",
+  "video-link" : "",
+  "publisher-link": "https://di.ku.dk/forskning/Publikationer/tekniske_rapporter/tekniske-rapporter-2002/02-17.pdf",
+  "venue" : "Technical Report, Department of Computer Science, University of Copenhagen, Number 02/17.",
+  "paper-link" : "erleben.ea02a.pdf",
+  "icon-link" : "erleben.ea02a.png",
+  "code-link": "",
+  "month" : "",
+  "year" : "2002",
+  "corresponding": "True",
+  "reviewed": "False",
+  "type": "techreport",
+  "BFI": "None"
+}

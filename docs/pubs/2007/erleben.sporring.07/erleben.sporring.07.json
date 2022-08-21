@@ -1,0 +1,17 @@
+{
+  "title" : "Line-Stepping for Shell Meshes.",
+  "authors" : ["Kenny Erleben", "Jon Sporring"],
+  "abstract" : "This paper presents a new method for creating a thick shell tetrahedral mesh from a triangular surface mesh. Our main goal is to create the thickest possible shell mesh with the lowest possible number of tetrahedrons.\n\nLow count tetrahedral meshes is desirable for animating deformable objects where accuracy is less important and to produce shell maps and signed distance fields. In this work we propose to improve convergence rate of past work.",
+  "doi-link" : "https://doi.org/10.1007/978-3-540-73040-8_48",
+  "video-link" : "",
+  "publisher-link": "https://link.springer.com/chapter/10.1007/978-3-540-73040-8_48",
+  "venue" : "In B. K. Ersbøll, & K. S. Pedersen (Eds.), Image Analysis: 15th Scandinavian Conference, SCIA, Aalborg, Denmark, Pages 472-481. Springer. Lecture notes in computer science, Volume 4522.",
+  "paper-link" : "erleben.sporring.07.pdf",
+  "icon-link" : "erleben.sporring.07.png",
+  "month" : "June",
+  "year" : "2007",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "conference",
+  "BFI": "None"
+}

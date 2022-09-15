@@ -24,6 +24,10 @@ class PaperInfo:
         self.is_poster = False
         self.is_thesis = False
         self.is_star = False
+        self.is_proceedings = False
+        self.is_tech_report = False
+        self.is_editorial = False
+        self.is_booklet = False
         self.venue = None
 
 
@@ -41,6 +45,8 @@ def parse_json_paper_data(json_paper_data):
     paper_info.BFI = json_paper_data["BFI"]
     if "journal" in json_paper_data["type"]:
         paper_info.is_journal = True
+    elif "Journal" in json_paper_data["type"]:
+        paper_info.is_journal = True
     elif "course" in json_paper_data["type"]:
         paper_info.is_course_notes = True
     elif "conference" in json_paper_data["type"]:
@@ -49,12 +55,28 @@ def parse_json_paper_data(json_paper_data):
         paper_info.is_abstract = True
     elif "chapter" in json_paper_data["type"]:
         paper_info.is_book_chapter = True
+    elif "Chapter" in json_paper_data["type"]:
+        paper_info.is_book_chapter = True
     elif "book" in json_paper_data["type"]:
         paper_info.is_book = True
     elif "poster" in json_paper_data["type"]:
         paper_info.is_poster = True
     elif "star" in json_paper_data["type"]:
         paper_info.is_star = True
+    elif "techreport" in json_paper_data["type"]:
+        paper_info.is_tech_report = True
+    elif "Editorial" in json_paper_data["type"]:
+        paper_info.is_editorial = True
+    elif "editorial" in json_paper_data["type"]:
+        paper_info.is_editorial = True
+    elif "booklet" in json_paper_data["type"]:
+        paper_info.is_booklet = True
+    elif "Booklet" in json_paper_data["type"]:
+        paper_info.is_booklet = True
+    elif "Proceedings" in json_paper_data["type"]:
+        paper_info.is_proceedings = True
+    elif "proceedings" in json_paper_data["type"]:
+        paper_info.is_proceedings = True
     elif "thesis" in json_paper_data["type"]:
         paper_info.is_thesis = True
     else:
@@ -119,6 +141,10 @@ if __name__ == '__main__':
     nb_posters = 0
     nb_theses = 0
     nb_stars = 0
+    nb_proceedings = 0
+    nb_editorials = 0
+    nb_techreports = 0
+    nb_booklets = 0
 
     venues = {"ACM Transactions on Graphics": 0, "VRIPHYS": 0, "Symposium on Computer Animation": 0, "SIGGRAPH": 0,
               "Computer Graphics Forum": 0, "MIG": 0, "Computers & Graphics": 0,
@@ -151,6 +177,14 @@ if __name__ == '__main__':
             nb_theses += 1
         if paper.is_star:
             nb_stars += 1
+        if paper.is_proceedings:
+            nb_proceedings += 1
+        if paper.is_editorial:
+            nb_editorials += 1
+        if paper.is_booklet:
+            nb_booklets += 1
+        if paper.is_tech_report:
+            nb_techreports += 1
 
         for key in venues.keys():
             if key in paper.venue:
@@ -178,7 +212,7 @@ if __name__ == '__main__':
           " last authored works, and ",
           nb_single_author,
           " single authored works.",
-          nb_single_author,
+          nb_prizes,
           " prizes received."
           )
 
@@ -188,6 +222,7 @@ if __name__ == '__main__':
           nb_peer_reviewed,
           "peer reviewed works."
           )
+
     print(
           "Published works distributed as follows:\n \t",
           nb_journals,
@@ -200,16 +235,24 @@ if __name__ == '__main__':
           " books, ",
           nb_book_chapters,
           " book chapters, ",
+          nb_booklets,
+          " booklets, ",
           nb_course_notes,
           " course notes, ",
           nb_abstracts,
           " abstracts, ",
           nb_posters,
           " posters, ",
+          nb_techreports,
+          " tech reports, ",
           nb_theses,
           " theses, ",
           nb_stars,
-          " state-of-the-art reports."
+          " state-of-the-art reports.",
+          nb_proceedings,
+          " proceedings",
+          nb_editorials,
+          " editorials."
           )
 
     years = sorted(production.items(), reverse=False)

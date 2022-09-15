@@ -1,0 +1,19 @@
+{
+  "title" : "GPU accelerated tandem traversal of blocked bounding volume hierarchy collision detection for multibody dynamics.",
+  "authors" : ["Jesper Damkjær", "Kenny Erleben"],
+  "abstract" : "It is time-consuming for an animator to explicitly model joint types and joint limits of articulated figures. In this paper we describe a simple and fast approach to automated joint estimation from motion capture data of articulated figures. Our method will make the joint modeling more efficient and less time consuming for the animator by providing a good starting estimate that can be fine-tuned or extended by the animator if she wishes, without restricting her artistic freedom. Our method is simple, easy to implement and specific for the types of articulated figures used in interactive animation such as computer games. Other work for joint limit modeling consider more complex and general purpose models. However, these are not immediately suitable for inverse kinematics skeletons used in interactive applications.",
+  "video-link" : "",
+  "venue" : "In VRIPHYS 09: 6th Workshop on Virtual Reality Interactions and Physical Simulations, pages 115-124.",
+  "month" : "",
+  "year" : "2009",
+  "publisher-link": "",
+  "paper-link" : "damhjaer.erleben.09.pdf",
+  "slides-link": "damhjaer.erleben.09.slides.pdf",
+  "doi-link": "https://doi.org/10.2312/PE/vriphys/vriphys09/115-124",
+  "code-link" : "",
+  "icon-link" : "damhjaer.erleben.09.png",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "conference",
+  "BFI": "None"
+}

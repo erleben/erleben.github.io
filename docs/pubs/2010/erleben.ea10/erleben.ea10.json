@@ -1,0 +1,18 @@
+{
+  "title" : "(Eds.).",
+  "authors" : ["Kenny Erleben", "Jan Bender",  "Matthias Teschner"],
+  "abstract" : "",
+  "video-link" : [""],
+  "publisher-link": "http://diglib.eg.org/handle/10.2312/1023",
+  "doi-link" : "",
+  "venue" : "Proceedings of the Seventh Workshop on Virtual Reality Interactions and Physical Simulations, VRIPHYS 2010, Copenhagen, Denmark, 2010. Eurographics Association.",
+  "paper-link" : "",
+  "conference-link": "http://vriphys2010.inrialpes.fr/",
+  "icon-link" : "erleben.ea10.png",
+  "month" : "",
+  "year" : "2010",
+  "corresponding": "False",
+  "reviewed": "False",
+  "type": "Proceedings",
+  "BFI": "None"
+}

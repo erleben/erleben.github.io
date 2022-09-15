@@ -5,21 +5,25 @@ import cv2
 
 
 def exist_url(url):
+    if not url:
+        return False
+    print("exist_url( ", url, " )")
     try:
         r = requests.head(url, allow_redirects=True, timeout=10)
         if r.status_code == 200:
             return True
         elif r.status_code == 503:
-            print("WARNING: " + url + " resulted in status code " + str(r.status_code))
+            print("\tWARNING: " + url + " resulted in status code " + str(r.status_code))
             return True
         else:
-            print("ERROR: " + url + " resulted in status code " + str(r.status_code))
+            print("\tERROR: " + url + " resulted in status code " + str(r.status_code))
             return False
     except:
         return False
 
 
 def create_safe_link(root, link: str, permalink=False):
+    print("create_safe_link( ", root, ",", link, ", permalink=",permalink, " )")
     if exist_url(link):
         return link
     else:
@@ -29,20 +33,23 @@ def create_safe_link(root, link: str, permalink=False):
                 return "/" + filename
             else:
                 return filename
-    print("ERROR: Could not find link =", link)
+    print("\tERROR: Could not find link =", link)
     return link
 
 
 def verify_image_size(link):
+    print("verify_image_size(", link, ")")
     if link is None:
-        print("ERROR:  verify_image_size was called with None")
+        print("\tERROR:  verify_image_size was called with None")
         return False
     image = cv2.imread(link)
+    if image is None:
+        print("\tERROR:  verify_image_size did not find a file")
     height, width = image.shape[:2]
     if height == 128 and width == 128:
         return True
     else:
-        print("ERROR: ", link, " was not 128x128")
+        print("\tERROR: ", link, " was not 128x128")
         return False
 
 
@@ -85,10 +92,11 @@ def generate_html_links(base_name, root, data, links):
     """
     if isinstance(data, list):
         for idx, link in enumerate(data):
-            href = create_safe_link(root, link, permalink=True)
-            link_name = base_name + str(idx + 1)
-            links.append("<a class=\"link_button\" href=\"" + href + "\">" + link_name + "</a>")
-    else:
+            if link:
+                href = create_safe_link(root, link, permalink=True)
+                link_name = base_name + str(idx + 1)
+                links.append("<a class=\"link_button\" href=\"" + href + "\">" + link_name + "</a>")
+    elif data:
         href = create_safe_link(root, data, permalink=True)
         links.append("<a class=\"link_button\" href=\"" + href + "\">" + base_name + "</a>")
 
@@ -148,6 +156,10 @@ def generate_paper_table_row(root, data):
         generate_html_links("publisher", root, data["publisher-link"], links)
     if "doi-link" in data.keys():
         generate_html_links("DOI", root, data["doi-link"], links)
+    if "slides-link" in data.keys():
+        generate_html_links("slides", root, data["slides-link"], links)
+    if "researchgate-link" in data.keys():
+        generate_html_links("ResearchGate", root, data["researchgate-link"], links)
     N = len(links)
     if N > 0:
         paper += links[0]

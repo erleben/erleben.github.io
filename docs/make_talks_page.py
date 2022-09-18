@@ -53,34 +53,6 @@ def verify_image_size(link):
         return False
 
 
-def style_name(name):
-    if "Kenny" in name:
-        return "<u>" + name + "</u>"
-    return "<i>" + name + "</i>"
-
-
-def generate_authors_text(data):
-    """
-
-    :param data:
-    :return:
-    """
-    if isinstance(data, list):
-        if len(data) == 1:
-            return style_name(data[0])
-        else:
-            authors = ""
-            for idx, name in enumerate(data):
-                if idx == len(data)-1:
-                    authors += " and "
-                elif idx > 0:
-                    authors += ", "
-                authors += style_name(name)
-            return authors
-    else:
-        return style_name(data)
-
-
 def generate_html_links(base_name, root, data, links):
     """
     Generate a list of html link texts.
@@ -117,49 +89,25 @@ def trim(text):
     return text
 
 
-def generate_paper_table_row(root, data):
+def generate_talk_table_row(root, data):
     paper = ""
     paper += "<tr>\n"
-    paper += "  <td class=\"pic\">\n"
-    paper += "    " + genereate_icon_tag(root, data) + "\n"
-    paper += "  </td>\n"
+    #paper += "  <td class=\"pic\">\n"
+    #paper += "    " + genereate_icon_tag(root, data) + "\n"
+    #paper += "  </td>\n"
     paper += "  <td  class=\"text\">\n"
-    if "prize" in data.keys():
-        paper += "    " + trim(data["prize"]) + ": "
-    paper += "<b>" + trim(data["title"]) + "</b>, by "
-    paper += generate_authors_text(data["authors"]) + ". "
+    paper += "<b>" + trim(data["title"]) + "</b>. "
     paper += trim(data["venue"]) + " "
-    paper += "(" + data["year"] + ").<br>\n"
-
+    paper += " in " + data["month"] + " " + data["year"] + ".\n"
     links = []
-    if "paper-link" in data.keys():
-        generate_html_links("paper", root, data["paper-link"], links)
-    if "book-link" in data.keys():
-        generate_html_links("book", root, data["book-link"], links)
-    if "thesis-link" in data.keys():
-        generate_html_links("thesis", root, data["thesis-link"], links)
-    if "abstract-link" in data.keys():
-        generate_html_links("abstract", root, data["abstract-link"], links)
-    if "poster-link" in data.keys():
-        generate_html_links("poster", root, data["poster-link"], links)
-    if "supp-link" in data.keys():
-        generate_html_links("supplementary", root, data["supp-link"], links)
+    if "venue-link" in data.keys():
+        generate_html_links("Venue", root, data["venue-link"], links)
+    if "linkedin-link" in data.keys():
+        generate_html_links("LinkedIn", root, data["linkedin-link"], links)
+    if "twitter-link" in data.keys():
+        generate_html_links("Twitter", root, data["twitter-link"], links)
     if "video-link" in data.keys():
         generate_html_links("video", root, data["video-link"], links)
-    if "code-link" in data.keys():
-        generate_html_links("code", root, data["code-link"], links)
-    if "data-link" in data.keys():
-        generate_html_links("data", root, data["data-link"], links)
-    if "web-link" in data.keys():
-        generate_html_links("web", root, data["web-link"], links)
-    if "publisher-link" in data.keys():
-        generate_html_links("publisher", root, data["publisher-link"], links)
-    if "doi-link" in data.keys():
-        generate_html_links("DOI", root, data["doi-link"], links)
-    if "slides-link" in data.keys():
-        generate_html_links("slides", root, data["slides-link"], links)
-    if "researchgate-link" in data.keys():
-        generate_html_links("ResearchGate", root, data["researchgate-link"], links)
     N = len(links)
     if N > 0:
         paper += links[0]
@@ -185,7 +133,7 @@ def read_json(directory: str):
                 try:
                     data = json.load(json_file)
                     year = data["year"]
-                    html_paper = generate_paper_table_row(root, data)
+                    html_paper = generate_talk_table_row(root, data)
                     if year not in content.keys():
                         content[year] = []
                     content[year].append(html_paper)
@@ -198,26 +146,24 @@ def read_json(directory: str):
 
 if __name__ == '__main__':
 
-    content = read_json("pubs")
+    content = read_json("talks")
 
-    output_file = open("publications.html", 'w')
+    output_file = open("talks.html", 'w')
     output_file.write("---\n")
     output_file.write("layout : default\n")
-    output_file.write("permalink : /publications/\n")
+    output_file.write("permalink : /talks/\n")
     output_file.write("---\n")
 
-    output_file.write("<table class=\"pubs\"><tr><td>\n")
-    output_file.write("<h1>Publications</h1>\n")
+    output_file.write("<table class=\"main\"><tr><td>\n")
+    output_file.write("<h1>Talks</h1>\n")
+    output_file.write("<p>Here is a small collection of selected talks that I have done over the years.</p>\n")
     output_file.write("</td></tr></table>\n")
     library = content.items()
     library = sorted(library, reverse=True)
+    output_file.write("<table class=\"main\">\n")
     for collection in library:
         output_file.write("\n")
-        output_file.write("<table class=\"pubs\"><tr><td>\n")
-        output_file.write("<h2>" + collection[0] + "</h2>\n")
-        output_file.write("</td></tr></table>\n")
-        output_file.write("<table class=\"pubs\">\n")
-        for paper in collection[1]:
-            output_file.write(paper)
-        output_file.write("</table>\n")
+        for talk in collection[1]:
+            output_file.write(talk)
+    output_file.write("</table>\n")
     output_file.close()

@@ -203,96 +203,127 @@ if __name__ == '__main__':
         if paper.has_prize:
             nb_prizes += 1
 
-    print("Total of ",
-          len(papers),
-          "works. ",
-          nb_first_author,
-          " First authored works, ",
-          nb_last_author,
-          " last authored works, and ",
-          nb_single_author,
-          " single authored works.",
-          nb_prizes,
-          " prizes received."
-          )
+    output_file = open("bibliometrics.html", 'w')
+    output_file.write("---\n")
+    output_file.write("layout : default\n")
+    output_file.write("permalink : /bibliometrics/\n")
+    output_file.write("---\n")
+    output_file.write("<table class=\"main\"><tr><td>\n")
+    output_file.write("<h1>Bibliometrics</h1>\n")
+    output_file.write("</td></tr></table>\n")
+    output_file.write("\n")
+    output_file.write("<table class=\"main\">\n")
 
-    print("Corresponding author on ",
-          nb_corresponding_author,
-          "works. Total of ",
-          nb_peer_reviewed,
-          "peer reviewed works."
-          )
-
-    print(
-          "Published works distributed as follows:\n \t",
-          nb_journals,
-          " journals, ",
-          nb_conferences,
-          " conferences, ",
-          nb_workshops,
-          " workshops, ",
-          nb_books,
-          " books, ",
-          nb_book_chapters,
-          " book chapters, ",
-          nb_booklets,
-          " booklets, ",
-          nb_course_notes,
-          " course notes, ",
-          nb_abstracts,
-          " abstracts, ",
-          nb_posters,
-          " posters, ",
-          nb_techreports,
-          " tech reports, ",
-          nb_theses,
-          " theses, ",
-          nb_stars,
-          " state-of-the-art reports.",
-          nb_proceedings,
-          " proceedings",
-          nb_editorials,
-          " editorials."
-          )
+    txt = "Here is a list of links for various online places that keep track of all my research papers:" + "\n"
+    output_file.write(txt)
+    output_file.write("<br>\n")
+    output_file.write("<br>\n")
+    txt = "<ul>" \
+          + "<li> Google Scholar: <a class =""link_button"" href=""https://scholar.google.com/citations?user=CQkvlpUAAAAJ&hl""> CQkvlpUAAAAJ & hl </a></li>\n" \
+          + "<li> ResearchGate: <a class =""link_button"" href=""https://www.researchgate.net/profile/Kenny-Erleben/4"" > Kenny-Erleben </a></li>\n" \
+          + "<li> ORCID: <a class =""link_button"" href=""https://orcid.org/0000-0001-6808-4747"" >0000-0001-6808-4747 </a></li>\n" \
+          + "<li> DBLP: <a class =""link_button"" href=""https://dblp.org/pid/88/4453.html"" > 88 / 4453 </a></li>\n" \
+          + "<li> Semantic Scholar: <a class =""link_button"" href=""https://www.semanticscholar.org/author/Kenny-Erleben/2253410"" > 2253410 </a></li>\n" \
+          + "</ul>"
+    output_file.write(txt)
+    output_file.write("<br>\n")
+    txt = "Total of " \
+          + str(len(papers)) \
+          + " works. " \
+          + str(nb_first_author) \
+          + " First authored works, " \
+          + str(nb_last_author) \
+          + " last authored works, " \
+          + str(nb_single_author) \
+          + " single authored works, and "\
+          + str(nb_prizes) \
+          + " prizes received.\n"
+    output_file.write(txt)
+    txt = "Corresponding author on " \
+          + str(nb_corresponding_author) \
+          + " works and a total of " \
+          + str(nb_peer_reviewed) \
+          + " peer reviewed works."\
+          + "\n"
+    output_file.write(txt)
+    output_file.write("<br>")
+    output_file.write("<br>")
 
     years = sorted(production.items(), reverse=False)
     first_year = years[0][0]
     last_year = years[-1][0]
-
     nb_active_years = last_year - first_year + 1
-    print("Published work for ",
-          nb_active_years,
-          "years."
-          )
-    print("First work published in",
-          first_year,
-          "Last published work in ",
-          last_year,
-          "."
-          )
+    txt = "Published for " \
+          + str(nb_active_years) \
+          + " years."\
+          + "\n"
+    output_file.write(txt)
+    txt = "First work published in " \
+          + str(first_year) \
+          + " and last published work in " \
+          + str(last_year) \
+          + ".\n"
+    output_file.write(txt)
     for year in range(first_year, last_year):
         if year not in production.keys():
             production[year] = 0
-
     data = list(sorted(production.items(), reverse=False))
     production_array = np.array(data)
-    print("Average production of works per year is ",
-          "{:.1f}".format(np.average(production_array[:, 1])),
-          "works."
-          )
-    print("Standard deviation of number of works per year is ",
-          "{:.1f}".format(np.std(production_array[:, 1])),
-          "."
-          )
-    best_idx = np.argmax(production_array[:,1])
-    print("Most productive year was, ",
-          production_array[best_idx, 0],
-          " with ",
-          production_array[best_idx, 1],
-          "published works."
-          )
+    txt = "Average production per year is " \
+          + "{:.1f}".format(np.average(production_array[:, 1])) \
+          + " works.\n"
+    output_file.write(txt)
+    txt = "Standard deviation of number of works per year is " \
+          + "{:.1f}".format(np.std(production_array[:, 1])) \
+          + ".\n"
+    output_file.write(txt)
+    best_idx = np.argmax(production_array[:, 1])
+    txt = "Most productive year was " \
+          + str(production_array[best_idx, 0]) \
+          + " with " + str(production_array[best_idx, 1]) \
+          + " published works."\
+          + "\n"
+    output_file.write(txt)
+    output_file.write("<br>")
+    output_file.write("<br>")
 
-    print("")
-    print("Distribution of works in most noticeable computer graphics venues are as follows")
+    # + str(nb_workshops) + " workshops, " \
+    txt = "Published works distributed as follows: " \
+          + str(nb_journals) + " journals, " \
+          + str(nb_conferences) + " conferences, " \
+          + str(nb_books) + " books, " \
+          + str(nb_book_chapters) + " book chapters, " \
+          + str(nb_booklets) + " booklets, " \
+          + str(nb_course_notes) + " course notes, " \
+          + str(nb_abstracts) + " abstracts, " \
+          + str(nb_posters) + " posters, " \
+          + str(nb_techreports) + " technical reports, " \
+          + str(nb_theses) + " theses, " \
+          + str(nb_stars) + " state-of-the-art reports, " \
+          + str(nb_proceedings) + " proceedings, " \
+          + str(nb_editorials) + " editorials."\
+          + "\n"
+    output_file.write(txt)
+    output_file.write("<br>")
+    output_file.write("<br>")
+
+    txt = "Distribution of works in most noticeable computer graphics venues are as follows:"\
+          + "\n"
+    output_file.write(txt)
+    output_file.write("<br>\n")
+    output_file.write("<br>\n")
+    txt = "<ul>"
     for venue in list(sorted(venues.items())):
-        print(venue[0], "with", venue[1], " works.")
+        txt += "<li>" \
+               + str(venue[0]) \
+              + " with " \
+              + str(venue[1]) \
+              + " works."\
+              + "</li>"\
+              + "\n"
+    txt += "</ul>"
+    output_file.write(txt)
+    output_file.write("<br>")
+    output_file.write("<br>")
+    output_file.write("</table>\n")
+    output_file.close()

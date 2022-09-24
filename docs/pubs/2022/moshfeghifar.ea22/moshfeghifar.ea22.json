@@ -1,0 +1,17 @@
+{
+  "title" : "LibHip: An Open-Access Hip Joint Model Repository suitable for Finite Element Method Simulation.",
+  "authors" : ["Faezeh Moshfeghifar", "Torkan Gholamalizadeh", "Zachary Ferguson", "Teseo Schneider", "Michael Bachmann Nielsen", "Daniele Panozzo", "Sune Darkner", "Kenny Erleben"],
+  "venue" : "Computer Methods and Programs in Biomedicine, 107140.",
+  "abstract" : "Background and objective: population-based finite element analysis of hip joints allows us to understand the effect of inter-subject variability on simulation results. Developing large subject-specific population models is challenging and requires extensive manual effort. Thus, the anatomical representations are often subjected to simplification. The discretized geometries do not guarantee conformity in shared interfaces, leading to complications in setting up simulations. Additionally, these models are not openly accessible, challenging reproducibility. Our work provides multiple subject-specific hip joint finite element models and a novel semi-automated modeling workflow.\n\nMethods: we reconstruct 11 healthy subject-specific models, including the sacrum, the paired pelvic bones, the paired proximal femurs, the paired hip joints, the paired sacroiliac joints, and the pubic symphysis. The bones are derived from CT scans, and the cartilages are generated from the bone geometries. We generate the whole complex’s volume mesh with conforming interfaces. Our models are evaluated using both mesh quality metrics and simulation experiments.\n\nResults: the geometry of all the models are inspected by our clinical expert and show high-quality discretization with accurate geometries. The simulations produce smooth stress patterns, and the variance among the subjects highlights the effect of inter-subject variability and asymmetry in the predicted results.\n\nConclusions: our work is one of the largest model repositories with respect to the number of subjects and regions of interest in the hip joint area. Our detailed research data, including the clinical images, the segmentation label maps, the finite element models, and software tools, are openly accessible on GitHub and the link is provided in Moshfeghifar et al.(2022)[1]. Our aim is to empower clinical researchers to have free access to verified and reproducible models. In future work, we aim to add additional structures to our models.",
+  "doi-link" : "https://doi.org/10.1016/j.cmpb.2022.107140",
+  "paper-link" : "moshfeghifar.ea22.pdf",
+  "icon-link" : "moshfeghifar.ea22.png",
+  "code-link" : "https://github.com/diku-dk/libhip",
+  "publisher-link": "https://www.sciencedirect.com/science/article/pii/S0169260722005211",
+  "month" : "September",
+  "year" : "2022",
+  "corresponding": "False",
+  "reviewed": "True",
+  "type": "journal",
+  "BFI": "1"
+}

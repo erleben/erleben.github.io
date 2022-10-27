@@ -23,16 +23,6 @@ All of the above items have one common challenge that need to be solved, namely 
 
 One can have a glimpse at the kind of research topics that I really like to work with from the selection of research papers on this <a class="link_button" href="/publications/">publications</a> page. Many of the works on this page have links to movies and supplementary material as well.
 
-## Bibliometrics
-
-Here is a list of links for various online places that keep track of all my research papers.
-
-- Google Scholar: <a class="link_button" href="https://scholar.google.com/citations?user=CQkvlpUAAAAJ&hl">CQkvlpUAAAAJ&hl</a>
-- ResearchGate: <a class="link_button" href="https://www.researchgate.net/profile/Kenny-Erleben/4">Kenny-Erleben</a>
-- ORCID: <a class="link_button" href="https://orcid.org/0000-0001-6808-4747">0000-0001-6808-4747</a>
-- DBLP: <a class="link_button" href="https://dblp.org/pid/88/4453.html">88/4453</a>
-- Semantic Scholar: <a class="link_button" href="https://www.semanticscholar.org/author/Kenny-Erleben/2253410">2253410</a>
-
 ## Social media
 
 I use these mostly for sharing news about scientific events or research results.

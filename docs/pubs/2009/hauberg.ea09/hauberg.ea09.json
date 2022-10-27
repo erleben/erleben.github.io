@@ -1,0 +1,18 @@
+{
+  "title" : "Three dimensional monocular human motion analysis in end-effector space.",
+  "authors" : ["Søren Hauberg", "Jerome Lapuyade", "Morten Poll Engell-Nørregård", "Kenny Erleben",  "Kim Steenstrup Pedersen"],
+  "abstract" : "In this paper, we present a novel approach to three dimensional human motion estimation from monocular video data. We employ a particle filter to perform the motion estimation. The novelty of the method lies in the choice of state space for the particle filter. Using a non-linear inverse kinematics solver allows us to perform the filtering in end-effector space. This effectively reduces the dimensionality of the state space while still allowing for the estimation of a large set of motions. Preliminary experiments with the strategy show good results compared to a full-pose tracker.",
+  "video-link" : "",
+  "venue" : "In D. Cremers, Y. Boykov, A. Blake, & F. R. Schmidt (Eds.), Energy Minimization Methods in Computer Vision and Pattern Recognition: 7th International Conference, EMMCVPR 2009, Bonn, Germany, August 24-27, 2009. Proceedings. Springer. Lecture notes in computer science. Volume 5681. Pages 235-248.",
+  "month" : "",
+  "year" : "2009",
+  "publisher-link": "https://link.springer.com/chapter/10.1007/978-3-642-03641-5_18",
+  "paper-link" : "hauberg.ea09.pdf",
+  "doi-link": "https://doi.org/10.1007/978-3-642-03641-5_18",
+  "code-link" : "",
+  "icon-link" : "hauberg.ea09.png",
+  "corresponding": "False",
+  "reviewed": "True",
+  "type": "conference",
+  "BFI": "None"
+}

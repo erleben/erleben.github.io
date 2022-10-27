@@ -1,0 +1,19 @@
+{
+  "title" : "Auto-segmentation of Hip Joints using MultiPlanar UNet with Transfer learning",
+  "authors" : ["Peidi Xu, Faezeh Moshfeghifar", "Torkan Gholamalizadeh", "Michael Bachmann Nielsen", "Kenny Erleben", "Sune Darkner"],
+  "venue" : "Medical Image Learning with Limited and Noisy Data. MILLanD 2022. Lecture Notes in Computer Science, vol 13559. Springer, Cham.",
+  "abstract" : "Accurate geometry representation is essential in developing finite element models. Although generally good, deep-learning segmentation approaches with only few data have difficulties in accurately segmenting fine features, e.g., gaps and thin structures. Subsequently, segmented geometries need labor-intensive manual modifications to reach a quality where they can be used for simulation purposes. We propose a strategy that uses transfer learning to reuse datasets with poor segmentation combined with an interactive learning step where fine-tuning of the data results in anatomically accurate segmentations suitable for simulations. We use a modified MultiPlanar UNet that is pre-trained using inferior hip joint segmentation combined with a dedicated loss function to learn the gap regions and post-processing to correct tiny inaccuracies on symmetric classes due to rotational invariance. We demonstrate this robust yet conceptually simple approach applied with clinically validated results on publicly available computed tomography scans of hip joints. Code and resulting 3D models are available at: https://github.com/MICCAI2022-155/AuToSeg.",
+  "arxiv-link":"https://arxiv.org/abs/2208.08226",
+  "doi-link" : "https://doi.org/10.1007/978-3-031-16760-7_15",
+  "paper-link" : "xu.ea22.pdf",
+  "icon-link" : "xu.ea22.png",
+  "code-link" : "https://github.com/MICCAI2022-155/AuToSeg",
+  "publisher-link": "https://link.springer.com/chapter/10.1007/978-3-031-16760-7_15",
+  "researchgate-link":"https://www.researchgate.net/publication/362759705_Auto-segmentation_of_Hip_Joints_using_MultiPlanar_UNet_with_Transfer_learning",
+  "month" : "September",
+  "year" : "2022",
+  "corresponding": "False",
+  "reviewed": "True",
+  "type": "conference",
+  "BFI": "1"
+}

@@ -1,0 +1,19 @@
+{
+  "title" : "Contact and friction simulation for computer graphics.",
+  "authors" : ["Sheldon Andrews", "Kenny Erleben", "Zachary Ferguson"],
+  "video-link":"https://youtu.be/vGfwbIShvog",
+  "venue" : "SIGGRAPH '22: ACM SIGGRAPH 2022 Courses , Number 3, Pages 1–172.",
+  "doi-link" : "https://doi.org/10.1145/3532720.3535640",
+  "publisher-link": "https://dl.acm.org/doi/abs/10.1145/3532720.3535640",
+  "web-link" : "https://siggraphcontact.github.io/",
+  "icon-link" : "andrews.ea22.png",
+  "paper-link" : "andrews.ea22.pdf",
+  "month" : "August",
+  "year" : "2022",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "course notes",
+  "BFI": "2",
+  "abstract" : "Efficient simulation of contact is of interest for numerous physics-based animation applications. For instance, virtual reality training, video games, rapid digital prototyping, and robotics simulation are all examples of applications that involve contact modeling and simulation. However, despite its extensive use in modern computer graphics, contact simulation remains one of the most challenging problems in physics-based animation. This course covers fundamental topics on the nature of contact modeling and simulation for computer graphics. Specifically, we provide mathematical details about formulating contact as a complementarity problem in rigid body and soft body animations. We briefly cover several approaches for contact generation using discrete collision detection. Then, we present a range of numerical techniques for solving the associated LCPs and NCPs. The advantages and disadvantages of each technique are further discussed in a practical manner, and best practices for implementation are discussed. Finally, we conclude the course with several advanced topics such as methods for soft body contact problems, barrier functions, and anisotropic friction modeling. Programming examples are provided in our appendix as well as on the course website to accompany the course notes.",
+  "code-link" : "https://github.com/sheldona/contactFrictionSim"
+}

@@ -1,0 +1,17 @@
+{
+  "title" : "A Projected Non-linear Conjugate Gradient Method for Interactive Inverse Kinematics.",
+  "authors" : ["Morten Poll Engell-Nørregård", "Kenny Erleben"],
+  "abstract" : "",
+  "video-link" : "https://youtu.be/QbOrgxWjRd8",
+  "venue" : "In I. Troch, & F. Breitenecker (Eds.), Proceedings MATHMOD 09 Vienna, ARGESIM Report no. 35.",
+  "month" : "",
+  "year" : "2009",
+  "publisher-link": "https://www.argesim.org/mathmod-vienna/mathmod-2009-proceedings",
+  "paper-link" : "engell.noerregaard.erleben.09b.pdf",
+  "code-link" : "",
+  "icon-link" : "engell.noerregaard.erleben.09b.png",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "conference",
+  "BFI": "None"
+}

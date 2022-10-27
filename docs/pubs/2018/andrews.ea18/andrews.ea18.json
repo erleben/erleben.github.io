@@ -1,0 +1,12 @@
+{
+  "title" : "Foreword to the Special Section on VRIPHYS 2018.",
+  "authors" : ["Sheldon Andrews", "Kenny Erleben", "Fabriece Jaillet", "Gabriel Zachmann"],
+  "venue" : "Computers and Graphics (Pergamon), 76, A3-A4.",
+  "icon-link" : "andrews.ea18.png",
+  "doi-link" : "https://doi.org/10.1016/j.cag.2018.09.015",
+  "year" : "2018",
+  "corresponding": "True",
+  "reviewed": "False",
+  "type": "editorial",
+  "BFI": "None"
+}

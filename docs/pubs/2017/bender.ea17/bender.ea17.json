@@ -1,0 +1,13 @@
+{
+  "title" : "Modeling virtual humans.",
+  "authors" : ["Jan Bender", "Kenny Erleben", "Barbara Solenthaler"],
+  "venue" : "IEEE Computer Graphics and Applications, Volume 37 Number 6, Pages 26-27.",
+  "icon-link" : "bender.ea17.png",
+  "paper-link" : "bender.ea17.pdf",
+  "doi-link" : "https://doi.org/10.1109/MCG.2017.4031067",
+  "year" : "2017",
+  "corresponding": "True",
+  "reviewed": "False",
+  "type": "editorial",
+  "BFI": "2"
+}

@@ -1,0 +1,17 @@
+{
+  "title" : "Photon differentials in space and time.",
+  "authors" : ["Lars Schjøth", "Jeppe Revall Frisvad", "Kenny Erleben", "Jon Sporring"],
+  "abstract" : "We present a novel photon mapping algorithm for animations. We extend our previous work on photon differentials [12] with time differentials. The result is a first order model of photon cones in space an time that effectively reduces the number of required photons per frame as well as efficiently reduces temporal aliasing without any need for in-between-frame photon maps.",
+  "publisher-link": "https://link.springer.com/chapter/10.1007/978-3-642-25382-9_19",
+  "video-link" : "",
+  "icon-link" : "schoeth.ea10.png",
+  "paper-link" : "schoeth.ea10.pdf",
+  "venue" : "In P. Richard, & J. Braz (Eds.), Computer Vision, Imaging and Computer Graphics. Theory and Applications: International Joint Conference, VISIGRAPP 2010, Angers, France, May 17-21, 2010. Revised Selected Papers (pp. 274-286). Springer. Communications in Computer and Information Science Volume 229",
+  "year" : "2010",
+  "doi-link" : "https://doi.org/10.1007/978-3-642-25382-9_19",
+  "month" : "",
+  "corresponding": "False",
+  "reviewed": "True",
+  "type": "conference",
+  "BFI": "None"
+}

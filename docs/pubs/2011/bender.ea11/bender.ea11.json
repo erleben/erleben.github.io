@@ -1,0 +1,17 @@
+{
+  "title" : "(Eds.).",
+  "authors" : ["Jan Bender", "Kenny Erleben", "Eric Galin"],
+  "abstract" : "",
+  "video-link" : [""],
+  "publisher-link": "https://diglib.eg.org/handle/10.2312/1024",
+  "doi-link" : "",
+  "venue" : "VRIPHYS 11: 8th Workshop on Virtual Reality Interactions and Physical Simulations.",
+  "paper-link" : "https://projet.liris.cnrs.fr/vriphys/",
+  "icon-link" : "bender.ea11.png",
+  "month" : "",
+  "year" : "2011",
+  "corresponding": "False",
+  "reviewed": "False",
+  "type": "Proceedings",
+  "BFI": "1"
+}

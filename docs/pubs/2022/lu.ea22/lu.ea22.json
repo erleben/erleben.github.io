@@ -1,0 +1,18 @@
+{
+  "title" : " Reducing Annotation Need in Self-Explanatory Models for Lung Nodule Diagnosis.",
+  "authors" : ["Jiahao Lu", "Chong Yin", "Oswin Krause", "Kenny Erleben", "Michael Bachmann Nielsen", "Sune Darkner"],
+  "venue" : "Accepted for Workshop on Interpretability of Machine Intelligence in Medical Image Computing at MICCAI 2022",
+  "abstract" : "Feature-based self-explanatory methods explain their classification in terms of human-understandable features. In the medical imaging community, this semantic matching of clinical knowledge adds significantly to the trustworthiness of the AI. However, the cost of additional annotation of features remains a pressing issue. We address this problem by proposing cRedAnno, a data-/annotation-efficient self-explanatory approach for lung nodule diagnosis. cRedAnno considerably reduces the annotation need by introducing self-supervised contrastive learning to alleviate the burden of learning most parameters from annotation, replacing end-to-end training with two-stage training. When training with hundreds of nodule samples and only 1% of their annotations, cRedAnno achieves competitive accuracy in predicting malignancy, meanwhile significantly surpassing most previous works in predicting nodule attributes. Visualisation of the learned space further indicates that the correlation between the clustering of malignancy and nodule attributes coincides with clinical knowledge. Our complete code is open-source available: https://github.com/diku-dk/credanno.",
+  "arxiv-link":"https://arxiv.org/abs/2206.13608",
+  "doi-link" : "",
+  "paper-link" : "",
+  "icon-link" : "lu.ea22.png",
+  "code-link" : "https://github.com/diku-dk/credanno",
+  "publisher-link": "",
+  "month" : "September",
+  "year" : "2022",
+  "corresponding": "False",
+  "reviewed": "True",
+  "type": "conference",
+  "BFI": "1"
+}

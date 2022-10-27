@@ -27,8 +27,7 @@ Now do this
 ``` bash
 bundle add jekyll
 bundle update
-bundle exec jekyll serve
+bundle exec jekyll serve --trace  
 ```
 
 Goto [http://localhost:4000/](http://localhost:4000/)
-

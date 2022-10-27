@@ -1,0 +1,19 @@
+{
+  "title" : "A non-smooth newton method for multibody dynamics.",
+  "authors" : ["Kenny Erleben", "Ricardo Ortiz"],
+  "abstract" : "In this paper we deal with the simulation of rigid bodies. Rigid body dynamics have become very important for simulating rigid body motion in interactive applications, such as computer games or virtual reality. We present a novel way of computing contact forces using a Newton method. The contact problem is reformulated as a system of non‐linear and non‐smooth equations, and we solve this system using a non‐smooth version of Newton’s method. One of the main contribution of this paper is the reformulation of the complementarity problems, used to model impacts, as a system of equations that can be solved using traditional methods.",
+  "video-link" : "",
+  "venue" : "In T. E. Simos, G. Psihoyios, & C. Tsitouras (Eds.), Numerical Analysis and Applied Mathematics: International Conference on Numerical Analysis and Applied Mathematics, Psalidi, Kos, Greese, Springer. AIP Conference Proceedings Volume 1048, Issue 1, Pages 178-181.",
+  "month" : "September",
+  "year" : "2008",
+  "publisher-link": "https://aip.scitation.org/doi/pdf/10.1063/1.2990885",
+  "paper-link" : "erleben.ortiz.08.pdf",
+  "researchgate-link": "https://www.researchgate.net/publication/252400737_A_Non-smooth_Newton_Method_for_Multibody_Dynamics",
+  "doi-link": "https://doi.org/10.1063/1.2990885",
+  "code-link" : "",
+  "icon-link" : "erleben.ortiz.08.png",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "conference",
+  "BFI": "None"
+}

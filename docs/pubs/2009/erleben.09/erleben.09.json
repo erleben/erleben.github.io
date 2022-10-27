@@ -1,0 +1,17 @@
+{
+  "title" : "Maximal independent set graph partitions for representations of body-centered cubic lattices.",
+  "authors" : ["Kenny Erleben"],
+  "abstract" : "",
+  "publisher-link": "https://link.springer.com/chapter/10.1007%2F978-3-642-04319-2_31",
+  "research-gate-link" : "https://www.researchgate.net/publication/227129478_Tetrahedral_Mesh_Improvement_Using_Multi-face_Retriangulation",
+  "year" : "2009",
+  "icon-link" : "erleben.09.png",
+  "paper-link" : "erleben.09.pdf",
+  "doi-link" : "https://doi.org/10.1007/s00371-009-0330-8",
+  "venue" : "Visual Computer, Volume 25, Number 5-7, Pages 423-430.",
+  "month" : "",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "journal",
+  "BFI": "1"
+}

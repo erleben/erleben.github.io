@@ -5,12 +5,11 @@ layout : default
 
 # Welcome
 
-My name is Kenny Erleben. I am a professor in computer graphics and simulation at the Department of Computer Science, University of Copenhagen, Denmark.
+My name is Kenny Erleben. I am a full professor in computer graphics and simulation at the Department of Computer Science, University of Copenhagen, Denmark.
 
 <img  src="/assets/img/kenny.jpg" alt="Kenny Erleben" width="128"/>
 
-I am leading a research section named <a class="link_button" href="https://di.ku.dk/english/research/image/">IMAGE</a>. One can read more about the IMAGE section on this <a class="link_button" href="https://diku-dk.github.io/IMAGE/">web-site</a> too. IMAGE has about 15 faculty staff, 5 Postdocs and 30 PhDs. The numbers fluctuate a bit depending on funding and projects that we are involved in. IMAGE is organized into smaller research teams or labs, my own team is called RAINBOW and has about 15 people.
-
+I am leading a research section named <a class="link_button" href="https://di.ku.dk/english/research/image/">IMAGE</a>. One can read more about the IMAGE research section on this <a class="link_button" href="https://diku-dk.github.io/IMAGE/">web-site</a>. IMAGE has about 15 faculty staff, 5 Postdocs and 30 PhDs. The numbers fluctuate a bit depending on funding and projects that we are involved in. IMAGE is organized into smaller research teams, my own team is called RAINBOW and has about 15 people.
 
 In my team we are really interested in how to build simulators and how to use data-driven approaches together with simulation. Hence, our work ranges from inventing new numerical methods for simulation to use simulation for generating data for machine learning or learning physical models from real-world data. Some topics that I am currently very much interested in are:
 

@@ -1,0 +1,17 @@
+{
+  "title" : "Differentiable Depth for Real2Sim Calibration of Soft Body Simulations.",
+  "code-link" : "https://github.com/diku-dk/DiffCal",
+  "authors" : ["Kasra Arnavaz", "Max Kragballe Nielsen", "Paul G. Kry", "Miles Macklin", "Kenny Erleben"],
+  "venue" : "Computer Graphics Forum, Pages 1-14.",
+  "doi-link" : "https://doi.org/10.1111/cgf.14720",
+  "publisher-link": "https://onlinelibrary.wiley.com/doi/10.1111/cgf.14720",
+  "icon-link" : "arnavaz.ea22.png",
+  "paper-link" : "arnavaz.ea22.pdf",
+  "month" : "November",
+  "year" : "2022",
+  "corresponding": "True",
+  "reviewed": "True",
+  "type": "journal",
+  "BFI": "1",
+  "abstract" : "In this work, we present a novel approach for calibrating material model parameters for soft body simulations using real data.\nWe use a fully differentiable pipeline, combining a differentiable soft body simulator and differentiable depth rendering, which\npermits fast gradient-based optimizations. Our method requires no data pre-processing, and minimal experimental set-up, as we\ndirectly minimize the L2-norm between raw LIDAR scans and rendered simulation states. In essence, we provide the first marker-\nfree approach for calibrating a soft-body simulator to match observed real-world deformations. Our approach is inexpensive as\nit solely requires a consumer-level LIDAR sensor compared to acquiring a professional marker-based motion capture system.\nWe investigate the effects of different material parameterizations and evaluate convergence for parameter optimization in both\nsingle and multi-material scenarios of varying complexity. Finally, we show that our set-up can be extended to optimize for\ndynamic behavior as well."
+}

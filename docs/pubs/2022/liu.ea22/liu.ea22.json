@@ -1,0 +1,16 @@
+{
+  "title" : "Group Convolutional Neural Networks for DWI Segmentation.",
+  "authors" : ["Renfei Liu", "Francois Bernard Lauze", "Erik J Bekkers", "Kenny Erleben", "Sune Darkner"],
+  "venue" : "Geometric Deep Learning in Medical Image Analysis (GeoMedIA) Workshop",
+  "venue-link": "https://geomedia-workshop.github.io/",
+  "paper-link" : "liu.ea22.pdf",
+  "icon-link" : "liu.ea22.png",
+  "abstract" : "We present a Group Convolutional Network for Segmentation of Diffusion Weighted Imaging data (DWI). The network incorporates group actions that are natural for this type of data, in the form of  equivariant convolutions, i.e., roto-translation equivariant convolutions. The equivariance property provides an important inductive bias and may alleviate the need for data augmentation strategies. Instead of performing group equivariant convolutions via spectral (Fourier-based) approaches, as is common for  equivariance, we implement direct and light-weight regular group convolutions. We study the effect of equivariance and weight sharing over  on performances of the networks on DWI scans from the Human Connectome project. We show how that full  equivariance improves segmentations, while limiting the number of learnable parameters.",
+  "publisher-link": "https://openreview.net/forum?id=7S1l2zzUZFI",
+  "month" : "August",
+  "year" : "2022",
+  "corresponding": "False",
+  "reviewed": "True",
+  "type": "conference",
+  "BFI": "1"
+}

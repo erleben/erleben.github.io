@@ -1,0 +1,17 @@
+{
+  "title" : "Pseudo-Label Guided Image Synthesis for Semi-Supervised COVID-19 Pneumonia Infection Segmentation",
+  "authors" : ["Fei Lyu", "Mang Ye", "Jonathan Frederik Carlsen", "Kenny Erleben", "Sune Darkner", "Pong C. Yuen"],
+  "abstract" : "Coronavirus disease 2019 (COVID-19) has become a severe global pandemic. Accurate pneumonia infection segmentation is important for assisting doctors in diagnosing COVID-19. Deep learning-based methods can be developed for automatic segmentation, but the lack of large-scale well-annotated COVID-19 training datasets may hinder their performance. Semi-supervised segmentation is a promising solution which explores large amounts of unlabelled data, while most existing methods focus on pseudo-label refinement. In this paper, we propose a new perspective on semi-supervised learning for COVID-19 pneumonia infection segmentation, namely pseudo-label guided image synthesis. The main idea is to keep the pseudo-labels and synthesize new images to match them. The synthetic image has the same COVID-19 infected regions as indicated in the pseudo-label, and the reference style extracted from the style code pool is added to make it more realistic. We introduce two representative methods by incorporating the synthetic images into model training, including single-stage Synthesis-Assisted Cross Pseudo Supervision (SA-CPS) and multi-stage Synthesis-Assisted Self-Training (SA-ST), which can work individually as well as cooperatively. Synthesis-assisted methods expand the training data with high-quality synthetic data, thus improving the segmentation performance. Extensive experiments on two COVID-19 CT datasets for segmenting the infections demonstrate our method is superior to existing schemes for semi-supervised segmentation, and achieves the state-of-the-art performance on both datasets. Code is available at: https://github.com/FeiLyu/SASSL.",
+  "venue" : "IEEE Transactions on Medical Imaging, 2022.",
+  "doi-link" : "https://doi.org/10.1109/TMI.2022.3217501",
+  "publisher-link": "https://ieeexplore.ieee.org/document/9931157",
+  "code-link" : "https://github.com/FeiLyu/SASSL",
+  "paper-link" : "lyu.ea22.pdf",
+  "icon-link" : "lyu.ea22.png",
+  "month" : "October",
+  "year" : "2022",
+  "corresponding": "False",
+  "reviewed": "True",
+  "type": "journal",
+  "BFI": "1"
+}

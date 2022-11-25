@@ -1,0 +1,16 @@
+{
+  "title" : "Bundle geodesic convolutional neural network for diffusion-weighted imaging segmentation.",
+  "authors" : ["Renfei Liu", "Francois Bernard Lauze", "Kenny Erleben", "Rune W. Berg", "Sune Darkner"],
+  "doi-link": "https://doi.org/10.1117/1.JMI.9.6.064002",
+  "venue" : "Journal of Medical Imaging, Vol. 9, Issue 6, 064002.",
+  "paper-link" : "liu.ea22B.pdf",
+  "icon-link" : "liu.ea22B.png",
+  "abstract" : "Purpose\nApplying machine learning techniques to magnetic resonance diffusion-weighted imaging (DWI) data is challenging due to the size of individual data samples and the lack of labeled data. It is possible, though, to learn general patterns from a very limited amount of training data if we take advantage of the geometry of the DWI data. Therefore, we present a tissue classifier based on a Riemannian deep learning framework for single-shell DWI data.\n\nApproach\nThe framework consists of three layers: a lifting layer that locally represents and convolves data on tangent spaces to produce a family of functions defined on the rotation groups of the tangent spaces, i.e., a (not necessarily continuous) function on a bundle of rotational functions on the manifold; a group convolution layer that convolves this function with rotation kernels to produce a family of local functions over each of the rotation groups; a projection layer using maximization to collapse this local data to form manifold based functions.\n\nResults\nExperiments show that our method achieves the performance of the same level as state-of-the-art while using way fewer parameters in the model (<10 % ). Meanwhile, we conducted a model sensitivity analysis for our method. We ran experiments using a proportion (69.2%, 53.3%, and 29.4%) of the original training set and analyzed how much data the model needs for the task. Results show that this does reduce the overall classification accuracy mildly, but it also boosts the accuracy for minority classes.\n\nConclusions\nThis work extended convolutional neural networks to Riemannian manifolds, and it shows the potential in understanding structural patterns in the brain, as well as in aiding manual data annotation.",
+  "publisher-link": "https://www.spiedigitallibrary.org/journals/journal-of-medical-imaging/volume-9/issue-6/064002/Bundle-geodesic-convolutional-neural-network-for-diffusion-weighted-imaging-segmentation/10.1117/1.JMI.9.6.064002.full?SSO=1",
+  "month" : "November",
+  "year" : "2022",
+  "corresponding": "False",
+  "reviewed": "True",
+  "type": "journal",
+  "BFI": "1"
+}

@@ -107,7 +107,9 @@ def generate_talk_table_row(root, data):
     if "twitter-link" in data.keys():
         generate_html_links("Twitter", root, data["twitter-link"], links)
     if "video-link" in data.keys():
-        generate_html_links("video", root, data["video-link"], links)
+        generate_html_links("Video", root, data["video-link"], links)
+    if "image-link" in data.keys():
+        generate_html_links("Image", root, data["image-link"], links)
     N = len(links)
     if N > 0:
         paper += links[0]
@@ -155,7 +157,7 @@ if __name__ == '__main__':
     output_file.write("---\n")
 
     output_file.write("<table class=\"main\"><tr><td>\n")
-    output_file.write("<h1>Talks</h1>\n")
+    output_file.write("<h1>Talks and Outreach</h1>\n")
     output_file.write("<p>Here is a small collection of selected talks that I have done over the years.</p>\n")
     output_file.write("</td></tr></table>\n")
     library = content.items()

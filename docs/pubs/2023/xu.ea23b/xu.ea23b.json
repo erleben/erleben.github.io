@@ -1,0 +1,19 @@
+{
+  "title" : "Deep-Learning-Based Segmentation of Individual Tooth and Bone With Periodontal Ligament Interface Details for Simulation Purposes",
+  "authors" : ["Peidi Xu", "Torkan Gholamalizadeh", "Faezeh Moshfeghifar", "Sune Darkner", "Kenny Erleben"],
+  "publisher-link": "https://ieeexplore.ieee.org/abstract/document/10256039",
+  "venue" : "IEEE Access, Volume. 11, Pages 102460-102470.",
+  "code-link" : "https://github.com/diku-dk/AutoJawSegment",
+  "paper-link" : "xu.ea23b.pdf",
+  "icon-link" : "xu.ea23b.png",
+  "year" : "2023",
+  "corresponding": "False",
+  "reviewed": "True",
+  "type": "journal",
+  "BFI": "1",
+  "abstract" : "The process of constructing precise geometry of human jaws from cone beam computed tomography (CBCT) scans is crucial for building finite element models and treatment planning. Despite the success of deep learning techniques, they struggle to accurately identify delicate features such as thin structures and gaps between the tooth-bone interfaces where periodontal ligament resides, especially when trained on limited data. Therefore, segmented geometries obtained through automated methods still require extensive manual adjustment to achieve a smooth and organic 3D geometry that is suitable for simulations. In this work, we require the model to provide anatomically correct segmentation of teeth and bones which preserves the space for the periodontal ligament layers. To accomplish the task with few accurate labels, we pre-train a modified MultiPlanar UNet as the backbone model using inferior segmentations, i.e., tooth-bone segmentation with no space in the tooth-bone interfaces, and fine-tune the model with a dedicated loss function over accurate delineations that considers the space. We demonstrate that our approach can produce proper tooth-bone segmentations with gap interfaces that are fit for simulations when applied to human jaw CBCT scans. Furthermore, we propose a marker-based watershed segmentation applied on the MultiPlanar UNet probability map to separate individual tooth. This has advantages when the segmentation task is challenged by common artifacts caused by restorative materials or similar intensities in the teeth-teeth interfaces in occurrence of crowded teeth phenomenon. Code and segmentation results are available at https://github.com/diku-dk/AutoJawSegment.",
+  "doi-link" : "https://doi.org/10.1109/ACCESS.2023.3317512",
+  "month" : "September"
+}
+
+

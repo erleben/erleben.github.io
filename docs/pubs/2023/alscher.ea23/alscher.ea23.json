@@ -1,0 +1,16 @@
+{
+  "paper-link" : "alscher.ea23.pdf",
+  "icon-link" : "alscher.ea23.png",
+  "title" : " Collision-constrained deformable image registration framework for discontinuity management.",
+  "authors" : ["Thomas Alscher", "Kenny Erleben", "Sune Darkner"],
+  "venue" : "Plos one 18 (8), e0290243",
+  "abstract" : "Topological changes like sliding motion, sources and sinks are a significant challenge in image registration. This work proposes the use of the alternating direction method of multi- pliers as a general framework for constraining the registration of separate objects with indi- vidual deformation fields from overlapping in image registration. This constraint is enforced by introducing a collision detection algorithm from the field of computer graphics which results in a robust divide and conquer optimization strategy using Free-Form Deformations. A series of experiments demonstrate that the proposed framework performs superior with regards to the combination of intersection prevention and image registration including syn- thetic examples containing complex displacement patterns. The results show compliance with the non-intersection constraints while simultaneously preventing a decrease in registra- tion accuracy. Furthermore, the application of the proposed algorithm to the DIR-Lab data set demonstrates that the framework generalizes to real data by validating it on a lung regis- tration problem.",
+  "publisher-link": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0290243",
+  "month" : "August",
+  "year" : "2023",
+  "doi-link": "https://doi.org/10.1371/journal.pone.0290243",
+  "corresponding": "False",
+  "reviewed": "True",
+  "type": "journal",
+  "BFI": "1"
+}

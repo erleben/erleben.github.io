@@ -1,0 +1,14 @@
+{
+  "title" : "Deep Learning-Assisted Localisation of Nanoparticles in synthetically generated two-photon microscopy images",
+  "paper-link" : "https://arxiv.org/abs/2303.16903",
+  "authors" : ["Rasmus Netterstrøm", "Nikolay Kutuzov", "Sune Darkner", "Maurits Jørring Pallesen", "Martin Johannes Lauritzen", "Kenny Erleben", "Francois Lauze"],
+  "venue" : "arXiv",
+  "abstract" : "Tracking single molecules is instrumental for quantifying the transport of molecules and nanoparticles in biological samples, e.g., in brain drug delivery studies. Existing intensity-based localisation methods are not developed for imaging with a scanning microscope, typically used for in vivo imaging. Low signal-to-noise ratios, movement of molecules out-of-focus, and high motion blur on images recorded with scanning two-photon microscopy (2PM) in vivo pose a challenge to the accurate localisation of molecules. Using data-driven models is challenging due to low data volumes, typical for in vivo experiments. We developed a 2PM image simulator to supplement scarce training data. The simulator mimics realistic motion blur, background fluorescence, and shot noise observed in vivo imaging. Training a data-driven model with simulated data improves localisation quality in simulated images and shows why intensity-based methods fail.",
+  "icon-link" : "netterstroem.ea23.png",
+  "month" : "March",
+  "year" : "2023",
+  "corresponding": "False",
+  "reviewed": "False",
+  "type": "techreport",
+  "BFI": "None"
+}

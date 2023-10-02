@@ -1,0 +1,17 @@
+{
+  "title" : "cRedAnno+: Annotation Exploitation In Self-Explanatory Lung Nodule Diagnosis",
+  "venue" : "IEEE 20th International Symposium on Biomedical Imaging (ISBI), Pages 1-5",
+  "doi-link" : "https://doi.org/10.1109/ISBI53787.2023.10230720",
+  "paper-link" : "lu.ea23.pdf",
+  "icon-link" : "lu.ea23.png",
+  "year" : "2023",
+  "corresponding": "False",
+  "reviewed": "True",
+  "type": "conference",
+  "BFI": "1",
+  "publisher-link": "https://ieeexplore.ieee.org/abstract/document/10230720",
+  "authors" : ["Jiahao Lu", "Chong Yin", "Kenny Erleben", "Michael Bachmann Nielsen", "Sune Darkner"],
+  "code-link" : "https://github.com/diku-dk/credanno",
+  "abstract" : "Recently, attempts have been made to reduce annotation requirements in feature-based self-explanatory models for lung nodule diagnosis. As a representative, cRedAnno achieves competitive performance with considerably reduced annotation needs by introducing self-supervised contrastive learning to do unsupervised feature extraction. However, it exhibits unstable performance under scarce annotation conditions. To improve the accuracy and robustness of cRedAnno, we propose an annotation exploitation mechanism by conducting semi-supervised active learning with sparse seeding and training quenching in the learned semantically meaningful reasoning space, to jointly utilise the extracted features, annotations, and unlabelled data. The proposed approach achieves comparable or even higher malignancy prediction accuracy with 10x fewer annotations, meanwhile showing better robustness and nodule attribute prediction accuracy under the condition of 1% annotations. Our complete code is open-source available: https://github.com/diku-dk/credanno.",
+  "month" : "April"
+  }

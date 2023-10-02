@@ -1,0 +1,17 @@
+{
+  "title" : "A hybrid approach to full-scale reconstruction of renal arterial network",
+  "authors" : ["Peidi Xu", "Niels-Henrik Holstein-Rathlou", "Stinne Byrholdt Søgaard", "Carsten Gundlach", "Charlotte Mehlin Sørensen", "Kenny Erleben", "Olga Sosnovtseva", "Sune Darkner"],
+  "venue" : "Scientific Reports 13 (1), 7569.",
+  "abstract" : "The renal vasculature, acting as a resource distribution network, plays an important role in both the physiology and pathophysiology of the kidney. However, no imaging techniques allow an assessment of the structure and function of the renal vasculature due to limited spatial and temporal resolution. To develop realistic computer simulations of renal function, and to develop new image‐based diagnostic methods based on artificial intelligence, it is necessary to have a realistic full‐scale model of the renal vasculature. We propose a hybrid framework to build subject‐specific models of the renal vascular network by using semi‐automated segmentation of large arteries and estimation of cortex area from\na micro‐CT scan as a starting point, and by adopting the Global Constructive Optimization algorithm for generating smaller vessels. Our results show a close agreement between the reconstructed vasculature and existing anatomical data obtained from a rat kidney with respect to morphometric and hemodynamic parameters.",
+  "doi-link" : "https://doi.org/10.1038/s41598-023-34739-y",
+  "paper-link" : "xu.ea23a.pdf",
+  "icon-link" : "xu.ea23a.png",
+  "code-link" : "https://github.com/diku-dk/RenalArterialRecon",
+  "publisher-link": "https://www.nature.com/articles/s41598-023-34739-y",
+  "month" : "May",
+  "year" : "2023",
+  "corresponding": "False",
+  "reviewed": "True",
+  "type": "journal",
+  "BFI": "1"
+}

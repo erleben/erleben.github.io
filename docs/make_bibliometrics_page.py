@@ -13,7 +13,7 @@ class PaperInfo:
         self.is_peer_reviewed = False
         self.has_prize = False
         self.year = 0
-        self.BFI = None
+        #self.BFI = None   # BFI no longer used in DK
         self.is_journal = False
         self.is_conference = False
         self.is_workshop = False
@@ -42,7 +42,8 @@ def parse_json_paper_data(json_paper_data):
         paper_info.is_corresponding_author = True
     if "prize" in json_paper_data.keys():
         paper_info.has_prize = True
-    paper_info.BFI = json_paper_data["BFI"]
+    # 2025-02-28: BFI no longer used in DK
+    #paper_info.BFI = json_paper_data["BFI"]
     if "journal" in json_paper_data["type"]:
         paper_info.is_journal = True
     elif "Journal" in json_paper_data["type"]:

@@ -171,8 +171,9 @@ def generate_paper_table_row(root, data):
             if i < N - 1:
                 paper += ",\n"
         paper += ".\n"
-    if data["BFI"] != "None":
-        paper += " (BFI " + data["BFI"] + ").\n"
+    # 2024-02-28: BFI is no longer used in Denmark
+    #if data["BFI"] != "None":
+    #    paper += " (BFI " + data["BFI"] + ").\n"
     paper += "  </td>\n"
     paper += "</tr>\n"
     return paper

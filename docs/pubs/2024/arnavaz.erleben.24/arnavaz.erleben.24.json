@@ -1,0 +1,14 @@
+{
+  "title" : "Differentiable rendering as a way to program cable-driven soft robots.",
+  "authors" : ["Kasra Arnavaz", "Kenny Erleben"],
+  "venue" : "arXiv:2404.07590, Pages 1-10.",
+  "publisher-link": "https://arxiv.org/abs/2404.07590",
+  "icon-link" : "arnavaz.erleben.24.png",
+  "video-link" : "arnavaz.erleben.24.mov",
+  "month" : "April",
+  "year" : "2024",
+  "corresponding": "True",
+  "reviewed": "False",
+  "type": "techreport",
+  "abstract" : "Soft robots have gained increased popularity in recent years due to their adaptability and compliance. In this paper, we use a digital twin model of cable-driven soft robots to learn control parameters in simulation. In doing so, we take advantage of differentiable rendering as a way to instruct robots to complete tasks such as point reach, gripping an object, and obstacle avoidance. This approach simplifies the mathematical description of such complicated tasks and removes the need for landmark points and their tracking. Our experiments demonstrate the applicability of our method."
+}

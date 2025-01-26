@@ -1,0 +1,16 @@
+{
+  "title" : "ADAPT: AI-Driven Artefact Purging Technique for IMU Based Motion Capture.",
+  "authors" : ["Paul Schreiner", "Rasmus Netterstrøm", "Hang Yin", "Sune Darkner", "Kenny Erleben"],
+  "venue" : "Computer Graphics Forum, Pages e15172.",
+  "doi-link" : "https://doi.org/10.1111/cgf.15172",
+  "publisher-link": "https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.15172",
+  "icon-link" : "schreiner.ea24.png",
+  "paper-link" : "schreiner.ea24.pdf",
+  "month" : "October",
+  "year" : "2024",
+  "corresponding": "False",
+  "reviewed": "True",
+  "type": "journal",
+  "BFI": "1",
+  "abstract" : "While IMU based motion capture offers a cost-effective alternative to premium camera-based systems, it often falls short in matching the latter's realism. Common distortions, such as self-penetrating body parts, foot skating, and floating, limit the usability of these systems, particularly for high-end users. To address this, we employed reinforcement learning to train an AI agent that mimics erroneous sample motion. Since our agent operates within a simulated environment, it inherently avoids generating these distortions since it must adhere to the laws of physics. Impressively, the agent manages to mimic the sample motions while preserving their distinctive characteristics. We assessed our method's efficacy across various types of input data, showcasing an ideal blend of artefact-laden IMU-based data with high-grade optical motion capture data. Furthermore, we compared the configuration of observation and action spaces with other implementations, pinpointing the most suitable configuration for our purposes. All our models underwent rigorous evaluation using a spectrum of quantitative metrics complemented by a qualitative review. These evaluations were performed using a benchmark dataset of IMU-based motion data from actors not included in the training data."
+}

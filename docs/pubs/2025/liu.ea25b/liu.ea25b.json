@@ -1,0 +1,16 @@
+{
+  "title" : "SE(3) group convolutional neural networks and a study on group convolutions and equivariance for DWI segmentation.",
+  "authors" : ["Renfei Liu", "Franois Lauze", "Erik J. Bekkers", "Sune Darkner", "Kenny Erleben"],
+  "venue" : "Frontiers in Artificial Intelligence. Volume 8.",
+  "year" : "2025",
+  "month" : "February",
+  "corresponding": "False",
+  "reviewed": "True",
+  "type": "journal",
+  "BFI": "1",
+  "doi-link" : "https://doi.org/10.3389/frai.2025.1369717",
+  "publisher-link": "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1369717/full#:~:text=https%3A//doi.org/10.3389/frai.2025.1369717",
+  "icon-link" : "liu.ea25b.png",
+  "paper-link" : "liu.ea25b.pdf",
+  "abstract" : "We present an SE(3) Group Convolutional Neural Network along with a series of networks with different group actions for segmentation of Diffusion Weighted Imaging data. These networks gradually incorporate group actions that are natural for this type of data, in the form of convolutions that provide equivariant transformations of the data. This knowledge provides a potentially important inductive bias and may alleviate the need for data augmentation strategies. We study the effects of these actions on the performances of the networks by training and validating them using the diffusion data from the Human Connectome project. Unlike previous works that use Fourier-based convolutions, we implement direct convolutions, which are more lightweight. We show how incorporating more actions - using the SE(3) group actions - generally improves the performances of our segmentation while limiting the number of parameters that must be learned."
+}

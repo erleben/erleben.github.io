@@ -1,0 +1,15 @@
+{
+  "title" : "HQColon: A Hybrid Interactive Machine Learning Pipeline for High Quality Colon Labeling and Segmentation.",
+  "authors" : ["Martina Finocchiaro", "Ronja Stern", "Abraham George Smith", "Jens Petersen", "Kenny Erleben", "Melanie Ganz"],
+  "venue" : "Arxiv",
+  "year" : "2025",
+  "month" : "February",
+  "corresponding": "False",
+  "reviewed": "False",
+  "type": "techreport",
+  "doi-link" : "https://doi.org/10.48550/arXiv.2502.21183",
+  "publisher-link": "https://arxiv.org/abs/2502.21183v1",
+  "icon-link" : "finocchiaro.ea25.png",
+  "paper-link" : "finocchiaro.ea25.pdf",
+  "abstract" : "High-resolution colon segmentation is crucial for clinical and research applications, such as digital twins and personalized medicine. However, the leading open-source abdominal segmentation tool, TotalSegmentator, struggles with accuracy for the colon, which has a complex and variable shape, requiring time-intensive labeling. Here, we present the first fully automatic high-resolution colon segmentation method. To develop it, we first created a high resolution colon dataset using a pipeline that combines region growing with interactive machine learning to efficiently and accurately label the colon on CT colonography (CTC) images. Based on the generated dataset consisting of 435 labeled CTC images we trained an nnU-Net model for fully automatic colon segmentation. Our fully automatic model achieved an average symmetric surface distance of 0.2 mm (vs. 4.0 mm from TotalSegmentator) and a 95th percentile Hausdorff distance of 1.0 mm (vs. 18 mm from TotalSegmentator). Our segmentation accuracy substantially surpasses TotalSegmentator. We share our trained model and pipeline code, providing the first and only open-source tool for high-resolution colon segmentation. Additionally, we created a large-scale dataset of publicly available high-resolution colon labels."
+}
